@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>1650studio.co</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="contact.css">
+    </head>
+    <body>
+        <span class="openbtn material-icons change-color" onclick="openNav()"> menu</span>
+        <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn material-icons" onclick="closeNav()">close</a>
+              <a href="index.html">Home</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html" class="current_page">Contact</a>
+        </div>
+        <div id="header">
+            <a href="index.html" id="logo"><img src="Asset/logo_1x.png" /></a>
+            <div id="nav">
+                <div class="navPage"><a href="index.html">
+                    <span id="Home">Home</span></a>
+                </div>
+                <div class="navPage"><a href="portfolio.html">
+                    <span id="Portfolio">Portfolio</span></a>
+                </div>
+                <div class="navPage activePage"><a href="contact.html">
+                    <span id="Contact">Contact</span></a>
+                </div>
+            </div>
+        </div>
+        <div id="copyright"><span>© 2018, 1650STUDIO.CO</span></div>
+        <div class="page-container-content">
+            <div class="portfolio-page boxed">
+                <div id="scroll-portfolio">
+                    <div class="vc_colm portfolio-content">
+                        <div class="vc_row">
+                            <h4>GET IN TOUCH WITH US TO SEE HOW WE CAN HELP YOU WITH YOUR PROJECT</h4>
+                            <h2>Have a project?<br>Let's make something great!</h2>
+                            <form name="myForm" class="gform" method="POST" data-email="dangvuongquang@gmail.com" action="https://script.google.com/macros/s/AKfycbx5aQYLkE9Xe5zWYDXNIwx1NCLRKo8b7AfxJGzx/exec">
+                                <div class="input-group">
+                                    <label class="col-6">
+                                        <span class="your-name">
+                                            <input type="text" name="name" value="" size="100" placeholder="Your name" required>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="input-group">
+                                    <label class="col-6">
+                                        <span class="email-address">
+                                            <input type="email" name="email" value="" size="100" placeholder="Your address" required>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="input-group">
+                                    <label>
+                                        <span class="your-message">
+                                            <textarea name="message" cols="100" rows="10" placeholder="Your message" required></textarea>
+                                        </span>
+                                    </label>
+                                </div>
+                                <button class="btn btn-brand">
+                                    <span class="btn-load"></span>
+                                    <span class="text">Send Message</span>
+                                </button>
+                                <div style="display:none" class="thankyou_message">
+                                    
+ <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+ </h2>
+</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="contact.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+    </body>
+</html>
