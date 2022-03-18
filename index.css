@@ -84,27 +84,27 @@ span, .tag{
         position: absolute;
     }
     .owl-carousel.owl-drag .owl-item:nth-child(1) .heroImg{
-        background: url(Asset/foodsave_1.jpg);
+        background: url(Asset/littledizzy_3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .owl-carousel.owl-drag .owl-item:nth-child(2) .heroImg{
-        background: url(Asset/popkids_1.jpg);
+        background: url(Asset/Omnichannel_1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .owl-carousel.owl-drag .owl-item:nth-child(3) .heroImg{
-        background: url(Asset/delivery_1.jpg);
+        background: url(Asset/foodsave_1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .owl-carousel.owl-drag .owl-item:nth-child(4) .heroImg{
-        background: url(Asset/wego_2.jpg);
+        background: url(Asset/popkids_1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .owl-carousel.owl-drag .owl-item:nth-child(5) .heroImg{
-        background: url(Asset/yks_2.jpg);
+        background: url(Asset/delivery_1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
