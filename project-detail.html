@@ -1,0 +1,51 @@
+<!-- project-detail.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đang tải...</title> <!-- JS sẽ thay đổi title này -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main class="container">
+        <!-- Header dự án -->
+        <div class="project-header">
+            <h1 id="p-title">Loading...</h1>
+            <div class="meta-info">
+                <span><i class="fas fa-tag"></i> <normal id="p-category"></normal></span>
+                <span><i class="fa-solid fa-briefcase"></i> <normal id="p-project"></normal></span>
+                <span><i class="fas fa-user"></i> <nromal id="p-client"></normal></span>
+                <span><i class="far fa-calendar-alt"></i> <normal id="p-date"></normal></span>
+            </div>
+        </div>
+
+        <!-- Navigation Next/Prev -->
+        <div class="project-nav">
+            <a href="#" id="btn-prev" class="nav-btn"><i class="fas fa-arrow-left"></i> Previous project</a>
+            <a href="#" id="btn-next" class="nav-btn">Next project <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Mô tả -->
+        <div class="project-desc" id="p-content"></div>
+
+        <!-- Khu vực hiển thị Ảnh/Video -->
+        <div class="media-container" id="p-media"></div>
+
+        <!-- Navigation Next/Prev -->
+        <div class="project-nav">
+            <a href="#" id="btn-prev" class="nav-btn"><i class="fas fa-arrow-left"></i> Previous project</a>
+            <a href="#" id="btn-next" class="nav-btn">Next project <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script src="script.js"></script>
+</body>
+</html>

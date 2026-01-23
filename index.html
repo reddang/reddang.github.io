@@ -1,118 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>REDDANG</title>
-        <link rel="stylesheet" href="owl.carousel.css">
-        <link rel="stylesheet" href="owl.theme.default.css">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="shortcut icon" type="image/png" href="favicon.png">
-    </head>
-    <body>
-        <span class="openbtn material-icons change-color" onclick="openNav()"> menu</span>
-        <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn material-icons" onclick="closeNav()">close</a>
-              <a href="index.html" class="current_page">Home</a>
-              <a href="portfolio.html">Portfolio</a>
-              <a href="contact.html">Contact</a>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDDANG | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="container">
+        <h1 class="section-title">Portfolio.</h1>
+
+        <!-- Bộ lọc giữ nguyên -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="business">Business Insight</button>
+            <button class="filter-btn" data-filter="uxui">UX/UI</button>
+            <button class="filter-btn" data-filter="3d">3D</button>
+            <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            <button class="filter-btn" data-filter="others">Others</button>
+            <!-- ... các nút khác ... -->
         </div>
-        <div id="header">
-            <a href="index.html" id="logo"><img src="Asset/logo_1x.png" /></a>
-            <div id="nav">
-                <div class="navPage activePage"><a href="index.html">
-                    <span id="Home">Home</span></a>
-                </div>
-                <div class="navPage"><a href="portfolio.html">
-                    <span id="Portfolio">Portfolio</span></a>
-                </div>
-                <div class="navPage"><a href="contact.html">
-                    <span id="Contact">Contact</span></a>
-                </div>
-            </div>
+
+        <!-- KHU VỰC TRỐNG ĐỂ JS ĐỔ DỮ LIỆU VÀO -->
+        <div class="portfolio-grid" id="portfolio-container">
+            <!-- JS sẽ tự sinh code vào đây -->
         </div>
-        <div id="copyright"><span>REDDANG | dangvuongquang@gmail.com | (+84) 946 858 455</span></div> 
-        <div class="scroll font-titles">Scroll</div>
-        <div id="container" class="owl-carousel owl-theme">
-            <div class="item">
-                <div class="heroImg">
-                    <img alt="littledizzy" src="Asset/littledizzy_index.png">
-                </div>
-                <div class="content">
-                    <div class="tag">
-                        <span>Game Development</span>
-                    </div>
-                    <h4 class="title">Little Dizzy - Sliding Puzzle FREE Game</h4>
-                    <span class="caption">This tile slide puzzle game is a learning game for everyone who wants to train their brain. Its goal is an improvement of one’s concentration, cognitive capability, and sense of space...</span>
-                    <a href="p_littledizzy.html" class="viewProject">View Project</a>
-                </div>
-                <div class="number">01/05</div>
-            </div> 
-            <div class="item">
-                <div class="heroImg">
-                    <img alt="foodsave" src="Asset/Omnichannel_1.svg">
-                </div>
-                <div class="content">
-                    <div class="tag">
-                        <span>Business Insight</span>
-                    </div>
-                    <h4 class="title">What is<br>Omnichannel?</h4>
-                    <span class="caption">Multi-channel corporate application built for small and medium-sized companies. Merchants may use software to plan, set up, and operate their shops through various distribution platforms...</span>
-                    <a href="p_omnichannel.html" class="viewProject">View Project</a>
-                </div>
-                <div class="number">02/05</div>
-            </div>
-            <div class="item">
-                <div class="heroImg">
-                    <img alt="foodsave" src="Asset/foodsave.jpg">
-                </div>
-                <div class="content">
-                    <div class="tag">
-                        <span>UX/UI Design</span>
-                    </div>
-                    <h4 class="title">FoodSave<br>Application</h4>
-                    <span class="caption">SINGAPORE have wasted about 788,600 tonnes of food yearly reported. Out of this only 13% is recycled. Singapore spends a lot of its money in buying food and costs around $14.8 billion...</span>
-                    <a href="p_foodsave.html" class="viewProject">View Project</a>
-                </div>
-                <div class="number">03/05</div>
-            </div>
-            <div class="item">
-                <div class="heroImg">
-                    <img alt="popskids" src="Asset/popkids.jpg"></div>
-                <div class="content">
-                    <div class="tag">
-                        <span>UX/UI Design</span>
-                    </div>
-                    <h4 class="title">POPS Kids - Multi Application</h4>
-                    <span class="caption">Along with gaming, content for children is one of two
-trends that are attracting a large numbers of content
-makers in Vietnam. Although, with the advent of
-ever-increasing content...</span>
-                    <a href="p_popskids.html" class="viewProject">View Project</a>
-                </div>
-                <div class="number">04/05</div>
-            </div>
-            <div class="item">
-                <div class="heroImg">
-                    <img alt="delivery" src="Asset/delivery.jpg">
-                </div>
-                <div class="content">
-                    <div class="tag">
-                        <span>UX/UI Design</span>
-                    </div>
-                    <h4 class="title">Food Delivery Application</h4>
-                    <span class="caption">Browse local restaurants and fast food favorites for
-inspiration. Or get just what you’re looking for by
-searching for a specific restaurant, dish, or cuisine.
-Pizza. Burritos. Burgers. Sushi...</span>
-                    <a href="p_deliveryfood.html" class="viewProject">View Project</a>
-                </div>
-                <div class="number">05/05</div>
-            </div>
-           
-        </div>
-        <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-        <script type="text/javascript" src="index.js"></script>
-    </body>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="script.js"></script>
+</body>
 </html>

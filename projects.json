@@ -1,0 +1,328 @@
+[
+  {
+    "id": "m2c",
+    "title": "Manufacturer to Consumer",
+    "category": "business",
+    "category_display": "Business Model Overview",
+    "project_display": "Business Insight",
+    "client": "Finviet Technology",
+    "date": "Dec, 2015",
+    "thumb": "assets/images/m2c.png",
+    "content_html": "<h2>Project Description</h2><p>The M2C Ecosystem is an end-to-end digital commerce framework that bridges the gap between Manufacturers and Consumers by transforming traditional retailers into high-tech Service Hubs. Instead of bypassing the 'mom-and-pop' shops, this model digitizes them to serve as the vital link in the supply chain.<br><br><b>Inbound (B2B):</b> Streamlines factory-to-retail distribution using a DMS for real-time visibility and authentic sourcing.<br><b>Merchant Core:</b> A Super App that empowers shop owners with digital lending (Capital), bill payments (Revenue), and e-invoicing (Operations).<br><b>Outbound (B2C):</b> Modernizes the storefront with Smart POS payments and digital Loyalty programs to keep consumers engaged.<br><b>Data Foundation:</b> A CDP-driven base layer that converts every transaction into actionable insights for market prediction and risk management.<br><br><a href='https://play.google.com/store/apps/details?id=vn.com.finviet.eco&hl=vi' target='_blank'><i class='fab fa-google-play'></i><span class='tooltiptext'> Google Store</span></a><br><a href='https://apps.apple.com/vn/app/eco-ti%E1%BB%87m-s%E1%BB%91-h%C3%B3a/id1171667640' target='_blank'><i class='fab fa-app-store-ios'></i><span class='tooltiptext'> App Store</span></a></p>",
+    "media": [
+        {"type": "img", "src": "assets/images/m2c_detail.png"}
+    ]
+  },
+  {
+    "id": "littledizzy",
+    "title": "Little Dizzy - Sliding Puzzle",
+    "category": "others",
+    "category_display": "Game Development",
+    "project_display": "App",
+    "date": "Mar, 2022",
+    "thumb": "assets/images/littledizzy_0.png",
+    "content_html": "<h2>Project Description</h2><p>This tile slide puzzle game is a learning game for everyone who wants to train their brain. Its goal is an improvement of one’s concentration, cognitive capability, and sense of space. This puzzle game provides an enjoyable and educational time through challenging and beautiful picture sliding tile puzzles. This slide puzzle game is also made for those who are fans of the classic fifteen sliding puzzle games.<br><br>Little Dizzy – Sliding Puzzle FREE Game is very educational, because it has been demonstrated that resolving puzzles helps in the development of skills and abilities, such as motricity, creativity, spatial skills, language and self- esteem.<br>Enjoy the most beautiful pictures in Categories like manga, comics, animation etc...<br><br><b>Links:</b><br><a href='https://play.google.com/store/apps/details?id=com.reddang.littledizzy' target='_blank'><i class='fab fa-google-play'></i><span class='tooltiptext'> Google Store</span></a><br><a href='https://apps.apple.com/us/app/little-dizzy-sliding-puzzle/id1614188036' target='_blank'><i class='fab fa-app-store-ios'></i><span class='tooltiptext'> App Store</span></a></p>",
+    "media": [
+        {"type": "img", "src": "assets/images/littledizzy_2.png"},
+        {"type": "img", "src": "assets/images/littledizzy_4.png"},
+        {"type": "img", "src": "assets/images/littledizzy_5.png"}
+    ]
+  },
+  {
+    "id": "interactive",
+    "title": "What's Interactive E-Commerce?",
+    "category": "business",
+    "category_display": "Group Shopping",
+    "project_display": "Business Insight",
+    "client": "OnPoint E-commerce",
+    "date": "Dec, 2021",
+    "thumb": "assets/images/Interactive_0.jpg",
+    "content_html": "<h2>Project Description</h2><p><b>UNA Market – Group Shopping Platform</b> is an innovative e-commerce platform designed to transform the way people shop for food and daily essentials. By integrating group purchasing mechanics, UNA Market empowers customers to enjoy high-quality VietGAP-certified products at significantly reduced prices, while fostering a fun and social shopping experience with friends and family.<br><br><b>Key Highlights:</b><br>- Daily Shock Deals: Discounts up to 50% on popular items such as Ri6 durian, pork belly, and Korean strawberries.<br>- Group Buying Advantage: Prices at least 20% lower than market rates when purchased in groups.<br>- Free Shipping: Available for all orders within Ho Chi Minh City.<br>- Quality Assurance: Products meet VietGAP standards, ensuring freshness and safety.<br>- Fast Delivery: Orders delivered within 24 hours.<br><br><b>Mission:</b> To eliminate consumer concerns about price and quality in online food shopping, while creating a joyful, community-driven shopping experience.<br><b>Tagline:</b> “The more people, the cheaper it gets – shopping made social and fun.”</p>",
+    "media": [
+        {"type": "iframe", "src": "https://drive.google.com/file/d/1nYluLPCbmW65eusKigJYsLKZM8DdNdyH/preview", "width": "100%", "height":"480", "allow":"autoplay"},
+        {"type": "iframe", "src": "https://drive.google.com/file/d/1mhFG2rCXIiI4g5uu-zqQo6ehrIamrJcz/preview", "width": "100%", "height":"560"}
+    ]
+  },
+  {
+    "id": "omnichannel",
+    "title": "What is Omnichannel?",
+    "category": "business",
+    "category_display": "Omnichannel",
+    "project_display": "Business Insight",
+    "client": "Haravan - Omnichannel Commerce",
+    "date": "Oct, 2021",
+    "thumb": "assets/images/Omnichannel_1.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/Omnichannel_2.svg"}
+    ]
+  },
+  {
+    "id": "daiichilife",
+    "title": "Daiichi-Life App",
+    "category": "uxui",
+    "category_display": "Insurance",
+    "project_display": "App",
+    "client": "Dai-ichi Life Insurance",
+    "date": "Jan, 2019",
+    "thumb": "assets/images/app_4.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/daiichi_1.jpg"},
+        {"type": "img", "src": "assets/images/daiichi_2.jpg"}
+    ]
+  },
+  {
+    "id": "foodapp",
+    "title": "FoodSave App",
+    "category": "uxui",
+    "category_display": "F&B",
+    "project_display": "App",
+    "date": "May, 2018",
+    "thumb": "assets/images/app_2.jpg",
+    "content_html": "<h2>Project Description</h2><p>SINGAPORE have wasted about 788,600 tonnes of food yearly reported. Out of this only 13% is recycled. Singapore spends a lot of its money in buying food and costs around $14.8 billion in buying food from outside countries, being one of the top 10 countries in the world with highest rate of food wastage.<br><br><b>Solutions:</b><br>An App platform with sharing economy system which enable B2C & C2C connected to each by integrates food sellers and purchasers with about-to-expiry notifications on good deals.<br><br><b>Features:</b><br>Merchants can list their “before expiry” products on the APP real-time and alert nearby consumers to purchase in discounted prices.<br>As household is one of the main segment which contribute of total food wastage. Users can list their “extra” cooked food or even newly cooked food before expiry on the App for nearby users to purchase and consume.</p>",
+    "media": [
+        {"type": "img", "src": "assets/images/foodsave_1.jpg"},
+        {"type": "img", "src": "assets/images/Foodsave_buyer.jpg"},
+        {"type": "img", "src": "assets/images/Foodsave_seller.jpg"}
+    ]
+  },
+  {
+    "id": "deliveryfood",
+    "title": "Delivery Food App",
+    "category": "uxui",
+    "category_display": "Logistics",
+    "project_display": "App",
+    "date": "Oct, 2017",
+    "thumb": "assets/images/app_1.jpg",
+    "content_html": "<h2>Project Description</h2><p>Browse local restaurants and fast food favorites for inspiration. Or get just what you’re looking for by searching for a specific restaurant, dish, or cuisine. When you’re ready to place your order, you’ll see your delivery address, an estimated delivery time, and the total price including tax and booking fee. Track your order as it heads your way.<br><br><b>Features:</b><br>YOUR FAVORITE RESTAURANTS Choose from a huge variety of cuisines, from your favorite sushi spot to the comfort food you crave.<br>EASY ORDERING Food is just a few taps away. Get your favorite meals faster with quick reordering. Plus, group ordering makes entertaining a breeze.<br>SCHEDULE DELIVERIES Advance ordering allows you to get your food when it’s most convenient for you.<br>TRACKING See when your order will arrive. From food quality to prep-times to traffic to weather, we’ve factored in all the elements that come between you and your food.<br>NO MINIMUMS Order as little or as much as you want.<br>PAYMENT Conveniently pay via Google or credit card.</p>",
+    "media": [
+        {"type": "img", "src": "assets/images/delivery_1.jpg"},
+        {"type": "img", "src": "assets/images/Delivery_buyer.jpg"},
+        {"type": "img", "src": "assets/images/Delivery_driver.jpg"}
+    ]
+  },
+  {
+    "id": "wego",
+    "title": "Wego Blog Travel",
+    "category": "uxui",
+    "category_display": "Travel",
+    "project_display": "Web Design & Development",
+    "date": "Nov, 2018",
+    "thumb": "assets/images/website_2.jpg",
+    "content_html": "<h2>Project Description</h2><p>If you’ve ever wanted to learn how to travel cheaper, turn your dream trip into a reality, save money, or travel the world, you are in the right place! This website will give you tested tips, advice, and suggestions so you can see more for less and make your dream trip a reality.<br><br><a href='https://reddang.github.io/wego_blog/'><b style='text-decoration: underline;'>Website</b></a></p>",
+    "media": [
+        {"type": "img", "src": "assets/images/wego_2.jpg"}
+    ]
+  },
+  {
+    "id": "webyangahkang",
+    "title": "Yang Ah Kang & Sons",
+    "category": "uxui",
+    "category_display": "Funiture Design",
+    "project_display": "Web Design & Development",
+    "date": "Sep, 2018",
+    "thumb": "assets/images/website_1.jpg",
+    "content_html": "<h2>Project Description</h2><p>Yang Ah Kang & Sons has fitted some of the world’s most prestigious and reputable hotels since 1946. Recognized as an international leader in custom made furniture and interior fittings, the company has stood for uncompromising quality and high levels of professionalism and the testimony is in the list of clients serviced throughout these past six decades.<br><br><a href='https://reddang.github.io/yks/'><b style='text-decoration: underline;'>Website</b></a></p>",
+    "media": [
+        {"type": "img", "src": "assets/images/yks_2.jpg"}
+    ]
+  },
+  {
+    "id": "poptv",
+    "title": "PopsTV App",
+    "category": "uxui",
+    "category_display": "Entertainment",
+    "project_display": "App",
+    "client": "POPS Worldwide",    
+    "date": "Mar, 2018",
+    "thumb": "assets/images/popstv.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/popstv_2.jpg"}
+    ]
+  },
+  {
+    "id": "popskids",
+    "title": "PopsKids Multi Platform",
+    "category": "uxui",
+    "category_display": "Kids Entertainment",
+    "project_display": "Mobile App, TV App, Website",
+    "client": "POPS Worldwide",    
+    "date": "OCt, 2017",
+    "thumb": "assets/images/app_3.jpg",
+    "content_html": "<h2>Project Description</h2><p>Along with gaming, content for children is one of two trends that are attracting a large numbers of content makers in Vietnam. Although, with the advent of ever-increasing content that is not appropriate for children. PSA was created to provide safe content for children, which automatically filters adult or sensitive content. Only allow content for children.<br><br><b>Features:</b><br><br><b>Links:</b><br><a href='https://play.google.com/store/apps/details?id=com.popsworldwide.popskids&hl=en' target='_blank'><i class='fab fa-google-play'></i><span class='tooltiptext'> Google Store</span></a><br><a href='https://itunes.apple.com/vn/app/pops-kids-tv/id1141793155?l=vi&mt=8' target='_blank'><i class='fab fa-app-store-ios'></i><span class='tooltiptext'> App Store</span></a><br><a href='https://web.popskids.tv/' target='_blank'><i class='fa-solid fa-earth-americas'></i></i><span class='tooltiptext'> Website</span></a></p>",
+    "media": [
+        {"type": "img", "src": "assets/images/popkids_1.jpg"},
+        {"type": "img", "src": "assets/images/popkids_2.jpg"},
+        {"type": "img", "src": "assets/images/popkids_3.jpg"},
+        {"type": "img", "src": "assets/images/popkids_4-01.jpg"},
+        {"type": "img", "src": "assets/images/popkids_5.jpg"}
+    ]
+  },
+  {
+    "id": "lunargift",
+    "title": "Lunar New Year Gift",
+    "category": "3d",
+    "category_display": "Toy, Packaging",
+    "project_display": "3D Design",
+    "date": "OCt, 2017",
+    "thumb": "assets/images/nygift.jpg",
+    "content_html": "<h2>Project Description</h2><p>“Banh Tet” is a featured cake in all Vietnamese families during Tet holidays. In the old Vietnamese tradition, “Banh Tet” always appears in every house at the first day of the Lunar New Year.</p>",
+    "media": [
+        {"type": "img", "src": "assets/images/nygift_2.jpg"},
+        {"type": "img", "src": "assets/images/nygift_3.jpg"},
+        {"type": "img", "src": "assets/images/nygift_4.jpg"},
+        {"type": "img", "src": "assets/images/nygift_5.jpg"},
+        {"type": "img", "src": "assets/images/nygift_6.jpg"},
+        {"type": "img", "src": "assets/images/nygift_8.jpg"}
+    ]
+  },
+  {
+    "id": "lamp",
+    "title": "Rotating Lamp",
+    "category": "3d",
+    "category_display": "Toy, Packaging",
+    "project_display": "3D Design",
+    "date": "Sep, 2017",
+    "thumb": "assets/images/lattern.jpg",
+    "content_html": "<h2>Project Description</h2><p>Den Keo Quan is a kind of paper toys. In the past, they're popular in Lunar New Year, however, it now only presents in the Mid-Autumn Festival. When the candle lits up, the images designed inside will appear on the lamp like the shadow puppet, then, rotate in the same direction continuously.</p>",
+    "media": [
+        {"type": "img", "src": "assets/images/lattern_2.jpg"},
+        {"type": "img", "src": "assets/images/lattern_4.jpg"},
+        {"type": "iframe", "src": "https://www.youtube.com/embed/zM9vhF4CVI0?autoplay=1"}
+    ]
+  },
+  {
+    "id": "nobita",
+    "title": "Nobita's House",
+    "category": "3d",
+    "category_display": "Interior Design",
+    "project_display": "3D Design",
+    "date": "Jun, 2017",
+    "thumb": "assets/images/3d_3.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/nobita_2.jpg"},
+        {"type": "img", "src": "assets/images/nobita_3.jpg"},
+        {"type": "iframe", "src": "https://www.youtube.com/embed/blh_Lrs3LYQ?autoplay=1"}
+    ]
+  },
+  {
+    "id": "housedeisgn",
+    "title": "House Design",
+    "category": "3d",
+    "category_display": "Interior Design",
+    "project_display": "3D Design",
+    "date": "Apr, 2017",
+    "thumb": "assets/images/3d_2.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/house_2.jpg"},
+        {"type": "img", "src": "assets/images/house_3.jpg"},
+        {"type": "img", "src": "assets/images/house_4.jpg"},
+        {"type": "img", "src": "assets/images/house_5.jpg"},
+        {"type": "img", "src": "assets/images/house_6.jpg"},
+        {"type": "img", "src": "assets/images/house_7.jpg"},
+        {"type": "img", "src": "assets/images/house_8.jpg"},
+        {"type": "img", "src": "assets/images/house_9.jpg"},
+        {"type": "img", "src": "assets/images/house_10.jpg"},
+        {"type": "img", "src": "assets/images/house_11.jpg"},
+        {"type": "img", "src": "assets/images/house_12.jpg"},
+        {"type": "img", "src": "assets/images/house_13.jpg"},
+        {"type": "img", "src": "assets/images/house_14.jpg"},
+        {"type": "img", "src": "assets/images/house_15.jpg"},
+        {"type": "img", "src": "assets/images/house_16.jpg"}
+    ]
+  },
+  {
+    "id": "nokia",
+    "title": "Nokia Lumia Concept",
+    "category": "3d",
+    "category_display": "Product Design",
+    "project_display": "3D Design",
+    "date": "Mar, 2015",
+    "thumb": "assets/images/3d_1.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/nokia_2.jpg"},
+        {"type": "img", "src": "assets/images/nokia_3.jpg"},
+        {"type": "img", "src": "assets/images/nokia_4.jpg"},
+        {"type": "img", "src": "assets/images/nokia_5.jpg"}
+    ]
+  },
+  {
+    "id": "wildwest",
+    "title": "Wildwest Vietnam",
+    "category": "graphic",
+    "category_display": "Branding",
+    "project_display": "Graphic Design",
+    "date": "Oct, 2015",
+    "thumb": "assets/images/branding_1.jpg",
+    "content_html": "<h2>Project Description</h2><p>The project of promoting cultures, arts and travel for Mekong Delta provinces.<br><br>The ‘rice bowl’ of Vietnam, the delta is carpeted in a dizzying variety of greens. It’s a water world that moves to the rhythms of the mighty Mekong, where boats, houses and markets float upon the innumerable rivers, canals and streams that criss-cross the landscape like arteries.<br><br>The bustling commerce of its towns contrasts sharply with the languid, almost-soporific pace of life in the countryside. Here buffalo wallow in rice paddies, coconut- and fruit-laden boats float slowly along the mud-brown waters, and two-wheeled exploration of the narrow lanes is amply rewarded with a true taste of rural hospitality (and delicious river fish).<br><br>Elsewhere, mangrove forests teem with a wealth of bird life and bristle with the remains of Viet Cong bunkers, ornate Khmer pagodas and Buddhist temples reaching for the sky, while off-coast islands offer white-sand beaches and tropical hideaways to some, and pirate havens to others.</p>",
+    "media": [
+        {"type": "video", "src": "assets/videos/wwvn_2.mp4"},
+        {"type": "img", "src": "assets/images/wwvn_3.jpg"},
+        {"type": "img", "src": "assets/images/wwvn_4.jpg"},
+        {"type": "img", "src": "assets/images/wwvn_6.jpg"},
+        {"type": "img", "src": "assets/images/wwvn_7.jpg"},
+        {"type": "img", "src": "assets/images/wwvn_8.jpg"},
+        {"type": "img", "src": "assets/images/wwvn_9.jpg"},
+        {"type": "iframe", "src": "https://www.youtube.com/embed/7O0dNfxZ1yo?autoplay=1"}
+    ]
+  },
+  {
+    "id": "poster",
+    "title": "Posters",
+    "category": "graphic",
+    "category_display": "Graphic Design",
+    "project_display": "Posters",
+    "date": "Mar, 2015",
+    "thumb": "assets/images/poster.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/poster_1.jpg"},
+        {"type": "img", "src": "assets/images/poster_2.jpg"},
+        {"type": "img", "src": "assets/images/poster_3.jpg"},
+        {"type": "img", "src": "assets/images/poster_4.jpg"},
+        {"type": "img", "src": "assets/images/poster_5.jpg"},
+        {"type": "img", "src": "assets/images/poster_6.jpg"},
+        {"type": "img", "src": "assets/images/poster_7.jpg"},
+        {"type": "img", "src": "assets/images/poster_8.jpg"}
+    ]
+  },
+  {
+    "id": "photomanip",
+    "title": "Photo Manipulation",
+    "category": "graphic",
+    "category_display": "Graphic Design",
+    "project_display": "Photo Manipulation",
+    "date": "Sep, 2015",
+    "thumb": "assets/images/photomanip_1.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/photomanip_3.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_4.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_5.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_6.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_7.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_8.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_9.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_10.jpg"},
+        {"type": "img", "src": "assets/images/photomanip_11.jpg"}
+    ]
+  },
+  {
+    "id": "magazine",
+    "title": "Travelife Magazine",
+    "category": "graphic",
+    "category_display": "Graphic Design",
+    "project_display": "Magazine Layout",
+    "date": "Feb, 2015",
+    "thumb": "assets/images/travellife.jpg",
+    "content_html": "",
+    "media": [
+        {"type": "img", "src": "assets/images/travellife_2.jpg"}
+    ]
+  }
+]
