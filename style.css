@@ -162,6 +162,36 @@ nav {
     justify-content: center;
 }
 
+.media-scroll-gallery {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px 4px 18px;
+    margin-bottom: 2rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-gutter: stable;
+    -webkit-overflow-scrolling: touch;
+}
+
+.media-list-item {
+    flex: 0 0 auto;
+    margin: 0;
+    scroll-snap-align: start;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.media-list-item img {
+    width: auto;
+    max-width: 82vw;
+    height: 620px;
+    object-fit: contain;
+    background: var(--white);
+}
+
 .pdf-viewer {
     width: 100%;
     height: 500px;
@@ -254,6 +284,8 @@ footer {
     .hamburger { display: block; }
     .contact-wrapper { grid-template-columns: 1fr; }
     .meta-info { flex-direction: column; gap: 0.5rem; }
+    .media-scroll-gallery { gap: 12px; padding-bottom: 14px; }
+    .media-list-item img { height: 520px; }
 }
 
 /* --- CV / RESUME STYLES --- */

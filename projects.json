@@ -1,12 +1,33 @@
 [
   {
+    "id": "thayboiai",
+    "title": "Cổ Học Phương Đông",
+    "category": "others",
+    "category_display": "AI Mobile App",
+    "project_display": "App",
+    "client": "Studio 1650",
+    "date": "Jun, 2026",
+    "thumb": "assets/images/cohoc.jpg",
+    "media_display": "horizontal-scroll",
+    "content_html": "<h2>Project Description</h2><p>Explore and apply ancient knowledge in modern life using AI.<br><br>Eastern Classics is a digital platform for ancient knowledge, combining the power of artificial intelligence to support users in scientifically and systematically understanding and comparing Eastern academic values.<br><br><b>Key features:</b><br><b>Systematized ancient knowledge data:</b> Access a treasure trove of digitized ancient knowledge, supporting in-depth research and study.<br><b>AI analysis:</b> Utilizes artificial intelligence to analyze contexts, knowledge structures, and provide objective perspectives in research.<br><b>Interactive learning:</b> In-depth Q&amp;A function clarifies academic concepts and practical applications of ancient studies.<br><b>Research history storage:</b> Automatically saves research history, allowing you to easily compare and build a system of thinking over time.<br><b>Minimalist interface:</b> Experience maximum focus on research content, with fast and accurate response times.<br><br><b>Links:</b><br><a href='https://play.google.com/store/apps/details?id=com.studio1650.thayboiai&hl=vi' target='_blank'><i class='fab fa-google-play'></i><span class='tooltiptext'> Google Store</span></a></p>",
+    "media": [
+        {"type": "img", "src": "assets/images/cohoc_1.jpg"},
+        {"type": "img", "src": "assets/images/cohoc_2.jpg"},
+        {"type": "img", "src": "assets/images/cohoc_3.jpg"},
+        {"type": "img", "src": "assets/images/cohoc_4.jpg"},
+        {"type": "img", "src": "assets/images/cohoc_5.jpg"},
+        {"type": "img", "src": "assets/images/cohoc_6.jpg"},
+        {"type": "img", "src": "assets/images/cohoc_7.jpg"}
+    ]
+  },
+  {
     "id": "m2c",
     "title": "Manufacturer to Consumer",
     "category": "business",
     "category_display": "Business Model Overview",
     "project_display": "Business Insight",
     "client": "Finviet Technology",
-    "date": "Dec, 2015",
+    "date": "Dec, 2025",
     "thumb": "assets/images/m2c.png",
     "content_html": "<h2>Project Description</h2><p>The M2C Ecosystem is an end-to-end digital commerce framework that bridges the gap between Manufacturers and Consumers by transforming traditional retailers into high-tech Service Hubs. Instead of bypassing the 'mom-and-pop' shops, this model digitizes them to serve as the vital link in the supply chain.<br><br><b>Inbound (B2B):</b> Streamlines factory-to-retail distribution using a DMS for real-time visibility and authentic sourcing.<br><b>Merchant Core:</b> A Super App that empowers shop owners with digital lending (Capital), bill payments (Revenue), and e-invoicing (Operations).<br><b>Outbound (B2C):</b> Modernizes the storefront with Smart POS payments and digital Loyalty programs to keep consumers engaged.<br><b>Data Foundation:</b> A CDP-driven base layer that converts every transaction into actionable insights for market prediction and risk management.<br><br><a href='https://play.google.com/store/apps/details?id=vn.com.finviet.eco&hl=vi' target='_blank'><i class='fab fa-google-play'></i><span class='tooltiptext'> Google Store</span></a><br><a href='https://apps.apple.com/vn/app/eco-ti%E1%BB%87m-s%E1%BB%91-h%C3%B3a/id1171667640' target='_blank'><i class='fab fa-app-store-ios'></i><span class='tooltiptext'> App Store</span></a></p>",
     "media": [

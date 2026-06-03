@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const projectId = urlParams.get('id');
 
     // Tải dữ liệu JSON
-    fetch('projects.json')
+    fetch(`projects.json?v=${Date.now()}`, { cache: 'no-store' })
         .then(response => response.json())
         .then(projects => {
             if (projectId) {
@@ -94,6 +94,9 @@ const mediaContainer = document.getElementById('p-media');
 mediaContainer.innerHTML = ''; // Xóa nội dung cũ để tránh bị trùng lặp
 
 if (project.media && project.media.length > 0) {
+    if (project.media_display === 'horizontal-scroll') {
+        renderHorizontalMediaList(mediaContainer, project.media.filter(m => m.type === 'img'), project.title);
+    } else {
     project.media.forEach(m => {
         let elementHTML = '';
 
@@ -129,21 +132,44 @@ if (project.media && project.media.length > 0) {
         // Thêm vào container
         mediaContainer.innerHTML += elementHTML;
     });
+    }
 }
 
     // 3. Xử lý nút Next / Prev (Tự động tính toán)
-    const btnPrev = document.getElementById('btn-prev');
-    const btnNext = document.getElementById('btn-next');
+    const btnPrev = document.querySelectorAll('.btn-prev');
+    const btnNext = document.querySelectorAll('.btn-next');
 
     // Prev: Nếu là bài đầu tiên (0) thì quay về bài cuối cùng, hoặc ẩn đi
     const prevIndex = currentIndex === 0 ? projects.length - 1 : currentIndex - 1;
-    btnPrev.href = `project-detail.html?id=${projects[prevIndex].id}`;
+    btnPrev.forEach(btn => {
+        btn.href = `project-detail.html?id=${projects[prevIndex].id}`;
+        btn.innerHTML = `<i class="fas fa-arrow-left"></i> ${projects[prevIndex].title}`;
+    });
     // Cập nhật text cho nút để người dùng biết sẽ sang bài nào (tùy chọn)
     // btnPrev.innerHTML = `<i class="fas fa-arrow-left"></i> ${projects[prevIndex].title}`;
 
     // Next: Nếu là bài cuối cùng thì quay về bài đầu tiên (0)
     const nextIndex = currentIndex === projects.length - 1 ? 0 : currentIndex + 1;
-    btnNext.href = `project-detail.html?id=${projects[nextIndex].id}`;
+    btnNext.forEach(btn => {
+        btn.href = `project-detail.html?id=${projects[nextIndex].id}`;
+        btn.innerHTML = `${projects[nextIndex].title} <i class="fas fa-arrow-right"></i>`;
+    });
+}
+
+function renderHorizontalMediaList(container, images, title) {
+    if (!images.length) return;
+
+    const items = images.map((m, index) => `
+        <figure class="media-list-item">
+            <img src="${m.src}" alt="${title} screen ${index + 1}">
+        </figure>
+    `).join('');
+
+    container.innerHTML = `
+        <div class="media-scroll-gallery" aria-label="${title} image gallery">
+            ${items}
+        </div>
+    `;
 }
 
 async function loadSharedComponents() {
