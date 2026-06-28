@@ -219,44 +219,7 @@ nav {
 }
 .nav-btn:hover { color: var(--primary-color); }
 
-/* --- CONTACT --- */
-.contact-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-}
-
-.contact-info div { margin-bottom: 1.5rem; }
-.contact-info i { color: var(--primary-color); margin-right: 10px; }
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.contact-form input, .contact-form textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    outline: none;
-}
-
-.contact-form input:focus, .contact-form textarea:focus {
-    border-color: var(--primary-color);
-}
-
-.submit-btn {
-    padding: 10px 20px;
-    background: var(--primary-color);
-    color: var(--white);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.submit-btn:hover { background: var(--hover-color); }
+/* contact styles removed (contact page deleted) */
 
 /* --- FOOTER --- */
 footer {
@@ -282,7 +245,6 @@ footer {
     }
     .nav-links.active { right: 0; }
     .hamburger { display: block; }
-    .contact-wrapper { grid-template-columns: 1fr; }
     .meta-info { flex-direction: column; gap: 0.5rem; }
     .media-scroll-gallery { gap: 12px; padding-bottom: 14px; }
     .media-list-item img { height: 520px; }
