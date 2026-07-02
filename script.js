@@ -63,7 +63,42 @@ function loadProjectDetail(projects, currentId) {
     // 1. Điền thông tin cơ bản
     document.title = `${project.title} | Portfolio`;
     document.getElementById('p-title').textContent = project.title;
-    document.getElementById('p-content').innerHTML = project.content_html;
+    
+    // Hiển thị/Ẩn phần mô tả dựa trên sự tồn tại của nội dung
+    const contentContainer = document.getElementById('p-content');
+    const contentSection = document.getElementById('p-content-section');
+    if (project.content_html && project.content_html.trim() !== "") {
+        contentContainer.innerHTML = project.content_html;
+        if (contentSection) contentSection.style.display = 'block';
+    } else {
+        contentContainer.innerHTML = '';
+        if (contentSection) contentSection.style.display = 'none';
+    }
+
+    // Render danh sách link liên kết của dự án
+    const linksContainer = document.getElementById('p-links');
+    if (linksContainer) {
+        linksContainer.innerHTML = '';
+        if (project.links && project.links.length > 0) {
+            project.links.forEach(link => {
+                const a = document.createElement('a');
+                a.href = link.url;
+                a.target = '_blank';
+                a.className = `project-link-btn ${link.type}`;
+                
+                let iconClass = 'fas fa-external-link-alt';
+                if (link.type === 'google-play') iconClass = 'fab fa-google-play';
+                else if (link.type === 'app-store') iconClass = 'fab fa-app-store-ios';
+                else if (link.type === 'website') iconClass = 'fa-solid fa-earth-americas';
+
+                a.innerHTML = `<i class="${iconClass}"></i> ${link.label}`;
+                linksContainer.appendChild(a);
+            });
+            linksContainer.style.display = 'flex';
+        } else {
+            linksContainer.style.display = 'none';
+        }
+    }
 
     // Hàm hỗ trợ: Nếu có data thì hiện, không có thì ẩn thẻ cha
     const updateMetaInfo = (elementId, data) => {
@@ -88,6 +123,17 @@ function loadProjectDetail(projects, currentId) {
     updateMetaInfo('p-project', project.project_display);
     updateMetaInfo('p-client', project.client);
     updateMetaInfo('p-date', project.date);
+
+    // Add Company Info Section
+    const companySection = document.getElementById('p-company-section');
+    if (project.company && project.location && project.logo) {
+        document.getElementById('p-company-logo').src = project.logo;
+        document.getElementById('p-company').textContent = project.company;
+        document.getElementById('p-location').textContent = project.location;
+        companySection.style.display = 'block';
+    } else {
+        companySection.style.display = 'none';
+    }
 
     // 2. Render Media (Ảnh/Video/PDF)
 const mediaContainer = document.getElementById('p-media');

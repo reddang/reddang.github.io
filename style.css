@@ -198,9 +198,115 @@ nav {
     border: none;
 }
 
+.project-desc-section {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-desc-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: var(--primary-color);
+}
+
 .project-desc {
     font-size: 1.1rem;
-    margin-bottom: 3rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+.project-desc p {
+    margin-bottom: 1.2rem;
+}
+
+.project-desc h3 {
+    font-size: 1.3rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+
+.project-desc ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+}
+
+.project-desc li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0.8rem;
+    color: #444;
+}
+
+.project-desc li::before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 5px;
+    top: 0;
+}
+
+/* --- PROJECT LINKS BADGES --- */
+.project-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.project-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 22px;
+    background-color: var(--primary-color);
+    color: var(--white) !important;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: var(--transition);
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(11, 119, 190, 0.2);
+}
+
+.project-link-btn:hover {
+    background-color: var(--hover-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(11, 119, 190, 0.4);
+}
+
+.project-link-btn.app-store {
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-link-btn.app-store:hover {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.project-link-btn.google-play {
+    background-color: #00A651;
+    box-shadow: 0 2px 4px rgba(0, 166, 81, 0.2);
+}
+
+.project-link-btn.google-play:hover {
+    background-color: #008742;
+    box-shadow: 0 4px 8px rgba(0, 166, 81, 0.4);
+}
+
+.project-link-btn.website {
+    background-color: #4A5568;
+    box-shadow: 0 2px 4px rgba(74, 85, 104, 0.2);
+}
+
+.project-link-btn.website:hover {
+    background-color: #2D3748;
+    box-shadow: 0 4px 8px rgba(74, 85, 104, 0.4);
 }
 
 .project-nav {
