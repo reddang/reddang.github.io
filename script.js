@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     loadSharedComponents();
-    
+
     // Kiểm tra xem đang ở trang chủ hay trang chi tiết
     const path = window.location.pathname;
     const urlParams = new URLSearchParams(window.location.search);
@@ -33,12 +33,12 @@ function renderPortfolioGrid(projects) {
         item.href = `project-detail.html?id=${p.id}`; // Tạo link động
         item.className = 'portfolio-item';
         item.setAttribute('data-category', p.category);
-        
+
         item.innerHTML = `
             <img src="${p.thumb}" alt="${p.title}" class="portfolio-thumb">
             <div class="portfolio-info">
                 <h3>${p.title}</h3>
-                <p>${p.category_display} | ${p.date}</p>
+                <p>${p.project_display} | ${p.date}</p>
             </div>
         `;
         container.appendChild(item);
@@ -52,7 +52,7 @@ function renderPortfolioGrid(projects) {
 function loadProjectDetail(projects, currentId) {
     // Tìm index của dự án hiện tại trong mảng
     const currentIndex = projects.findIndex(p => p.id === currentId);
-    
+
     if (currentIndex === -1) {
         document.querySelector('.container').innerHTML = "<h1>Không tìm thấy dự án</h1>";
         return;
@@ -63,7 +63,7 @@ function loadProjectDetail(projects, currentId) {
     // 1. Điền thông tin cơ bản
     document.title = `${project.title} | Portfolio`;
     document.getElementById('p-title').textContent = project.title;
-    
+
     // Hiển thị/Ẩn phần mô tả dựa trên sự tồn tại của nội dung
     const contentContainer = document.getElementById('p-content');
     const contentSection = document.getElementById('p-content-section');
@@ -85,7 +85,7 @@ function loadProjectDetail(projects, currentId) {
                 a.href = link.url;
                 a.target = '_blank';
                 a.className = `project-link-btn ${link.type}`;
-                
+
                 let iconClass = 'fas fa-external-link-alt';
                 if (link.type === 'google-play') iconClass = 'fab fa-google-play';
                 else if (link.type === 'app-store') iconClass = 'fab fa-app-store-ios';
@@ -105,8 +105,8 @@ function loadProjectDetail(projects, currentId) {
         const element = document.getElementById(elementId);
         if (element) {
             // Lấy thẻ cha (là thẻ <span> chứa cả icon <i> và text)
-            const parentSpan = element.parentElement; 
-            
+            const parentSpan = element.parentElement;
+
             if (data && data.trim() !== "") {
                 // Nếu có dữ liệu
                 element.textContent = data;
@@ -119,7 +119,7 @@ function loadProjectDetail(projects, currentId) {
     };
 
     // Gọi hàm cho từng trường thông tin
-    updateMetaInfo('p-category', project.category_display);
+    updateMetaInfo('p-category', project.industry || project.category_display);
     updateMetaInfo('p-project', project.project_display);
     updateMetaInfo('p-client', project.client);
     updateMetaInfo('p-date', project.date);
@@ -136,31 +136,31 @@ function loadProjectDetail(projects, currentId) {
     }
 
     // 2. Render Media (Ảnh/Video/PDF)
-const mediaContainer = document.getElementById('p-media');
-mediaContainer.innerHTML = ''; // Xóa nội dung cũ để tránh bị trùng lặp
+    const mediaContainer = document.getElementById('p-media');
+    mediaContainer.innerHTML = ''; // Xóa nội dung cũ để tránh bị trùng lặp
 
-if (project.media && project.media.length > 0) {
-    if (project.media_display === 'horizontal-scroll') {
-        renderHorizontalMediaList(mediaContainer, project.media.filter(m => m.type === 'img'), project.title);
-    } else {
-    project.media.forEach(m => {
-        let elementHTML = '';
+    if (project.media && project.media.length > 0) {
+        if (project.media_display === 'horizontal-scroll') {
+            renderHorizontalMediaList(mediaContainer, project.media.filter(m => m.type === 'img'), project.title);
+        } else {
+            project.media.forEach(m => {
+                let elementHTML = '';
 
-        if (m.type === 'img') {
-            // Hiển thị ẢNH
-            elementHTML = `<img src="${m.src}" alt="Project Media" style="margin-bottom:20px; width:100%; border-radius:8px;">`;
+                if (m.type === 'img') {
+                    // Hiển thị ẢNH
+                    elementHTML = `<img src="${m.src}" alt="Project Media" style="margin-bottom:20px; width:100%; border-radius:8px;">`;
 
-        } else if (m.type === 'video') {
-            // Hiển thị VIDEO LOCAL (MP4)
-            elementHTML = `
+                } else if (m.type === 'video') {
+                    // Hiển thị VIDEO LOCAL (MP4)
+                    elementHTML = `
                 <video controls width="100%" style="margin-bottom:20px; border-radius:8px; background:#000;">
                     <source src="${m.src}" type="video/mp4">
                     Trình duyệt của bạn không hỗ trợ thẻ video.
                 </video>`;
 
-        } else if (m.type === 'pdf') {
-            // Hiển thị PDF LOCAL
-            elementHTML = `
+                } else if (m.type === 'pdf') {
+                    // Hiển thị PDF LOCAL
+                    elementHTML = `
                 <div style="margin-bottom:20px;">
                     <iframe src="${m.src}" width="100%" height="600px" style="border:none;"></iframe>
                     <p style="text-align:center; font-size:0.9rem; margin-top:5px;">
@@ -169,19 +169,31 @@ if (project.media && project.media.length > 0) {
                         </a>
                     </p>
                 </div>`;
-                
-        } else if (m.type === 'iframe') {
-            // Hiển thị IFRAME (Youtube, Drive...)
-            elementHTML = `<iframe src="${m.src}" width="100%" height="480" style="margin-bottom:20px; border:none;"></iframe>`;
+
+                } else if (m.type === 'iframe') {
+                    // Hiển thị IFRAME (Youtube, Drive...)
+                    elementHTML = `<iframe src="${m.src}" width="100%" height="480" style="margin-bottom:20px; border:none;"></iframe>`;
+                }
+
+                // Thêm vào container
+                mediaContainer.innerHTML += elementHTML;
+            });
         }
-
-        // Thêm vào container
-        mediaContainer.innerHTML += elementHTML;
-    });
     }
-}
 
-    // 3. Xử lý nút Next / Prev (Tự động tính toán)
+    // 2.5. Render Screenshots (New Section)
+    const screenshotsSection = document.getElementById('p-screenshots-section');
+    const screenshotsContainer = document.getElementById('p-screenshots');
+    if (screenshotsContainer && screenshotsSection) {
+        screenshotsContainer.innerHTML = ''; // Clear previous contents
+        if (project.screenshots && project.screenshots.length > 0) {
+            const mappedImages = project.screenshots.map(src => ({ type: 'img', src: src }));
+            renderHorizontalMediaList(screenshotsContainer, mappedImages, project.title);
+            screenshotsSection.style.display = 'block';
+        } else {
+            screenshotsSection.style.display = 'none';
+        }
+    }
     const btnPrev = document.querySelectorAll('.btn-prev');
     const btnNext = document.querySelectorAll('.btn-next');
 
@@ -223,7 +235,7 @@ async function loadSharedComponents() {
         // 1. Tải nội dung từ file components.html
         const response = await fetch('components.html');
         if (!response.ok) throw new Error("Không thể tải components.html");
-        
+
         const text = await response.text();
 
         // 2. Chuyển text thành HTML
@@ -283,7 +295,7 @@ function highlightActiveLink() {
     navLinks.forEach(link => {
         // Lấy tên file từ href (ví dụ index.html)
         const linkPage = link.getAttribute('href');
-        
+
         // So sánh tương đối
         if (linkPage === currentPage) {
             link.classList.add('active');

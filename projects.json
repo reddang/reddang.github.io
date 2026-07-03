@@ -1,44 +1,17 @@
 [
   {
-    "id": "thayboiai",
-    "title": "Cổ Học Phương Đông",
-    "category": "app",
-    "category_display": "AI Mobile App",
-    "project_display": "App",
-    "client": "Personal Project",
-    "date": "Jun, 2026",
-    "thumb": "assets/images/cohoc.jpg",
-    "media_display": "horizontal-scroll",
-    "content_html": "<p><strong>Eastern Classics</strong> is an AI-powered digital platform designed to preserve, structure, and explore traditional Eastern knowledge through modern technology.</p><p>The platform combines digitized classical texts with Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to help users study, compare, and interpret complex philosophical concepts in a structured and interactive way.</p><p>Unlike conventional content-based applications that display static information, Eastern Classics leverages AI to dynamically retrieve relevant knowledge sources, understand user context, and generate personalized interpretations grounded in authoritative reference materials.</p><h3>Key Features</h3><ul><li><strong>Structured Knowledge Repository</strong><br>Digitization and organization of classical Eastern knowledge into searchable and interconnected knowledge domains.</li><li><strong>AI-Powered Interpretation Engine</strong><br>Uses Retrieval-Augmented Generation (RAG) to retrieve relevant source materials and generate contextual explanations based on user questions.</li><li><strong>Context-Aware Analysis</strong><br>Applies Large Language Models (LLMs) to analyze relationships between concepts, identify patterns, and provide objective perspectives for learning and research.</li><li><strong>Interactive Knowledge Exploration</strong><br>Multi-turn conversational interface that enables users to ask follow-up questions and progressively deepen their understanding of complex subjects.</li><li><strong>Research Memory &amp; History Tracking</strong><br>Maintains historical interactions, allowing users to revisit previous inquiries, compare interpretations, and build long-term knowledge structures.</li><li><strong>Modern AI Architecture</strong><br>Built on a cloud-based architecture integrating Firebase, AI services, and structured knowledge retrieval to deliver scalable, real-time responses.</li></ul><h3>Technology Focus</h3><p>Artificial Intelligence (LLM), Retrieval-Augmented Generation (RAG), Knowledge Management, Conversational AI, Firebase, Cloud Functions, Mobile Application Development.</p>",
-    "links": [
-      {
-        "type": "google-play",
-        "label": "Google Store",
-        "url": "https://play.google.com/store/apps/details?id=com.studio1650.thayboiai"
-      }
-    ],
-    "media": [
-        {"type": "img", "src": "assets/images/cohoc_1.jpg"},
-        {"type": "img", "src": "assets/images/cohoc_2.jpg"},
-        {"type": "img", "src": "assets/images/cohoc_3.jpg"},
-        {"type": "img", "src": "assets/images/cohoc_4.jpg"},
-        {"type": "img", "src": "assets/images/cohoc_5.jpg"},
-        {"type": "img", "src": "assets/images/cohoc_6.jpg"},
-        {"type": "img", "src": "assets/images/cohoc_7.jpg"}
-    ]
-  },
-  {
     "id": "m2c",
     "title": "M2C/B2B2C Ecosystem",
-    "category": "business",
-    "category_display": "Business Model Overview",
-    "project_display": "Business Insight",
+    "category": "strategy",
+    "category_display": "Business & Strategy",
+    "industry": "FinTech & Supply Chain",
+    "project_display": "Product Owner (PM)",
     "company": "Finviet Technology",
     "location": "Ho Chi Minh City, Vietnam",
     "logo": "assets/images/logo_fv.png",
-    "date": "Dec, 2025",
+    "date": "May, 2026",
     "thumb": "assets/images/m2c.png",
-    "content_html": "<p>The M2C Ecosystem is an end-to-end digital commerce framework that bridges the gap between Manufacturers and Consumers by transforming traditional retailers into high-tech Service Hubs. Instead of bypassing the 'mom-and-pop' shops, this model digitizes them to serve as the vital link in the supply chain.</p><ul><li><strong>Inbound (B2B):</strong> Streamlines factory-to-retail distribution using a DMS for real-time visibility and authentic sourcing.</li><li><strong>Merchant Core:</strong> A Super App that empowers shop owners with digital lending (Capital), bill payments (Revenue), and e-invoicing (Operations).</li><li><strong>Outbound (B2C):</strong> Modernizes the storefront with Smart POS payments and digital Loyalty programs to keep consumers engaged.</li><li><strong>Data Foundation:</strong> A CDP-driven base layer that converts every transaction into actionable insights for market prediction and risk management.</li></ul>",
+    "content_html": "<p><strong>'Tiệm Số Hóa' Super-App</strong> is an end-to-end Manufacturer-to-Consumer (M2C) digital commerce platform designed to digitize traditional 'mom-and-pop' retail shops into high-tech service hubs.</p><p>As the Lead Product Owner (Acting Product Manager), I was responsible for <strong>shaping the product strategy and aligning the multi-stage roadmap</strong>. In this role, I served as the central point of contact, working directly with <strong>C-level executives and key Business Units (BUs)</strong> to translate business goals and commercial targets into functional features, successfully managing the phased rollout across B2B Supply Chain, Omnichannel, FinTech, and Loyalty domains.</p><h3>Key Execution & Metrics</h3><ul><li><strong>Roadmap Execution & Growth:</strong> Delivered features on time according to the product roadmap, helping expand the user base past <strong>325K+</strong> and driving a 4x MAU surge to peak at <strong>93K+ active merchants</strong>.</li><li><strong>FinTech System Integration:</strong> Managed the integration roadmap to bring core FinTech modules (E-wallet, QR Payments, Lending, Bill Pay) from backend services into the Super-App interface, enabling the platform to process over <strong>220K+ monthly FinTech transactions</strong>.</li><li><strong>UX/UI Optimization:</strong> Redesigned and optimized the interface layouts and workflows, successfully cutting user task engagement time by <strong>2.5x</strong> while sustaining <strong>73K+ re-engaged</strong> merchants monthly via automated lifecycle campaigns.</li><li><strong>AI Capability Integration:</strong> Evaluated trade-offs and led the integration of 3rd-party Computer Vision and Chatbot capabilities to enhance platform technology and automate user support interactions.</li><li><strong>Stakeholder Alignment:</strong> Coordinated cross-functional teams (Engineering, Design, Operations) and balanced requirements from Tier-1 corporate commercial accounts (Kido, Thọ Phát, Ajinomoto, Vifon, Hương Thủy, etc.) to ensure on-time product delivery.</li></ul>",
     "links": [
       {
         "type": "google-play",
@@ -52,19 +25,133 @@
       }
     ],
     "media": [
-        {"type": "img", "src": "assets/images/m2c_detail.png"}
+      {
+        "type": "video",
+        "src": "assets/videos/fv_video.mp4"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/m2c_detail.png"
+      }
+    ],
+    "screenshots": [
+      "assets/images/fv_1.png",
+      "assets/images/fv_2.png",
+      "assets/images/fv_3.png",
+      "assets/images/fv_4.png",
+      "assets/images/fv_7.png"
+    ]
+  },
+  {
+    "id": "interactive",
+    "title": "UNA Market - Social Commerce",
+    "category": "strategy",
+    "category_display": "Business & Strategy",
+    "industry": "E-Commerce",
+    "project_display": "Product Owner (PM)",
+    "company": "OnPoint E-commerce",
+    "location": "Ho Chi Minh City, Vietnam",
+    "logo": "assets/images/logo_onpoint.png",
+    "date": "Aug, 2022",
+    "thumb": "assets/images/Interactive_0.jpg",
+    "content_html": "<p><strong>UNA Market</strong> is a social commerce platform modeled after group-buying mechanics (similar to Pinduoduo) aimed at transforming online grocery and daily essentials shopping.</p><p>As a PO/PM, I took charge of the end-to-end development from 0-to-1. My role involved <strong>defining the core business logic, shaping the product roadmap, and prioritizing functional specifications</strong> to successfully bring the MVP from concept to live operational launch.</p><h3>Key Execution & Management</h3><ul><li><strong>Product Roadmap & Vendor Management:</strong> Evaluated, selected, and managed external IT vendors and outsourced development teams. Took ownership of the development timeline, quality assurance frameworks, and final UAT sign-offs to ensure on-time product delivery.</li><li><strong>Group-Buying Mechanics Design:</strong> Designed the operational logic and product rules for the group purchasing features (including dynamic tier-pricing), helping optimize customer acquisition costs and drive community-driven merchant growth.</li></ul>",
+    "media": [
+      {
+        "type": "iframe",
+        "src": "https://drive.google.com/file/d/1nYluLPCbmW65eusKigJYsLKZM8DdNdyH/preview",
+        "width": "100%",
+        "height": "480",
+        "allow": "autoplay"
+      },
+      {
+        "type": "iframe",
+        "src": "https://drive.google.com/file/d/1mhFG2rCXIiI4g5uu-zqQo6ehrIamrJcz/preview",
+        "width": "100%",
+        "height": "560"
+      }
+    ]
+  },
+  {
+    "id": "omnichannel",
+    "title": "SaaS Omnichannel Platform",
+    "category": "strategy",
+    "category_display": "Business & Strategy",
+    "industry": "SaaS E-Commerce",
+    "project_display": "Product Owner",
+    "company": "Haravan",
+    "location": "Ho Chi Minh City, Vietnam",
+    "logo": "assets/images/logo_haravan.png",
+    "date": "Dec, 2021",
+    "thumb": "assets/images/Omnichannel_1.jpg",
+    "content_html": "<p>Responsible for managing and refining product features on the core SaaS Omnichannel platform by translating merchant feedback and retail workflows into detailed functional specifications, user stories, and acceptance criteria.</p><h3>Key Execution & Sprint Delivery</h3><ul><li><strong>Feature Requirement Delivery:</strong> Collaborated with Key Account teams and analyzed merchant requests to define detailed requirements for enterprise-grade software, supporting the daily retail workflows of over <strong>500+ major store chains</strong> (including Vinamilk, The Coffee House, Juno, etc.).</li><li><strong>Product Backlog Management:</strong> Monitored system usage patterns and merchant transactional data to continuously groom the backlog, helping prioritize features that improved system checkout velocity and inventory data accuracy.</li><li><strong>Cross-Functional Execution:</strong> Partnered closely with Engineering, QC, Sales, and Customer Success teams during sprint cycles to clarify requirements, manage scope risks, and ensure user-centric UI/UX stability for production releases.</li></ul>",
+    "media": [
+      {
+        "type": "img",
+        "src": "assets/images/Omnichannel_2.svg"
+      }
+    ]
+  },
+  {
+    "id": "thayboiai",
+    "title": "Cổ Học Phương Đông",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "AI & Knowledge Management",
+    "project_display": "Independent Product PM",
+    "client": "Personal Project",
+    "date": "Jun, 2026",
+    "thumb": "assets/images/cohoc.jpg",
+    "media_display": "horizontal-scroll",
+    "content_html": "<p><strong>The Hook:</strong> Traditional Eastern philosophy and classical texts are rich in wisdom but highly complex, unstructured, and difficult for modern users to interpret accurately. <strong>Eastern Classics (Cổ Học Phương Đông)</strong> solves this by transforming static historical knowledge into an interactive, AI-powered digital platform—making ancient wisdom accessible, contextualized, and engaging for everyone.</p><p>As a non-coder Product Manager, this project showcases my ability to leverage practical <strong>AI-assisted development (Vibe Coding)</strong> to solo-engineer and deploy a fully functional mobile application from scratch, handling the entire product lifecycle from prompt-driven coding to production launch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Retrieval-Augmented Generation (RAG):</strong> Architected the system logic to combine digitized classical reference materials with RAG, ensuring the AI model retrieves and references authoritative knowledge sources instead of generating hallucinated answers.</li><li><strong>Large Language Models (LLMs):</strong> Integrated LLM capabilities via API to power a context-aware analysis engine capable of interpreting complex philosophical concepts based on individual user questions.</li><li><strong>Interactive Learning Workflows:</strong> Designed a multi-turn conversational interface that enables users to progressively deepen their understanding with follow-up queries and track their research history.</li></ul><h3>Vibe Coding & Tech Stack</h3><ul><li><strong>AI-Assisted Engineering:</strong> Handled 100% of the mobile application development, system logic, and cloud integration by utilizing advanced LLMs as programming co-pilots (Vibe Coding) to generate and debug clean code.</li><li><strong>Cloud Infrastructure:</strong> Deployed a scalable architecture utilizing Firebase for database management, user authentication, and Cloud Functions to securely handle real-time API communications and knowledge retrieval.</li></ul>",
+    "links": [
+      {
+        "type": "google-play",
+        "label": "Google Store",
+        "url": "https://play.google.com/store/apps/details?id=com.studio1650.thayboiai"
+      }
+    ],
+    "media": [
+      {
+        "type": "img",
+        "src": "assets/images/cohoc_1.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/cohoc_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/cohoc_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/cohoc_4.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/cohoc_5.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/cohoc_6.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/cohoc_7.jpg"
+      }
     ]
   },
   {
     "id": "littledizzy",
     "title": "Little Dizzy - Sliding Puzzle",
-    "category": "app",
-    "category_display": "Game Development",
-    "project_display": "App",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Gaming",
+    "project_display": "Independent Product PM",
     "client": "Personal Project",
     "date": "Mar, 2022",
     "thumb": "assets/images/littledizzy_0.png",
-    "content_html": "<p>This tile slide puzzle game is a learning game for everyone who wants to train their brain. Its goal is an improvement of one’s concentration, cognitive capability, and sense of space. This puzzle game provides an enjoyable and educational time through challenging and beautiful picture sliding tile puzzles. This slide puzzle game is also made for those who are fans of the classic fifteen sliding puzzle games.</p><p>Little Dizzy – Sliding Puzzle FREE Game is very educational, because it has been demonstrated that resolving puzzles helps in the development of skills and abilities, such as motricity, creativity, spatial skills, language and self- esteem.</p><p>Enjoy the most beautiful pictures in Categories like manga, comics, animation etc...</p>",
+    "content_html": "<p>This tile slide puzzle game is a learning game for everyone who wants to train their brain. Its goal is an improvement of one's concentration, cognitive capability, and sense of space. This puzzle game provides an enjoyable and educational time through challenging and beautiful picture sliding tile puzzles. This slide puzzle game is also made for those who are fans of the classic fifteen sliding puzzle games.</p><p>Little Dizzy – Sliding Puzzle FREE Game is very educational, because it has been demonstrated that resolving puzzles helps in the development of skills and abilities, such as motricity, creativity, spatial skills, language and self- esteem.</p><p>Enjoy the most beautiful pictures in Categories like manga, comics, animation etc...</p>",
     "links": [
       {
         "type": "google-play",
@@ -78,100 +165,104 @@
       }
     ],
     "media": [
-        {"type": "img", "src": "assets/images/littledizzy_2.png"},
-        {"type": "img", "src": "assets/images/littledizzy_4.png"},
-        {"type": "img", "src": "assets/images/littledizzy_5.png"}
-    ]
-  },
-  {
-    "id": "interactive",
-    "title": "What's Interactive E-Commerce?",
-    "category": "business",
-    "category_display": "Group Shopping",
-    "project_display": "Business Insight",
-    "company": "OnPoint E-commerce",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_onpoint.png",
-    "date": "Dec, 2021",
-    "thumb": "assets/images/Interactive_0.jpg",
-    "content_html": "<p><strong>UNA Market – Group Shopping Platform</strong> is an innovative e-commerce platform designed to transform the way people shop for food and daily essentials. By integrating group purchasing mechanics, UNA Market empowers customers to enjoy high-quality VietGAP-certified products at significantly reduced prices, while fostering a fun and social shopping experience with friends and family.</p><h3>Key Highlights</h3><ul><li><strong>Daily Shock Deals:</strong> Discounts up to 50% on popular items such as Ri6 durian, pork belly, and Korean strawberries.</li><li><strong>Group Buying Advantage:</strong> Prices at least 20% lower than market rates when purchased in groups.</li><li><strong>Free Shipping:</strong> Available for all orders within Ho Chi Minh City.</li><li><strong>Quality Assurance:</strong> Products meet VietGAP standards, ensuring freshness and safety.</li><li><strong>Fast Delivery:</strong> Orders delivered within 24 hours.</li></ul><h3>Mission</h3><p>To eliminate consumer concerns about price and quality in online food shopping, while creating a joyful, community-driven shopping experience.</p><h3>Tagline</h3><p><em>“The more people, the cheaper it gets – shopping made social and fun.”</em></p>",
-    "media": [
-        {"type": "iframe", "src": "https://drive.google.com/file/d/1nYluLPCbmW65eusKigJYsLKZM8DdNdyH/preview", "width": "100%", "height":"480", "allow":"autoplay"},
-        {"type": "iframe", "src": "https://drive.google.com/file/d/1mhFG2rCXIiI4g5uu-zqQo6ehrIamrJcz/preview", "width": "100%", "height":"560"}
-    ]
-  },
-  {
-    "id": "omnichannel",
-    "title": "What is Omnichannel?",
-    "category": "business",
-    "category_display": "Omnichannel",
-    "project_display": "Business Insight",
-    "company": "Haravan - Omnichannel Commerce",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_haravan.png",
-    "date": "Oct, 2021",
-    "thumb": "assets/images/Omnichannel_1.jpg",
-    "content_html": "",
-    "media": [
-        {"type": "img", "src": "assets/images/Omnichannel_2.svg"}
+      {
+        "type": "img",
+        "src": "assets/images/littledizzy_2.png"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/littledizzy_4.png"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/littledizzy_5.png"
+      }
     ]
   },
   {
     "id": "daiichilife",
-    "title": "Daiichi-Life App",
-    "category": "uxui",
-    "category_display": "Insurance",
-    "project_display": "App",
+    "title": "Daiichi-Life App Platform",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Insurance",
+    "project_display": "UX/UI Designer",
     "company": "Dai-ichi Life Insurance",
     "location": "Ho Chi Minh City, Vietnam",
     "logo": "assets/images/logo_daiichi.png",
     "date": "Jan, 2019",
     "thumb": "assets/images/app_4.jpg",
-    "content_html": "",
+    "content_html": "<p>Collaborated on the strategic user experience design and architecture of Dai-ichi Life's customer-facing mobile ecosystem, focusing on automating user insurance data lookup and policy claim interaction workflows.</p>",
     "media": [
-        {"type": "img", "src": "assets/images/daiichi_1.jpg"},
-        {"type": "img", "src": "assets/images/daiichi_2.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/daiichi_1.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/daiichi_2.jpg"
+      }
     ]
   },
   {
     "id": "foodapp",
     "title": "FoodSave App",
-    "category": "uxui",
-    "category_display": "F&B",
-    "project_display": "App",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "F&B",
+    "project_display": "Product Designer (Concept)",
     "date": "May, 2018",
     "thumb": "assets/images/app_2.jpg",
     "content_html": "<p>Singapore wastes about 788,600 tonnes of food yearly. Out of this, only 13% is recycled. Singapore spends around $14.8 billion buying food from other countries, yet is one of the top 10 countries in the world with the highest rate of food wastage.</p><h3>Solutions</h3><p>An app platform utilizing a sharing economy system that connects B2C and C2C users by integrating food sellers and purchasers, featuring real-time alerts and about-to-expiry notifications on good deals.</p><h3>Features</h3><ul><li><strong>Merchant Listings:</strong> Merchants can list their \"before expiry\" products in real-time to alert nearby consumers of discount deals.</li><li><strong>Peer-to-Peer Sharing:</strong> Since households contribute significantly to food wastage, users can list their \"extra\" cooked food or newly purchased items before expiry for nearby users to buy and consume.</li></ul>",
     "media": [
-        {"type": "img", "src": "assets/images/foodsave_1.jpg"},
-        {"type": "img", "src": "assets/images/Foodsave_buyer.jpg"},
-        {"type": "img", "src": "assets/images/Foodsave_seller.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/foodsave_1.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/Foodsave_buyer.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/Foodsave_seller.jpg"
+      }
     ]
   },
   {
     "id": "deliveryfood",
     "title": "Delivery Food App",
-    "category": "uxui",
-    "category_display": "Logistics",
-    "project_display": "App",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Logistics",
+    "project_display": "Product Designer (Concept)",
     "date": "Oct, 2017",
     "thumb": "assets/images/app_1.jpg",
-    "content_html": "<p>Browse local restaurants and fast food favorites for inspiration, or search for a specific restaurant, dish, or cuisine. When you are ready to place your order, you will see your delivery address, an estimated delivery time, and the total price including tax and fees. Track your order in real-time as it heads your way.</p><h3>Features</h3><ul><li><strong>Your Favorite Restaurants:</strong> Choose from a huge variety of cuisines, from your favorite sushi spot to the comfort food you crave.</li><li><strong>Easy Ordering:</strong> Food is just a few taps away. Get your favorite meals faster with quick reordering. Plus, group ordering makes entertaining a breeze.</li><li><strong>Schedule Deliveries:</strong> Advance ordering allows you to get your food when it’s most convenient for you.</li><li><strong>Real-time Tracking:</strong> See when your order will arrive. We factor in food preparation, traffic, and weather.</li><li><strong>No Minimums:</strong> Order as little or as much as you want.</li><li><strong>Secure Payment:</strong> Conveniently pay via Google Pay or credit card.</li></ul>",
+    "content_html": "<p>Browse local restaurants and fast food favorites for inspiration, or search for a specific restaurant, dish, or cuisine. When you are ready to place your order, you will see your delivery address, an estimated delivery time, and the total price including tax and fees. Track your order in real-time as it heads your way.</p><h3>Features</h3><ul><li><strong>Your Favorite Restaurants:</strong> Choose from a huge variety of cuisines, from your favorite sushi spot to the comfort food you crave.</li><li><strong>Easy Ordering:</strong> Food is just a few taps away. Get your favorite meals faster with quick reordering. Plus, group ordering makes entertaining a breeze.</li><li><strong>Schedule Deliveries:</strong> Advance ordering allows you to get your food when it's most convenient for you.</li><li><strong>Real-time Tracking:</strong> See when your order will arrive. We factor in food preparation, traffic, and weather.</li><li><strong>No Minimums:</strong> Order as little or as much as you want.</li><li><strong>Secure Payment:</strong> Conveniently pay via Google Pay or credit card.</li></ul>",
     "media": [
-        {"type": "img", "src": "assets/images/delivery_1.jpg"},
-        {"type": "img", "src": "assets/images/Delivery_buyer.jpg"},
-        {"type": "img", "src": "assets/images/Delivery_driver.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/delivery_1.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/Delivery_buyer.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/Delivery_driver.jpg"
+      }
     ]
   },
   {
     "id": "wego",
     "title": "Wego Blog Travel",
-    "category": "uxui",
-    "category_display": "Travel",
-    "project_display": "Web Design & Development",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Travel",
+    "project_display": "Product Designer (Concept)",
     "date": "Nov, 2018",
     "thumb": "assets/images/website_2.jpg",
-    "content_html": "<p>If you’ve ever wanted to learn how to travel cheaper, turn your dream trip into a reality, save money, or travel the world, you are in the right place! This website will give you tested tips, advice, and suggestions so you can see more for less and make your dream trip a reality.</p>",
+    "content_html": "<p>If you've ever wanted to learn how to travel cheaper, turn your dream trip into a reality, save money, or travel the world, you are in the right place! This website will give you tested tips, advice, and suggestions so you can see more for less and make your dream trip a reality.</p>",
     "links": [
       {
         "type": "website",
@@ -180,18 +271,22 @@
       }
     ],
     "media": [
-        {"type": "img", "src": "assets/images/wego_2.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/wego_2.jpg"
+      }
     ]
   },
   {
     "id": "webyangahkang",
     "title": "Yang Ah Kang & Sons",
-    "category": "uxui",
-    "category_display": "Funiture Design",
-    "project_display": "Web Design & Development",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Furniture",
+    "project_display": "Product Designer (Concept)",
     "date": "Sep, 2018",
     "thumb": "assets/images/website_1.jpg",
-    "content_html": "<p>Yang Ah Kang & Sons has fitted some of the world’s most prestigious and reputable hotels since 1946. Recognized as an international leader in custom made furniture and interior fittings, the company has stood for uncompromising quality and high levels of professionalism and the testimony is in the list of clients serviced throughout these past six decades.</p>",
+    "content_html": "<p>Yang Ah Kang & Sons has fitted some of the world's most prestigious and reputable hotels since 1946. Recognized as an international leader in custom made furniture and interior fittings, the company has stood for uncompromising quality and high levels of professionalism and the testimony is in the list of clients serviced throughout these past six decades.</p>",
     "links": [
       {
         "type": "website",
@@ -200,35 +295,43 @@
       }
     ],
     "media": [
-        {"type": "img", "src": "assets/images/yks_2.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/yks_2.jpg"
+      }
     ]
   },
   {
     "id": "poptv",
     "title": "PopsTV App",
-    "category": "app",
-    "category_display": "Entertainment",
-    "project_display": "App",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Entertainment",
+    "project_display": "UI/UX Designer",
     "company": "POPS Worldwide",
     "location": "Ho Chi Minh City, Vietnam",
     "logo": "assets/images/logo_pops.png",
     "date": "Mar, 2018",
     "thumb": "assets/images/popstv.jpg",
-    "content_html": "",
+    "content_html": "<p>Designed user interface flows for PopsTV app ecosystem to handle multi-category digital video distributions seamlessly across local digital touchpoints.</p>",
     "media": [
-        {"type": "img", "src": "assets/images/popstv_2.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/popstv_2.jpg"
+      }
     ]
   },
   {
     "id": "popskids",
     "title": "PopsKids Multi Platform",
-    "category": "app",
-    "category_display": "Kids Entertainment",
-    "project_display": "Mobile App, TV App, Website",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Entertainment",
+    "project_display": "UX/UI Designer",
     "company": "POPS Worldwide",
     "location": "Ho Chi Minh City, Vietnam",
     "logo": "assets/images/logo_pops.png",
-    "date": "OCt, 2017",
+    "date": "Oct, 2017",
     "thumb": "assets/images/app_3.jpg",
     "content_html": "<p>Along with gaming, content for children is one of the top trends attracting content makers in Vietnam. However, with the increase of inappropriate online content, this application was created to provide a safe ecosystem that automatically filters out adult or sensitive media, allowing only child-friendly programming.</p>",
     "links": [
@@ -249,142 +352,304 @@
       }
     ],
     "media": [
-        {"type": "img", "src": "assets/images/popkids_1.jpg"},
-        {"type": "img", "src": "assets/images/popkids_2.jpg"},
-        {"type": "img", "src": "assets/images/popkids_3.jpg"},
-        {"type": "img", "src": "assets/images/popkids_4-01.jpg"},
-        {"type": "img", "src": "assets/images/popkids_5.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/popkids_1.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_4-01.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_5.jpg"
+      }
     ]
   },
   {
     "id": "lunargift",
     "title": "Lunar New Year Gift",
     "category": "3d",
-    "category_display": "Toy, Packaging",
-    "project_display": "3D Design",
-    "date": "OCt, 2017",
+    "category_display": "3D & Visualization",
+    "industry": "Cultural Product",
+    "project_display": "3D Modeler & Texture Artist",
+    "date": "Oct, 2017",
     "thumb": "assets/images/nygift.jpg",
-    "content_html": "<p>“Banh Tet” is a traditional cake featured in Vietnamese households during Tet holidays. In accordance with old Vietnamese traditions, “Banh Tet” is always present in every home on the first day of the Lunar New Year.</p>",
+    "content_html": "<p>\\\"Banh Tet\\\" is a traditional cake featured in Vietnamese households during Tet holidays. In accordance with old Vietnamese traditions, \\\"Banh Tet\\\" is always present in every home on the first day of the Lunar New Year.</p>",
     "media": [
-        {"type": "img", "src": "assets/images/nygift_2.jpg"},
-        {"type": "img", "src": "assets/images/nygift_3.jpg"},
-        {"type": "img", "src": "assets/images/nygift_4.jpg"},
-        {"type": "img", "src": "assets/images/nygift_5.jpg"},
-        {"type": "img", "src": "assets/images/nygift_6.jpg"},
-        {"type": "img", "src": "assets/images/nygift_8.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/nygift_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nygift_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nygift_4.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nygift_5.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nygift_6.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nygift_8.jpg"
+      }
     ]
   },
   {
     "id": "lamp",
     "title": "Rotating Lamp",
     "category": "3d",
-    "category_display": "Toy, Packaging",
-    "project_display": "3D Design",
+    "category_display": "3D & Visualization",
+    "industry": "Cultural Product",
+    "project_display": "3D Concept Artist",
     "date": "Sep, 2017",
     "thumb": "assets/images/lattern.jpg",
     "content_html": "<p>Den Keo Quan (rotating lantern) is a traditional paper toy. In the past, they were popular during Lunar New Year; however, they are now primarily seen during the Mid-Autumn Festival. When the candle inside is lit, the rising hot air causes the inner frame to rotate, casting moving shadow puppets onto the outer paper screen.</p>",
     "media": [
-        {"type": "img", "src": "assets/images/lattern_2.jpg"},
-        {"type": "img", "src": "assets/images/lattern_4.jpg"},
-        {"type": "iframe", "src": "https://www.youtube.com/embed/zM9vhF4CVI0?autoplay=1"}
+      {
+        "type": "img",
+        "src": "assets/images/lattern_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/lattern_4.jpg"
+      },
+      {
+        "type": "iframe",
+        "src": "https://www.youtube.com/embed/zM9vhF4CVI0?autoplay=1"
+      }
     ]
   },
   {
     "id": "nobita",
     "title": "Nobita's House",
     "category": "3d",
-    "category_display": "Interior Design",
-    "project_display": "3D Design",
+    "category_display": "3D & Visualization",
+    "industry": "Interior",
+    "project_display": "3D Environment Modeler",
     "date": "Jun, 2017",
     "thumb": "assets/images/3d_3.jpg",
     "content_html": "",
     "media": [
-        {"type": "img", "src": "assets/images/nobita_2.jpg"},
-        {"type": "img", "src": "assets/images/nobita_3.jpg"},
-        {"type": "iframe", "src": "https://www.youtube.com/embed/blh_Lrs3LYQ?autoplay=1"}
+      {
+        "type": "img",
+        "src": "assets/images/nobita_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nobita_3.jpg"
+      },
+      {
+        "type": "iframe",
+        "src": "https://www.youtube.com/embed/blh_Lrs3LYQ?autoplay=1"
+      }
     ]
   },
   {
-    "id": "housedeisgn",
+    "id": "housedesign",
     "title": "House Design",
     "category": "3d",
-    "category_display": "Interior Design",
-    "project_display": "3D Design",
+    "category_display": "3D & Visualization",
+    "industry": "Interior",
+    "project_display": "3D Spatial & Interior Designer",
     "date": "Apr, 2017",
     "thumb": "assets/images/3d_2.jpg",
     "content_html": "",
     "media": [
-        {"type": "img", "src": "assets/images/house_2.jpg"},
-        {"type": "img", "src": "assets/images/house_3.jpg"},
-        {"type": "img", "src": "assets/images/house_4.jpg"},
-        {"type": "img", "src": "assets/images/house_5.jpg"},
-        {"type": "img", "src": "assets/images/house_6.jpg"},
-        {"type": "img", "src": "assets/images/house_7.jpg"},
-        {"type": "img", "src": "assets/images/house_8.jpg"},
-        {"type": "img", "src": "assets/images/house_9.jpg"},
-        {"type": "img", "src": "assets/images/house_10.jpg"},
-        {"type": "img", "src": "assets/images/house_11.jpg"},
-        {"type": "img", "src": "assets/images/house_12.jpg"},
-        {"type": "img", "src": "assets/images/house_13.jpg"},
-        {"type": "img", "src": "assets/images/house_14.jpg"},
-        {"type": "img", "src": "assets/images/house_15.jpg"},
-        {"type": "img", "src": "assets/images/house_16.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/house_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_4.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_5.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_6.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_7.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_8.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_9.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_10.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_11.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_12.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_13.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_14.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_15.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/house_16.jpg"
+      }
     ]
   },
   {
     "id": "nokia",
     "title": "Nokia Lumia Concept",
     "category": "3d",
-    "category_display": "Product Design",
-    "project_display": "3D Design",
+    "category_display": "3D & Visualization",
+    "industry": "Consumer Electronics",
+    "project_display": "3D Hard Surface Modeler",
     "date": "Mar, 2015",
     "thumb": "assets/images/3d_1.jpg",
     "content_html": "",
     "media": [
-        {"type": "img", "src": "assets/images/nokia_2.jpg"},
-        {"type": "img", "src": "assets/images/nokia_3.jpg"},
-        {"type": "img", "src": "assets/images/nokia_4.jpg"},
-        {"type": "img", "src": "assets/images/nokia_5.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/nokia_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nokia_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nokia_4.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/nokia_5.jpg"
+      }
     ]
   },
   {
     "id": "wildwest",
     "title": "Wildwest Vietnam",
     "category": "graphic",
-    "category_display": "Branding",
-    "project_display": "Graphic Design",
+    "category_display": "Graphic Design",
+    "industry": "Tourism",
+    "project_display": "Brand Identity Lead",
     "date": "Oct, 2015",
     "thumb": "assets/images/branding_1.jpg",
     "content_html": "<p>A promotional project highlighting the cultures, arts, and travel opportunities within the Mekong Delta provinces.</p><p>Known as the 'rice bowl' of Vietnam, the Mekong Delta is carpeted in a dizzying variety of greens. It is a water world that moves to the rhythms of the mighty Mekong, where boats, houses, and markets float upon the innumerable rivers, canals, and streams that criss-cross the landscape like arteries.</p><p>The bustling commerce of its towns contrasts sharply with the languid, peaceful pace of life in the countryside. Here, water buffaloes wallow in rice paddies, coconut- and fruit-laden boats float slowly along mud-brown waters, and two-wheeled exploration of narrow lanes is rewarded with a true taste of rural hospitality and delicious local river fish.</p><p>Elsewhere, mangrove forests teem with bird life and hold the remnants of historic bunkers, while ornate Khmer pagodas and Buddhist temples reach for the sky, and off-coast islands offer white-sand beaches, tropical hideaways, and historical pirate lore.</p>",
     "media": [
-        {"type": "video", "src": "assets/videos/wwvn_2.mp4"},
-        {"type": "img", "src": "assets/images/wwvn_3.jpg"},
-        {"type": "img", "src": "assets/images/wwvn_4.jpg"},
-        {"type": "img", "src": "assets/images/wwvn_6.jpg"},
-        {"type": "img", "src": "assets/images/wwvn_7.jpg"},
-        {"type": "img", "src": "assets/images/wwvn_8.jpg"},
-        {"type": "img", "src": "assets/images/wwvn_9.jpg"},
-        {"type": "iframe", "src": "https://www.youtube.com/embed/7O0dNfxZ1yo?autoplay=1"}
+      {
+        "type": "video",
+        "src": "assets/videos/wwvn_2.mp4"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/wwvn_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/wwvn_4.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/wwvn_6.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/wwvn_7.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/wwvn_8.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/wwvn_9.jpg"
+      },
+      {
+        "type": "iframe",
+        "src": "https://www.youtube.com/embed/7O0dNfxZ1yo?autoplay=1"
+      }
     ]
   },
   {
     "id": "poster",
-    "title": "Posters",
+    "title": "Posters Collection",
     "category": "graphic",
     "category_display": "Graphic Design",
-    "project_display": "Posters",
+    "project_display": "Graphic Designer",
     "date": "Mar, 2015",
     "thumb": "assets/images/poster.jpg",
     "content_html": "",
     "media": [
-        {"type": "img", "src": "assets/images/poster_1.jpg"},
-        {"type": "img", "src": "assets/images/poster_2.jpg"},
-        {"type": "img", "src": "assets/images/poster_3.jpg"},
-        {"type": "img", "src": "assets/images/poster_4.jpg"},
-        {"type": "img", "src": "assets/images/poster_5.jpg"},
-        {"type": "img", "src": "assets/images/poster_6.jpg"},
-        {"type": "img", "src": "assets/images/poster_7.jpg"},
-        {"type": "img", "src": "assets/images/poster_8.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/poster_1.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/poster_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/poster_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/poster_4.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/poster_5.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/poster_6.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/poster_7.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/poster_8.jpg"
+      }
     ]
   },
   {
@@ -392,20 +657,47 @@
     "title": "Photo Manipulation",
     "category": "graphic",
     "category_display": "Graphic Design",
-    "project_display": "Photo Manipulation",
+    "project_display": "Digital Artist",
     "date": "Sep, 2015",
     "thumb": "assets/images/photomanip_1.jpg",
     "content_html": "",
     "media": [
-        {"type": "img", "src": "assets/images/photomanip_3.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_4.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_5.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_6.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_7.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_8.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_9.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_10.jpg"},
-        {"type": "img", "src": "assets/images/photomanip_11.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_4.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_5.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_6.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_7.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_8.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_9.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_10.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/photomanip_11.jpg"
+      }
     ]
   },
   {
@@ -413,12 +705,16 @@
     "title": "Travelife Magazine",
     "category": "graphic",
     "category_display": "Graphic Design",
-    "project_display": "Magazine Layout",
+    "industry": "Travel",
+    "project_display": "Editorial Layout Designer",
     "date": "Feb, 2015",
     "thumb": "assets/images/travellife.jpg",
     "content_html": "",
     "media": [
-        {"type": "img", "src": "assets/images/travellife_2.jpg"}
+      {
+        "type": "img",
+        "src": "assets/images/travellife_2.jpg"
+      }
     ]
   }
 ]
