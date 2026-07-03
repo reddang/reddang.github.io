@@ -26,8 +26,8 @@
     ],
     "media": [
       {
-        "type": "video",
-        "src": "assets/videos/fv_video.mp4"
+        "type": "iframe",
+        "src": "https://www.youtube.com/embed/qvX_4Ccnyh8"
       },
       {
         "type": "img",
