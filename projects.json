@@ -1,5 +1,50 @@
 [
   {
+    "id": "ustillalive",
+    "title": "UStillAlive - Safety Circle",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Mobile Utility & Safety",
+    "project_display": "Independent Product PM",
+    "client": "Personal Project",
+    "date": "Jul, 2026",
+    "thumb": "assets/images/us_thumbnail.png",
+    "content_html": "<p><strong>The Hook:</strong> Personal safety applications often compromise user privacy by constantly tracking background locations, leading to severe battery drain and trust issues. <strong>UStillAlive</strong> solves this by introducing an activity-driven connection network—enabling families and trusted circles to monitor reachability seamlessly without continuous GPS surveillance, while maintaining robust, instant emergency dispatch capabilities.</p><p>As an Independent Product Manager, this project demonstrates my ability to handle end-to-end product architecture, translate core safety-critical mechanics into stable system logic, and leverage advanced technical frameworks to launch a functional utility application from scratch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Heartbeat Sync & Activity Signals:</strong> Engineered a background synchronization lifecycle that transmits low-overhead \"heartbeat\" signals from the device to monitor system state. This approach calculates reachability statuses (Active, Warning, or Inactive) based on check-in deltas instead of persistent tracking.</li><li><strong>Conditional Location & Address Reverse-Geocoding:</strong> Integrated GPS location services to trigger on-demand only when an SOS event is activated. Implemented backend reverse-geocoding APIs to instantly translate coordinates into a precise physical address string for emergency recipients.</li><li><strong>Asynchronous Emergency Dispatching:</strong> Designed a robust, queue-based SOS architecture. When a user triggers an alert, the system packs the payload (phone number, coordinates, timestamp, and address) and guarantees delivery across the circle via real-time data streams.</li></ul><h3>Infrastructure & Tech Stack</h3><ul><li><strong>Real-time Infrastructure:</strong> Utilized Firebase Realtime Database and Cloud Firestore to manage safety status matrix distributions and handle instant peer-to-peer circle mapping changes with sub-second latencies.</li><li><strong>Cloud & Compute:</strong> Deployed decoupled Cloud Functions to process intensive tasks, such as validating device timeouts, state mutations, and triggering automated APNs/FCM push notification payloads.</li><li><strong>Security & Privacy Guardrails:</strong> Enforced data isolation using Firestore Security Rules, ensuring emergency payloads and status updates are strictly accessible to authorized, user-defined guardians.</li></ul>",
+    "links": [
+      {
+        "type": "google-play",
+        "label": "Google Store",
+        "url": "https://play.google.com/store/apps/details?id=com.studio1650.ustillalive"
+      },
+      {
+        "type": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/vn/app/ustillalive/id6762523316"
+      }
+    ],
+    "media": [
+      {
+        "type": "img",
+        "src": "assets/images/us_thumbnail.png"
+      },
+      {
+        "type": "video",
+        "src": "assets/images/us_video.mp4"
+      }
+    ],
+    "screenshots": [
+      "assets/images/us_1.webp",
+      "assets/images/us_2.webp",
+      "assets/images/us_3.webp",
+      "assets/images/us_4.webp",
+      "assets/images/us_5.webp",
+      "assets/images/us_6.webp",
+      "assets/images/us_7.webp",
+      "assets/images/us_8.webp",
+      "assets/images/us_9.webp"
+    ]
+  },
+  {
     "id": "m2c",
     "title": "M2C/B2B2C Ecosystem",
     "category": "strategy",
@@ -11,7 +56,7 @@
     "logo": "assets/images/logo_fv.png",
     "date": "May, 2026",
     "thumb": "assets/images/m2c.png",
-    "content_html": "<p><strong>'Tiệm Số Hóa' Super-App</strong> is an end-to-end Manufacturer-to-Consumer (M2C) digital commerce platform designed to digitize traditional 'mom-and-pop' retail shops into high-tech service hubs.</p><p>As the Lead Product Owner (Acting Product Manager), I was responsible for <strong>shaping the product strategy and aligning the multi-stage roadmap</strong>. In this role, I served as the central point of contact, working directly with <strong>C-level executives and key Business Units (BUs)</strong> to translate business goals and commercial targets into functional features, successfully managing the phased rollout across B2B Supply Chain, Omnichannel, FinTech, and Loyalty domains.</p><h3>Key Execution & Metrics</h3><ul><li><strong>Roadmap Execution & Growth:</strong> Delivered features on time according to the product roadmap, helping expand the user base past <strong>325K+</strong> and driving a 4x MAU surge to peak at <strong>93K+ active merchants</strong>.</li><li><strong>FinTech System Integration:</strong> Managed the integration roadmap to bring core FinTech modules (E-wallet, QR Payments, Lending, Bill Pay) from backend services into the Super-App interface, enabling the platform to process over <strong>220K+ monthly FinTech transactions</strong>.</li><li><strong>UX/UI Optimization:</strong> Redesigned and optimized the interface layouts and workflows, successfully cutting user task engagement time by <strong>2.5x</strong> while sustaining <strong>73K+ re-engaged</strong> merchants monthly via automated lifecycle campaigns.</li><li><strong>AI Capability Integration:</strong> Evaluated trade-offs and led the integration of 3rd-party Computer Vision and Chatbot capabilities to enhance platform technology and automate user support interactions.</li><li><strong>Stakeholder Alignment:</strong> Coordinated cross-functional teams (Engineering, Design, Operations) and balanced requirements from Tier-1 corporate commercial accounts (Kido, Thọ Phát, Ajinomoto, Vifon, Hương Thủy, etc.) to ensure on-time product delivery.</li></ul>",
+    "content_html": "<p><strong>'Tiệm Số Hóa' Super-App</strong> is an end-to-end Manufacturer-to-Consumer (M2C) digital commerce platform designed to digitize traditional 'mom-and-pop' retail shops into high-tech service hubs.</p><p>As the Lead Product Owner (Acting Product Manager), I was responsible for <strong>shaping the product strategy and aligning the multi-stage roadmap</strong>. In this role, I served as the central point of contact, working directly with <strong>C-level executives and key Business Units (BUs)</strong> to translate business goals and commercial targets into functional features, successfully managing the phased rollout across B2B Supply Chain, Omnichannel, FinTech, and Gamification & Loyalty domains.</p><h3>Key Execution & Metrics</h3><ul><li><strong>Roadmap Execution & Growth:</strong> Delivered features on time according to the product roadmap, helping expand the user base past <strong>325K+</strong> and driving a 4x MAU surge to peak at <strong>93K+ active merchants</strong>.</li><li><strong>FinTech System Integration:</strong> Managed the integration roadmap to bring core FinTech modules (E-wallet, QR Payments, Lending, Bill Pay) from backend services into the Super-App interface, enabling the platform to process over <strong>220K+ monthly FinTech transactions</strong>.</li><li><strong>UX/UI Optimization:</strong> Redesigned and optimized the interface layouts and workflows, successfully cutting user task engagement time by <strong>2.5x</strong> while sustaining <strong>73K+ re-engaged</strong> merchants monthly via automated lifecycle campaigns.</li><li><strong>AI Capability Integration:</strong> Evaluated trade-offs and led the integration of 3rd-party Computer Vision and Chatbot capabilities to enhance platform technology and automate user support interactions.</li><li><strong>Stakeholder Alignment:</strong> Coordinated cross-functional teams (Engineering, Design, Operations) and balanced requirements from Tier-1 corporate commercial accounts (Kido, Thọ Phát, Ajinomoto, Vifon, Hương Thủy, etc.) to ensure on-time product delivery.</li></ul>",
     "links": [
       {
         "type": "google-play",
