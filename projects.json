@@ -249,6 +249,79 @@
     ]
   },
   {
+    "id": "poptv",
+    "title": "PopsTV App",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Entertainment",
+    "project_display": "UI/UX Designer",
+    "company": "POPS Worldwide",
+    "location": "Ho Chi Minh City, Vietnam",
+    "logo": "assets/images/logo_pops.png",
+    "date": "Mar, 2018",
+    "thumb": "assets/images/popstv.jpg",
+    "content_html": "<p>Designed user interface flows for PopsTV app ecosystem to handle multi-category digital video distributions seamlessly across local digital touchpoints.</p>",
+    "media": [
+      {
+        "type": "img",
+        "src": "assets/images/popstv_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "popskids",
+    "title": "PopsKids Multi Platform",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Entertainment",
+    "project_display": "UX/UI Designer",
+    "company": "POPS Worldwide",
+    "location": "Ho Chi Minh City, Vietnam",
+    "logo": "assets/images/logo_pops.png",
+    "date": "Oct, 2017",
+    "thumb": "assets/images/app_3.jpg",
+    "content_html": "<p>Along with gaming, content for children is one of the top trends attracting content makers in Vietnam. However, with the increase of inappropriate online content, this application was created to provide a safe ecosystem that automatically filters out adult or sensitive media, allowing only child-friendly programming.</p>",
+    "links": [
+      {
+        "type": "google-play",
+        "label": "Google Store",
+        "url": "https://play.google.com/store/apps/details?id=com.popsworldwide.popskids&hl=en"
+      },
+      {
+        "type": "app-store",
+        "label": "App Store",
+        "url": "https://itunes.apple.com/vn/app/pops-kids-tv/id1141793155?l=vi&mt=8"
+      },
+      {
+        "type": "website",
+        "label": "Website",
+        "url": "https://web.popskids.tv/"
+      }
+    ],
+    "media": [
+      {
+        "type": "img",
+        "src": "assets/images/popkids_1.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_2.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_3.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_4-01.jpg"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/popkids_5.jpg"
+      }
+    ]
+  },
+  {
     "id": "foodapp",
     "title": "FoodSave App",
     "category": "product",
@@ -343,79 +416,6 @@
       {
         "type": "img",
         "src": "assets/images/yks_2.jpg"
-      }
-    ]
-  },
-  {
-    "id": "poptv",
-    "title": "PopsTV App",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Entertainment",
-    "project_display": "UI/UX Designer",
-    "company": "POPS Worldwide",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_pops.png",
-    "date": "Mar, 2018",
-    "thumb": "assets/images/popstv.jpg",
-    "content_html": "<p>Designed user interface flows for PopsTV app ecosystem to handle multi-category digital video distributions seamlessly across local digital touchpoints.</p>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/popstv_2.jpg"
-      }
-    ]
-  },
-  {
-    "id": "popskids",
-    "title": "PopsKids Multi Platform",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Entertainment",
-    "project_display": "UX/UI Designer",
-    "company": "POPS Worldwide",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_pops.png",
-    "date": "Oct, 2017",
-    "thumb": "assets/images/app_3.jpg",
-    "content_html": "<p>Along with gaming, content for children is one of the top trends attracting content makers in Vietnam. However, with the increase of inappropriate online content, this application was created to provide a safe ecosystem that automatically filters out adult or sensitive media, allowing only child-friendly programming.</p>",
-    "links": [
-      {
-        "type": "google-play",
-        "label": "Google Store",
-        "url": "https://play.google.com/store/apps/details?id=com.popsworldwide.popskids&hl=en"
-      },
-      {
-        "type": "app-store",
-        "label": "App Store",
-        "url": "https://itunes.apple.com/vn/app/pops-kids-tv/id1141793155?l=vi&mt=8"
-      },
-      {
-        "type": "website",
-        "label": "Website",
-        "url": "https://web.popskids.tv/"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/popkids_1.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_4-01.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_5.jpg"
       }
     ]
   },
