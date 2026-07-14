@@ -34,8 +34,28 @@ function renderPortfolioGrid(projects) {
         item.className = 'portfolio-item';
         item.setAttribute('data-category', p.category);
 
+        // Render badges overlay
+        let badgesHTML = '';
+        if (p.badges && p.badges.length > 0) {
+            badgesHTML = `<div class="project-badges">` + 
+                p.badges.map(badge => {
+                    const badgeClass = badge.toLowerCase().replace(/\s+/g, '-');
+                    let iconHTML = '';
+                    if (badgeClass === 'ai') {
+                        iconHTML = `<i class="fa-solid fa-wand-magic-sparkles"></i> `;
+                    } else if (badgeClass === 'vibe-code') {
+                        iconHTML = `<i class="fa-solid fa-laptop-code"></i> `;
+                    }
+                    return `<span class="project-badge badge-${badgeClass}">${iconHTML}${badge}</span>`;
+                }).join('') + 
+                `</div>`;
+        }
+
         item.innerHTML = `
-            <img src="${p.thumb}" alt="${p.title}" class="portfolio-thumb">
+            <div class="portfolio-thumb-wrapper">
+                <img src="${p.thumb}" alt="${p.title}" class="portfolio-thumb">
+                ${badgesHTML}
+            </div>
             <div class="portfolio-info">
                 <h3>${p.title}</h3>
                 <p>${p.project_display} | ${p.date}</p>

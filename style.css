@@ -139,18 +139,77 @@ nav {
     box-shadow: var(--shadow);
     transition: var(--transition);
     cursor: pointer;
+    position: relative;
 }
 
 .portfolio-item:hover {
     transform: translateY(-5px);
 }
 
-.portfolio-thumb {
+.portfolio-thumb-wrapper {
+    position: relative;
     width: 100%;
     height: 200px;
+    overflow: hidden;
+}
+
+.portfolio-thumb {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     background-color: #ddd;
-    /* Placeholder color */
+    transition: var(--transition);
+}
+
+.portfolio-item:hover .portfolio-thumb {
+    transform: scale(1.05);
+}
+
+/* Badge styling */
+.project-badges {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.project-badge {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: var(--transition);
+}
+
+.project-badge i {
+    font-size: 0.8rem;
+}
+
+.project-badge.badge-ai {
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.85), rgba(142, 68, 173, 0.85));
+    border-color: rgba(74, 144, 226, 0.3);
+}
+
+.project-badge.badge-vibe-code {
+    background: linear-gradient(135deg, rgba(230, 92, 114, 0.85), rgba(243, 156, 18, 0.85));
+    border-color: rgba(230, 92, 114, 0.3);
+}
+
+.portfolio-item:hover .project-badge {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-info {

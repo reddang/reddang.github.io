@@ -92,6 +92,43 @@
     ]
   },
   {
+    "id": "voicemakerai",
+    "title": "Voicemaker AI - Neural TTS Converter",
+    "category": "product",
+    "category_display": "Product Design",
+    "industry": "Artificial Intelligence & Speech Synthesis",
+    "project_display": "Independent Product PM",
+    "client": "Personal Project",
+    "date": "Jul, 2026",
+    "thumb": "assets/images/voicemaker_thumb.png",
+    "badges": [
+      "AI",
+      "Vibe code"
+    ],
+    "content_html": "<p><strong>Voicemaker AI</strong> is a high-performance, real-time Neural Text-to-Speech (TTS) converter web application designed to synthesize natural-sounding speech from text using state-of-the-art AI voice models.</p><h3>AI Technology & Implementation</h3><ul><li><strong>Neural Synthesis Engines:</strong> Integrates Microsoft Azure Cognitive Services Neural TTS and Google Cloud Text-to-Speech APIs, utilizing advanced WaveNet, Tacotron 2, and FastSpeech deep learning architectures to generate highly expressive, natural human voices.</li><li><strong>Audio Parameter Tuning:</strong> Implemented real-time client-side controls for dynamic adjustment of speech rate (speaking speed), pitch shifting (semitones), and volume gain, mapping directly to API payload configurations.</li><li><strong>Semantic Chunking & Pipeline Streaming:</strong> Developed a smart text-segmentation algorithm that splits inputs at logical semantic and clause boundaries (e.g., punctuation, clause breaks) to stay within API length limits while maintaining semantic integrity. Chunks are generated concurrently and played back-to-back using a custom Web Audio API queuing buffer to ensure seamless, zero-latency playback.</li><li><strong>Local State & Usage Analytics:</strong> Developed client-side local caching and monthly character count tracking (via localStorage) to optimize API quota management and monitor synthesis usage.</li></ul>",
+    "links": [
+      {
+        "type": "website",
+        "label": "Website",
+        "url": "https://voicemakerai.cc"
+      }
+    ],
+    "media": [
+      {
+        "type": "img",
+        "src": "assets/images/voicemaker_demo_3.png"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/voicemaker_demo.png"
+      },
+      {
+        "type": "img",
+        "src": "assets/images/voicemaker_demo_2.png"
+      }
+    ]
+  },
+  {
     "id": "ustillalive",
     "title": "UStillAlive - Safety Circle",
     "category": "product",
@@ -101,6 +138,9 @@
     "client": "Personal Project",
     "date": "Jul, 2026",
     "thumb": "assets/images/us_thumbnail.png",
+    "badges": [
+      "Vibe code"
+    ],
     "content_html": "<p><strong>The Hook:</strong> Personal safety applications often compromise user privacy by constantly tracking background locations, leading to severe battery drain and trust issues. <strong>UStillAlive</strong> solves this by introducing an activity-driven connection network—enabling families and trusted circles to monitor reachability seamlessly without continuous GPS surveillance, while maintaining robust, instant emergency dispatch capabilities.</p><p>As an Independent Product Manager, this project demonstrates my ability to handle end-to-end product architecture, translate core safety-critical mechanics into stable system logic, and leverage advanced technical frameworks to launch a functional utility application from scratch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Heartbeat Sync & Activity Signals:</strong> Engineered a background synchronization lifecycle that transmits low-overhead \"heartbeat\" signals from the device to monitor system state. This approach calculates reachability statuses (Active, Warning, or Inactive) based on check-in deltas instead of persistent tracking.</li><li><strong>Conditional Location & Address Reverse-Geocoding:</strong> Integrated GPS location services to trigger on-demand only when an SOS event is activated. Implemented backend reverse-geocoding APIs to instantly translate coordinates into a precise physical address string for emergency recipients.</li><li><strong>Asynchronous Emergency Dispatching:</strong> Designed a robust, queue-based SOS architecture. When a user triggers an alert, the system packs the payload (phone number, coordinates, timestamp, and address) and guarantees delivery across the circle via real-time data streams.</li></ul><h3>Infrastructure & Tech Stack</h3><ul><li><strong>Real-time Infrastructure:</strong> Utilized Firebase Realtime Database and Cloud Firestore to manage safety status matrix distributions and handle instant peer-to-peer circle mapping changes with sub-second latencies.</li><li><strong>Cloud & Compute:</strong> Deployed decoupled Cloud Functions to process intensive tasks, such as validating device timeouts, state mutations, and triggering automated APNs/FCM push notification payloads.</li><li><strong>Security & Privacy Guardrails:</strong> Enforced data isolation using Firestore Security Rules, ensuring emergency payloads and status updates are strictly accessible to authorized, user-defined guardians.</li></ul>",
     "links": [
       {
@@ -146,6 +186,10 @@
     "client": "Personal Project",
     "date": "Jun, 2026",
     "thumb": "assets/images/cohoc.jpg",
+    "badges": [
+      "AI",
+      "Vibe code"
+    ],
     "media_display": "horizontal-scroll",
     "content_html": "<p><strong>The Hook:</strong> Traditional Eastern philosophy and classical texts are rich in wisdom but highly complex, unstructured, and difficult for modern users to interpret accurately. <strong>Eastern Classics (Cổ Học Phương Đông)</strong> solves this by transforming static historical knowledge into an interactive, AI-powered digital platform—making ancient wisdom accessible, contextualized, and engaging for everyone.</p><p>As a non-coder Product Manager, this project showcases my ability to leverage practical <strong>AI-assisted development (Vibe Coding)</strong> to solo-engineer and deploy a fully functional mobile application from scratch, handling the entire product lifecycle from prompt-driven coding to production launch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Retrieval-Augmented Generation (RAG):</strong> Architected the system logic to combine digitized classical reference materials with RAG, ensuring the AI model retrieves and references authoritative knowledge sources instead of generating hallucinated answers.</li><li><strong>Large Language Models (LLMs):</strong> Integrated LLM capabilities via API to power a context-aware analysis engine capable of interpreting complex philosophical concepts based on individual user questions.</li><li><strong>Interactive Learning Workflows:</strong> Designed a multi-turn conversational interface that enables users to progressively deepen their understanding with follow-up queries and track their research history.</li></ul><h3>Vibe Coding & Tech Stack</h3><ul><li><strong>AI-Assisted Engineering:</strong> Handled 100% of the mobile application development, system logic, and cloud integration by utilizing advanced LLMs as programming co-pilots (Vibe Coding) to generate and debug clean code.</li><li><strong>Cloud Infrastructure:</strong> Deployed a scalable architecture utilizing Firebase for database management, user authentication, and Cloud Functions to securely handle real-time API communications and knowledge retrieval.</li></ul>",
     "links": [
