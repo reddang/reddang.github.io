@@ -34,20 +34,13 @@ function renderPortfolioGrid(projects) {
         item.className = 'portfolio-item';
         item.setAttribute('data-category', p.category);
 
-        // Render badges overlay
         let badgesHTML = '';
         if (p.badges && p.badges.length > 0) {
-            badgesHTML = `<div class="project-badges">` + 
+            badgesHTML = `<div class="project-badges">` +
                 p.badges.map(badge => {
                     const badgeClass = badge.toLowerCase().replace(/\s+/g, '-');
-                    let iconHTML = '';
-                    if (badgeClass === 'ai') {
-                        iconHTML = `<i class="fa-solid fa-wand-magic-sparkles"></i> `;
-                    } else if (badgeClass === 'vibe-code') {
-                        iconHTML = `<i class="fa-solid fa-laptop-code"></i> `;
-                    }
-                    return `<span class="project-badge badge-${badgeClass}">${iconHTML}${badge}</span>`;
-                }).join('') + 
+                    return `<span class="project-badge badge-${badgeClass}">${badge}</span>`;
+                }).join('') +
                 `</div>`;
         }
 
