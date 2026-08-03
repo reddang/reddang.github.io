@@ -1,0 +1,6 @@
+node_modules/
+.server.err
+.server.log
+temp_chrome_profile/
+temp_chrome_profile_2/
+.DS_Store

@@ -1,0 +1,23 @@
+{
+  "name": "reddang.github.io",
+  "version": "1.0.0",
+  "description": "REDDANG Portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reddang/reddang.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "static",
+    "website"
+  ],
+  "author": "",
+  "license": "ISC"
+}
