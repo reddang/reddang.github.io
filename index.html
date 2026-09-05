@@ -1,36 +1,100 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REDDANG | Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=20260603-scroll-clean">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=20260906-order-badges">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 </head>
 <body>
     <div id="header-placeholder"></div>
 
-    <main class="container">
-        <h1 class="section-title">Portfolio.</h1>
-
-        <!-- Bộ lọc giữ nguyên -->
-        <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="product">Product Design</button>
-            <button class="filter-btn" data-filter="strategy">Business & Strategy</button>
-            <button class="filter-btn" data-filter="3d">3D & Visualization</button>
-            <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+    <main class="container portfolio-main-container">
+        <div class="portfolio-header-wrap">
+            <h1 class="section-title">Portfolio.</h1>
         </div>
 
-        <!-- KHU VỰC TRỐNG ĐỂ JS ĐỔ DỮ LIỆU VÀO -->
-        <div class="portfolio-grid" id="portfolio-container">
-            <!-- JS sẽ tự sinh code vào đây -->
+        <div class="portfolio-layout">
+            <!-- LEFT COLUMN: CAREER TIMELINE VERTICAL FILTER -->
+            <aside class="career-timeline-sidebar">
+                <div class="timeline-card" id="timeline-card">
+                    <div class="timeline-card-header" id="timeline-toggle-header">
+                        <div class="timeline-mobile-status" id="timeline-mobile-status">
+                            <span class="mobile-status-dot"></span>
+                            <span class="mobile-status-text" id="mobile-status-text">All Projects</span>
+                        </div>
+                        <button class="mobile-timeline-toggle-btn" id="mobile-timeline-toggle-btn" type="button" aria-label="Toggle career disciplines">
+                            <span class="toggle-btn-text">Disciplines</span>
+                            <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="timeline-collapsible-content" id="timeline-collapsible-content">
+                        <div class="timeline-all-wrapper">
+                            <button class="timeline-all-btn active filter-btn" data-filter="all">
+                                <span class="timeline-all-icon"><i class="fa-solid fa-layer-group"></i></span>
+                                <span class="timeline-all-text">All Projects</span>
+                            </button>
+                        </div>
+
+                        <div class="vertical-timeline-track">
+                            <!-- Phase 5: AI & Autonomous Products -->
+                            <button class="timeline-node-btn filter-btn" data-filter="ai">
+                                <span class="node-indicator">
+                                    <span class="node-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                                </span>
+                                <span class="node-title">AI &amp; Autonomous Products</span>
+                            </button>
+
+                            <!-- Phase 4: Product Mgmt & Strategy -->
+                            <button class="timeline-node-btn filter-btn" data-filter="strategy">
+                                <span class="node-indicator">
+                                    <span class="node-icon"><i class="fa-solid fa-chart-pie"></i></span>
+                                </span>
+                                <span class="node-title">Product Mgmt &amp; Strategy</span>
+                            </button>
+
+                            <!-- Phase 3: Digital Product & UI/UX -->
+                            <button class="timeline-node-btn filter-btn" data-filter="product">
+                                <span class="node-indicator">
+                                    <span class="node-icon"><i class="fa-solid fa-mobile-alt"></i></span>
+                                </span>
+                                <span class="node-title">Digital Product &amp; UI/UX</span>
+                            </button>
+
+                            <!-- Phase 2: 3D & Spatial Design -->
+                            <button class="timeline-node-btn filter-btn" data-filter="3d">
+                                <span class="node-indicator">
+                                    <span class="node-icon"><i class="fa-solid fa-cubes"></i></span>
+                                </span>
+                                <span class="node-title">3D &amp; Spatial Design</span>
+                            </button>
+
+                            <!-- Phase 1: Graphic & Brand Identity -->
+                            <button class="timeline-node-btn filter-btn" data-filter="graphic">
+                                <span class="node-indicator">
+                                    <span class="node-icon"><i class="fa-solid fa-bezier-curve"></i></span>
+                                </span>
+                                <span class="node-title">Graphic &amp; Brand Identity</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- RIGHT COLUMN: PROJECTS GRID AREA -->
+            <div class="portfolio-content-area">
+                <div class="portfolio-grid" id="portfolio-container">
+                    <!-- JS sẽ tự sinh code vào đây -->
+                </div>
+            </div>
         </div>
     </main>
 
     <div id="footer-placeholder"></div>
 
-    <script src="script.js?v=20260603-nav"></script>
+    <script src="script.js?v=20260906-clean-company"></script>
 </body>
 </html>

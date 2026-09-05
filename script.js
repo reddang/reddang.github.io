@@ -32,6 +32,8 @@ function renderPortfolioGrid(projects) {
         const item = document.createElement('a');
         item.href = `project-detail.html?id=${p.id}`; // Tạo link động
         item.className = 'portfolio-item';
+        
+        // Gắn danh mục mốc sự nghiệp chuẩn
         item.setAttribute('data-category', p.category);
 
         let badgesHTML = '';
@@ -47,9 +49,9 @@ function renderPortfolioGrid(projects) {
         item.innerHTML = `
             <div class="portfolio-thumb-wrapper">
                 <img src="${p.thumb}" alt="${p.title}" class="portfolio-thumb">
-                ${badgesHTML}
             </div>
             <div class="portfolio-info">
+                ${badgesHTML}
                 <h3>${p.title}</h3>
                 <p>${p.project_display} | ${p.date}</p>
             </div>
@@ -57,8 +59,8 @@ function renderPortfolioGrid(projects) {
         container.appendChild(item);
     });
 
-    // Sau khi render xong mới khởi tạo bộ lọc
-    initPortfolioFilter();
+    // Sau khi render xong mới khởi tạo bộ lọc với số lượng dự án
+    initPortfolioFilter(projects);
 }
 
 // --- HÀM 2: Load nội dung trang chi tiết ---
@@ -103,6 +105,8 @@ function loadProjectDetail(projects, currentId) {
                 if (link.type === 'google-play') iconClass = 'fab fa-google-play';
                 else if (link.type === 'app-store') iconClass = 'fab fa-app-store-ios';
                 else if (link.type === 'website') iconClass = 'fa-solid fa-earth-americas';
+                else if (link.type === 'chrome' || link.type === 'chrome-store') iconClass = 'fab fa-chrome';
+                else if (link.type === 'udemy') iconClass = 'fas fa-graduation-cap';
 
                 a.innerHTML = `<i class="${iconClass}"></i> ${link.label}`;
                 linksContainer.appendChild(a);
@@ -131,17 +135,18 @@ function loadProjectDetail(projects, currentId) {
         }
     };
 
-    // Gọi hàm cho từng trường thông tin
+    // Gọi hàm cho từng trường thông tin (chỉ hiện công ty khi là dự án doanh nghiệp thực tế)
+    const validCompany = (project.company && project.company.trim() !== "" && project.company !== "Personal Project") ? project.company : null;
     updateMetaInfo('p-category', project.industry || project.category_display);
     updateMetaInfo('p-project', project.project_display);
-    updateMetaInfo('p-client', project.client);
+    updateMetaInfo('p-company-meta', validCompany);
     updateMetaInfo('p-date', project.date);
 
-    // Add Company Info Section
+    // Add Company Info Section (chỉ hiện khi có công ty doanh nghiệp và logo)
     const companySection = document.getElementById('p-company-section');
-    if (project.company && project.location && project.logo) {
+    if (validCompany && project.location && project.logo) {
         document.getElementById('p-company-logo').src = project.logo;
-        document.getElementById('p-company').textContent = project.company;
+        document.getElementById('p-company').textContent = validCompany;
         document.getElementById('p-location').textContent = project.location;
         companySection.style.display = 'block';
     } else {
@@ -171,14 +176,16 @@ function loadProjectDetail(projects, currentId) {
                     Trình duyệt của bạn không hỗ trợ thẻ video.
                 </video>`;
 
-                } else if (m.type === 'pdf') {
-                    // Hiển thị PDF LOCAL
+                } else if (m.type === 'pdf' || m.type === 'pptx') {
+                    // Hiển thị SLIDE / PDF / PPTX LOCAL
+                    const titleHTML = m.title ? `<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; flex-wrap:wrap; gap:10px;"><h4 style="margin:0; font-size:1.05rem; color:#1e293b; display:flex; align-items:center; gap:8px;"><i class="fas fa-file-powerpoint" style="color:#D04423;"></i> ${m.title}</h4>${m.pptx ? `<a href="${m.pptx}" download class="project-link-btn" style="background:#D04423; font-size:0.82rem; padding:6px 14px; box-shadow:none; border-radius:6px;"><i class="fas fa-download"></i> Tải slide .pptx</a>` : ''}</div>` : '';
                     elementHTML = `
-                <div style="margin-bottom:20px;">
-                    <iframe src="${m.src}" width="100%" height="600px" style="border:none;"></iframe>
-                    <p style="text-align:center; font-size:0.9rem; margin-top:5px;">
-                        <a href="${m.src}" target="_blank" style="color:#E63946;">
-                            <i class="fas fa-external-link-alt"></i> Mở PDF trong tab mới
+                <div style="margin-bottom:30px; background:#f8fafc; padding:16px; border-radius:10px; border:1px solid #e2e8f0;">
+                    ${titleHTML}
+                    <iframe src="${m.src}" width="100%" height="560px" style="border:none; border-radius:8px; background:#525659;"></iframe>
+                    <p style="text-align:center; font-size:0.9rem; margin-top:8px;">
+                        <a href="${m.src}" target="_blank" style="color:#0B77BE; font-weight:600;">
+                            <i class="fas fa-external-link-alt"></i> Mở xem toàn màn hình (Tab mới)
                         </a>
                     </p>
                 </div>`;
@@ -270,25 +277,38 @@ async function loadSharedComponents() {
             footerPlaceholder.replaceWith(footerContent);
         }
 
-        // 5. Sau khi gắn xong HTML, mới chạy các chức năng giao diện
+        // 5. Sau khi gắn xong HTML, mới chạy các chức năng giao diện chung
         initMobileMenu();
         highlightActiveLink();
-        initPortfolioFilter(); // Chỉ chạy nếu có bộ lọc trên trang
 
     } catch (error) {
         console.error("Lỗi tải giao diện chung:", error);
     }
 }
 
-// --- CHỨC NĂNG 1: Menu Mobile ---
+// --- CHỨC NĂNG 1: Menu Mobile (Dropdown mượt mà & đóng sạch sẽ) ---
 function initMobileMenu() {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
 
-    if (hamburger && navLinks) {
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            const icon = hamburger.querySelector('i');
+    if (!hamburger || !navLinks) return;
+    if (hamburger.dataset.initialized === 'true') return;
+    hamburger.dataset.initialized = 'true';
+
+    function closeMenu() {
+        navLinks.classList.remove('active');
+        const icon = hamburger.querySelector('i');
+        if (icon) {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        }
+    }
+
+    hamburger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        navLinks.classList.toggle('active');
+        const icon = hamburger.querySelector('i');
+        if (icon) {
             if (navLinks.classList.contains('active')) {
                 icon.classList.remove('fa-bars');
                 icon.classList.add('fa-times');
@@ -296,8 +316,22 @@ function initMobileMenu() {
                 icon.classList.remove('fa-times');
                 icon.classList.add('fa-bars');
             }
+        }
+    });
+
+    // Đóng menu khi click vào bất kỳ link nào
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            closeMenu();
         });
-    }
+    });
+
+    // Đóng menu khi chạm/click ra ngoài vùng header
+    document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+            closeMenu();
+        }
+    });
 }
 
 // --- CHỨC NĂNG 2: Tự động Highligh Menu đang chọn ---
@@ -318,29 +352,115 @@ function highlightActiveLink() {
     });
 }
 
-// --- CHỨC NĂNG 3: Bộ lọc Portfolio (Logic cũ) ---
-function initPortfolioFilter() {
+// --- CHỨC NĂNG 3: Bộ lọc Vertical Career Timeline thông minh ---
+function initPortfolioFilter(projects) {
     const filterBtns = document.querySelectorAll('.filter-btn');
     const portfolioItems = document.querySelectorAll('.portfolio-item');
+    const timelineCard = document.getElementById('timeline-card');
+    const toggleHeader = document.getElementById('timeline-toggle-header');
+    const mobileStatusText = document.getElementById('mobile-status-text');
 
-    if (filterBtns.length > 0) {
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
+    if (!filterBtns.length || !timelineCard) return;
+    if (timelineCard.dataset.initialized === 'true') return;
+    timelineCard.dataset.initialized = 'true';
 
-                const filterValue = btn.getAttribute('data-filter');
+    const phaseNames = {
+        all: "All Projects",
+        ai: "AI & Autonomous Products",
+        strategy: "Product Management & Strategy",
+        product: "Digital Product & UI/UX",
+        '3d': "3D & Spatial Design",
+        graphic: "Graphic & Brand Identity"
+    };
 
-                portfolioItems.forEach(item => {
-                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                        item.style.display = 'block';
-                        item.style.opacity = '0';
-                        setTimeout(() => item.style.opacity = '1', 50);
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
-            });
+    const mobileShortNames = {
+        all: "All Projects",
+        ai: "AI & Autonomous",
+        strategy: "Product Mgmt & Strategy",
+        product: "Digital Product & UI/UX",
+        '3d': "3D & Spatial Design",
+        graphic: "Graphic & Brand"
+    };
+
+    // Hàm đóng/mở timeline trên mobile
+    function toggleMobileTimeline(forceClose) {
+        if (!timelineCard) return;
+        if (forceClose === true) {
+            timelineCard.classList.remove('is-open');
+        } else {
+            timelineCard.classList.toggle('is-open');
+        }
+    }
+
+    if (toggleHeader) {
+        toggleHeader.addEventListener('click', (e) => {
+            if (window.innerWidth < 992) {
+                toggleMobileTimeline();
+            }
         });
+    }
+
+    // 1. Hàm thực thi bộ lọc
+    function applyFilter(filterValue) {
+        filterBtns.forEach(b => {
+            if (b.getAttribute('data-filter') === filterValue) {
+                b.classList.add('active');
+            } else {
+                b.classList.remove('active');
+            }
+        });
+
+        portfolioItems.forEach(item => {
+            const itemCat = item.getAttribute('data-category') || '';
+            if (filterValue === 'all' || itemCat === filterValue) {
+                item.style.display = 'block';
+                item.classList.remove('is-animating');
+                // Trigger reflow to restart CSS animation smoothly
+                void item.offsetWidth;
+                item.classList.add('is-animating');
+            } else {
+                item.style.display = 'none';
+                item.classList.remove('is-animating');
+            }
+        });
+
+        // Cập nhật text trạng thái trên thanh mobile
+        if (mobileStatusText && mobileShortNames[filterValue]) {
+            mobileStatusText.textContent = mobileShortNames[filterValue];
+        }
+    }
+
+    // 3. Gắn sự kiện click vào từng nút lọc
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const filterValue = btn.getAttribute('data-filter');
+            applyFilter(filterValue);
+
+            // Trên mobile, tự động gập gọn lại sau khi chọn để hiển thị ngay dự án
+            if (window.innerWidth < 992) {
+                toggleMobileTimeline(true);
+            }
+
+            // Cập nhật hash trên URL mà không gây nhảy trang
+            if (history.replaceState) {
+                const newHash = filterValue === 'all' ? '' : `#${filterValue}`;
+                const newUrl = window.location.pathname + window.location.search + newHash;
+                history.replaceState(null, '', newUrl);
+            }
+        });
+    });
+
+    // 4. Hỗ trợ kích hoạt trực tiếp từ URL (?filter=ai hoặc #ai)
+    const urlParams = new URLSearchParams(window.location.search);
+    const filterFromQuery = urlParams.get('filter');
+    const filterFromHash = window.location.hash ? window.location.hash.replace('#', '') : null;
+    const initialFilter = filterFromQuery || filterFromHash;
+
+    if (initialFilter) {
+        const targetBtn = Array.from(filterBtns).find(b => b.getAttribute('data-filter') === initialFilter);
+        if (targetBtn) {
+            applyFilter(initialFilter);
+        }
     }
 }

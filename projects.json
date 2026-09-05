@@ -1,809 +1,1029 @@
 [
-  {
-    "id": "m2c",
-    "title": "M2C/B2B2C Ecosystem",
-    "category": "strategy",
-    "category_display": "Business & Strategy",
-    "industry": "FinTech & Supply Chain",
-    "project_display": "Product Owner (PM)",
-    "company": "Finviet Technology",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_fv.png",
-    "date": "May, 2026",
-    "thumb": "assets/images/m2c.png",
-    "content_html": "<p><strong>'Tiệm Số Hóa' Super-App</strong> is an end-to-end Manufacturer-to-Consumer (M2C) digital commerce platform designed to digitize traditional 'mom-and-pop' retail shops into high-tech service hubs.</p><p>As the Lead Product Owner (Acting Product Manager), I was responsible for <strong>shaping the product strategy and aligning the multi-stage roadmap</strong>. In this role, I served as the central point of contact, working directly with <strong>C-level executives and key Business Units (BUs)</strong> to translate business goals and commercial targets into functional features, successfully managing the phased rollout across B2B Supply Chain, Omnichannel, FinTech, and Gamification & Loyalty domains.</p><h3>Key Execution & Metrics</h3><ul><li><strong>Roadmap Execution & Growth:</strong> Delivered features on time according to the product roadmap, helping expand the user base past <strong>325K+</strong> and driving a 4x MAU surge to peak at <strong>93K+ active merchants</strong>.</li><li><strong>FinTech System Integration:</strong> Managed the integration roadmap to bring core FinTech modules (E-wallet, QR Payments, Lending, Bill Pay) from backend services into the Super-App interface, enabling the platform to process over <strong>220K+ monthly FinTech transactions</strong>.</li><li><strong>UX/UI Optimization:</strong> Redesigned and optimized the interface layouts and workflows, successfully cutting user task engagement time by <strong>2.5x</strong> while sustaining <strong>73K+ re-engaged</strong> merchants monthly via automated lifecycle campaigns.</li><li><strong>AI Capability Integration:</strong> Evaluated trade-offs and led the integration of 3rd-party Computer Vision and Chatbot capabilities to enhance platform technology and automate user support interactions.</li><li><strong>Stakeholder Alignment:</strong> Coordinated cross-functional teams (Engineering, Design, Operations) and balanced requirements from Tier-1 corporate commercial accounts (Kido, Thọ Phát, Ajinomoto, Vifon, Hương Thủy, etc.) to ensure on-time product delivery.</li></ul>",
-    "links": [
-      {
-        "type": "google-play",
-        "label": "Google Store",
-        "url": "https://play.google.com/store/apps/details?id=vn.com.finviet.eco&hl=vi"
-      },
-      {
-        "type": "app-store",
-        "label": "App Store",
-        "url": "https://apps.apple.com/vn/app/eco-ti%E1%BB%87m-s%E1%BB%91-h%C3%B3a/id1171667640"
-      }
-    ],
-    "media": [
-      {
-        "type": "iframe",
-        "src": "https://www.youtube.com/embed/qvX_4Ccnyh8"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/m2c_detail.png"
-      }
-    ],
-    "screenshots": [
-      "assets/images/fv_1.png",
-      "assets/images/fv_2.png",
-      "assets/images/fv_3.png",
-      "assets/images/fv_4.png",
-      "assets/images/fv_7.png"
-    ]
-  },
-  {
-    "id": "interactive",
-    "title": "UNA Market - Social Commerce",
-    "category": "strategy",
-    "category_display": "Business & Strategy",
-    "industry": "E-Commerce",
-    "project_display": "Product Owner (PM)",
-    "company": "OnPoint E-commerce",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_onpoint.png",
-    "date": "Aug, 2022",
-    "thumb": "assets/images/Interactive_0.jpg",
-    "content_html": "<p><strong>UNA Market</strong> is a social commerce platform modeled after group-buying mechanics (similar to Pinduoduo) aimed at transforming online grocery and daily essentials shopping.</p><p>As a PO/PM, I took charge of the end-to-end development from 0-to-1. My role involved <strong>defining the core business logic, shaping the product roadmap, and prioritizing functional specifications</strong> to successfully bring the MVP from concept to live operational launch.</p><h3>Key Execution & Management</h3><ul><li><strong>Product Roadmap & Vendor Management:</strong> Evaluated, selected, and managed external IT vendors and outsourced development teams. Took ownership of the development timeline, quality assurance frameworks, and final UAT sign-offs to ensure on-time product delivery.</li><li><strong>Group-Buying Mechanics Design:</strong> Designed the operational logic and product rules for the group purchasing features (including dynamic tier-pricing), helping optimize customer acquisition costs and drive community-driven merchant growth.</li></ul>",
-    "media": [
-      {
-        "type": "iframe",
-        "src": "https://drive.google.com/file/d/1nYluLPCbmW65eusKigJYsLKZM8DdNdyH/preview",
-        "width": "100%",
-        "height": "480",
-        "allow": "autoplay"
-      },
-      {
-        "type": "iframe",
-        "src": "https://drive.google.com/file/d/1mhFG2rCXIiI4g5uu-zqQo6ehrIamrJcz/preview",
-        "width": "100%",
-        "height": "560"
-      }
-    ]
-  },
-  {
-    "id": "omnichannel",
-    "title": "SaaS Omnichannel Platform",
-    "category": "strategy",
-    "category_display": "Business & Strategy",
-    "industry": "SaaS E-Commerce",
-    "project_display": "Product Owner",
-    "company": "Haravan",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_haravan.png",
-    "date": "Dec, 2021",
-    "thumb": "assets/images/Omnichannel_1.jpg",
-    "content_html": "<p>Responsible for managing and refining product features on the core SaaS Omnichannel platform by translating merchant feedback and retail workflows into detailed functional specifications, user stories, and acceptance criteria.</p><h3>Key Execution & Sprint Delivery</h3><ul><li><strong>Feature Requirement Delivery:</strong> Collaborated with Key Account teams and analyzed merchant requests to define detailed requirements for enterprise-grade software, supporting the daily retail workflows of over <strong>500+ major store chains</strong> (including Vinamilk, The Coffee House, Juno, etc.).</li><li><strong>Product Backlog Management:</strong> Monitored system usage patterns and merchant transactional data to continuously groom the backlog, helping prioritize features that improved system checkout velocity and inventory data accuracy.</li><li><strong>Cross-Functional Execution:</strong> Partnered closely with Engineering, QC, Sales, and Customer Success teams during sprint cycles to clarify requirements, manage scope risks, and ensure user-centric UI/UX stability for production releases.</li></ul>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/Omnichannel_2.svg"
-      }
-    ]
-  },
-  {
-    "id": "voicemakerai",
-    "title": "Voicemaker AI - Neural TTS Converter",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Artificial Intelligence & Speech Synthesis",
-    "project_display": "Independent Product",
-    "client": "Personal Project",
-    "date": "Jul, 2026",
-    "thumb": "assets/images/voicemaker_thumb.png",
-    "badges": [
-      "AI",
-      "SPEECH GEN"
-    ],
-    "content_html": "<p><strong>Voicemaker AI</strong> is a high-performance, real-time Neural Text-to-Speech (TTS) converter web application designed to synthesize natural-sounding speech from text using state-of-the-art AI voice models.</p><h3>AI Technology & Implementation</h3><ul><li><strong>Neural Synthesis Engines:</strong> Integrates Microsoft Azure Cognitive Services Neural TTS and Google Cloud Text-to-Speech APIs, utilizing advanced WaveNet, Tacotron 2, and FastSpeech deep learning architectures to generate highly expressive, natural human voices.</li><li><strong>Audio Parameter Tuning:</strong> Implemented real-time client-side controls for dynamic adjustment of speech rate (speaking speed), pitch shifting (semitones), and volume gain, mapping directly to API payload configurations.</li><li><strong>Semantic Chunking & Pipeline Streaming:</strong> Developed a smart text-segmentation algorithm that splits inputs at logical semantic and clause boundaries (e.g., punctuation, clause breaks) to stay within API length limits while maintaining semantic integrity. Chunks are generated concurrently and played back-to-back using a custom Web Audio API queuing buffer to ensure seamless, zero-latency playback.</li><li><strong>Local State & Usage Analytics:</strong> Developed client-side local caching and monthly character count tracking (via localStorage) to optimize API quota management and monitor synthesis usage.</li></ul>",
-    "links": [
-      {
-        "type": "website",
-        "label": "Website",
-        "url": "https://voicemakerai.cc"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/voicemaker_demo_3.png"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/voicemaker_demo.png"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/voicemaker_demo_2.png"
-      }
-    ]
-  },
-  {
-    "id": "ustillalive",
-    "title": "UStillAlive - Safety Circle",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Mobile Utility & Safety",
-    "project_display": "Independent Product",
-    "client": "Personal Project",
-    "date": "Jul, 2026",
-    "thumb": "assets/images/us_thumbnail.png",
-    "badges": [
-      "AI"
-    ],
-    "content_html": "<p><strong>The Hook:</strong> Personal safety applications often compromise user privacy by constantly tracking background locations, leading to severe battery drain and trust issues. <strong>UStillAlive</strong> solves this by introducing an activity-driven connection network—enabling families and trusted circles to monitor reachability seamlessly without continuous GPS surveillance, while maintaining robust, instant emergency dispatch capabilities.</p><p>As an Independent Product Manager, this project demonstrates my ability to handle end-to-end product architecture, translate core safety-critical mechanics into stable system logic, and leverage advanced technical frameworks to launch a functional utility application from scratch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Heartbeat Sync & Activity Signals:</strong> Engineered a background synchronization lifecycle that transmits low-overhead \"heartbeat\" signals from the device to monitor system state. This approach calculates reachability statuses (Active, Warning, or Inactive) based on check-in deltas instead of persistent tracking.</li><li><strong>Conditional Location & Address Reverse-Geocoding:</strong> Integrated GPS location services to trigger on-demand only when an SOS event is activated. Implemented backend reverse-geocoding APIs to instantly translate coordinates into a precise physical address string for emergency recipients.</li><li><strong>Asynchronous Emergency Dispatching:</strong> Designed a robust, queue-based SOS architecture. When a user triggers an alert, the system packs the payload (phone number, coordinates, timestamp, and address) and guarantees delivery across the circle via real-time data streams.</li></ul><h3>Infrastructure & Tech Stack</h3><ul><li><strong>Real-time Infrastructure:</strong> Utilized Firebase Realtime Database and Cloud Firestore to manage safety status matrix distributions and handle instant peer-to-peer circle mapping changes with sub-second latencies.</li><li><strong>Cloud & Compute:</strong> Deployed decoupled Cloud Functions to process intensive tasks, such as validating device timeouts, state mutations, and triggering automated APNs/FCM push notification payloads.</li><li><strong>Security & Privacy Guardrails:</strong> Enforced data isolation using Firestore Security Rules, ensuring emergency payloads and status updates are strictly accessible to authorized, user-defined guardians.</li></ul>",
-    "links": [
-      {
-        "type": "google-play",
-        "label": "Google Store",
-        "url": "https://play.google.com/store/apps/details?id=com.studio1650.ustillalive"
-      },
-      {
-        "type": "app-store",
-        "label": "App Store",
-        "url": "https://apps.apple.com/vn/app/ustillalive/id6762523316"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/us_thumbnail.png"
-      },
-      {
-        "type": "video",
-        "src": "assets/images/us_video.mp4"
-      }
-    ],
-    "screenshots": [
-      "assets/images/us_1.webp",
-      "assets/images/us_2.webp",
-      "assets/images/us_3.webp",
-      "assets/images/us_4.webp",
-      "assets/images/us_5.webp",
-      "assets/images/us_6.webp",
-      "assets/images/us_7.webp",
-      "assets/images/us_8.webp",
-      "assets/images/us_9.webp"
-    ]
-  },
-  {
-    "id": "thayboiai",
-    "title": "Cổ Học Phương Đông",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "AI & Knowledge Management",
-    "project_display": "Independent Product",
-    "client": "Personal Project",
-    "date": "Jun, 2026",
-    "thumb": "assets/images/cohoc.jpg",
-    "badges": [
-      "AI",
-      "LLM & RAG"
-    ],
-    "media_display": "horizontal-scroll",
-    "content_html": "<p><strong>The Hook:</strong> Traditional Eastern philosophy and classical texts are rich in wisdom but highly complex, unstructured, and difficult for modern users to interpret accurately. <strong>Eastern Classics (Cổ Học Phương Đông)</strong> solves this by transforming static historical knowledge into an interactive, AI-powered digital platform—making ancient wisdom accessible, contextualized, and engaging for everyone.</p><p>As a non-coder Product Manager, this project showcases my ability to leverage practical <strong>AI-assisted development (Vibe Coding)</strong> to solo-engineer and deploy a fully functional mobile application from scratch, handling the entire product lifecycle from prompt-driven coding to production launch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Retrieval-Augmented Generation (RAG):</strong> Architected the system logic to combine digitized classical reference materials with RAG, ensuring the AI model retrieves and references authoritative knowledge sources instead of generating hallucinated answers.</li><li><strong>Large Language Models (LLMs):</strong> Integrated LLM capabilities via API to power a context-aware analysis engine capable of interpreting complex philosophical concepts based on individual user questions.</li><li><strong>Interactive Learning Workflows:</strong> Designed a multi-turn conversational interface that enables users to progressively deepen their understanding with follow-up queries and track their research history.</li></ul><h3>Vibe Coding & Tech Stack</h3><ul><li><strong>AI-Assisted Engineering:</strong> Handled 100% of the mobile application development, system logic, and cloud integration by utilizing advanced LLMs as programming co-pilots (Vibe Coding) to generate and debug clean code.</li><li><strong>Cloud Infrastructure:</strong> Deployed a scalable architecture utilizing Firebase for database management, user authentication, and Cloud Functions to securely handle real-time API communications and knowledge retrieval.</li></ul>",
-    "links": [
-      {
-        "type": "google-play",
-        "label": "Google Store",
-        "url": "https://play.google.com/store/apps/details?id=com.studio1650.thayboiai"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/cohoc_1.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/cohoc_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/cohoc_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/cohoc_4.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/cohoc_5.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/cohoc_6.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/cohoc_7.jpg"
-      }
-    ]
-  },
-  {
-    "id": "littledizzy",
-    "title": "Little Dizzy - Sliding Puzzle",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Gaming",
-    "project_display": "Independent Product",
-    "client": "Personal Project",
-    "date": "Mar, 2022",
-    "thumb": "assets/images/littledizzy_0.png",
-    "content_html": "<p>This tile slide puzzle game is a learning game for everyone who wants to train their brain. Its goal is an improvement of one's concentration, cognitive capability, and sense of space. This puzzle game provides an enjoyable and educational time through challenging and beautiful picture sliding tile puzzles. This slide puzzle game is also made for those who are fans of the classic fifteen sliding puzzle games.</p><p>Little Dizzy – Sliding Puzzle FREE Game is very educational, because it has been demonstrated that resolving puzzles helps in the development of skills and abilities, such as motricity, creativity, spatial skills, language and self- esteem.</p><p>Enjoy the most beautiful pictures in Categories like manga, comics, animation etc...</p>",
-    "links": [
-      {
-        "type": "google-play",
-        "label": "Google Store",
-        "url": "https://play.google.com/store/apps/details?id=com.reddang.littledizzy"
-      },
-      {
-        "type": "app-store",
-        "label": "App Store",
-        "url": "https://apps.apple.com/us/app/little-dizzy-sliding-puzzle/id1614188036"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/littledizzy_2.png"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/littledizzy_4.png"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/littledizzy_5.png"
-      }
-    ]
-  },
-  {
-    "id": "daiichilife",
-    "title": "Daiichi-Life App Platform",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Insurance",
-    "project_display": "UX/UI Designer",
-    "company": "Dai-ichi Life Insurance",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_daiichi.png",
-    "date": "Jan, 2019",
-    "thumb": "assets/images/app_4.jpg",
-    "content_html": "<p>Collaborated on the strategic user experience design and architecture of Dai-ichi Life's customer-facing mobile ecosystem, focusing on automating user insurance data lookup and policy claim interaction workflows.</p>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/daiichi_1.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/daiichi_2.jpg"
-      }
-    ]
-  },
-  {
-    "id": "poptv",
-    "title": "PopsTV App",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Entertainment",
-    "project_display": "UI/UX Designer",
-    "company": "POPS Worldwide",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_pops.png",
-    "date": "Mar, 2018",
-    "thumb": "assets/images/popstv.jpg",
-    "content_html": "<p>Designed user interface flows for PopsTV app ecosystem to handle multi-category digital video distributions seamlessly across local digital touchpoints.</p>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/popstv_2.jpg"
-      }
-    ]
-  },
-  {
-    "id": "popskids",
-    "title": "PopsKids Multi Platform",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Entertainment",
-    "project_display": "UX/UI Designer",
-    "company": "POPS Worldwide",
-    "location": "Ho Chi Minh City, Vietnam",
-    "logo": "assets/images/logo_pops.png",
-    "date": "Oct, 2017",
-    "thumb": "assets/images/app_3.jpg",
-    "content_html": "<p>Along with gaming, content for children is one of the top trends attracting content makers in Vietnam. However, with the increase of inappropriate online content, this application was created to provide a safe ecosystem that automatically filters out adult or sensitive media, allowing only child-friendly programming.</p>",
-    "links": [
-      {
-        "type": "google-play",
-        "label": "Google Store",
-        "url": "https://play.google.com/store/apps/details?id=com.popsworldwide.popskids&hl=en"
-      },
-      {
-        "type": "app-store",
-        "label": "App Store",
-        "url": "https://itunes.apple.com/vn/app/pops-kids-tv/id1141793155?l=vi&mt=8"
-      },
-      {
-        "type": "website",
-        "label": "Website",
-        "url": "https://web.popskids.tv/"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/popkids_1.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_4-01.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/popkids_5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "foodapp",
-    "title": "FoodSave App",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "F&B",
-    "project_display": "Product Designer (Concept)",
-    "date": "May, 2018",
-    "thumb": "assets/images/app_2.jpg",
-    "content_html": "<p>Singapore wastes about 788,600 tonnes of food yearly. Out of this, only 13% is recycled. Singapore spends around $14.8 billion buying food from other countries, yet is one of the top 10 countries in the world with the highest rate of food wastage.</p><h3>Solutions</h3><p>An app platform utilizing a sharing economy system that connects B2C and C2C users by integrating food sellers and purchasers, featuring real-time alerts and about-to-expiry notifications on good deals.</p><h3>Features</h3><ul><li><strong>Merchant Listings:</strong> Merchants can list their \"before expiry\" products in real-time to alert nearby consumers of discount deals.</li><li><strong>Peer-to-Peer Sharing:</strong> Since households contribute significantly to food wastage, users can list their \"extra\" cooked food or newly purchased items before expiry for nearby users to buy and consume.</li></ul>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/foodsave_1.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/Foodsave_buyer.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/Foodsave_seller.jpg"
-      }
-    ]
-  },
-  {
-    "id": "deliveryfood",
-    "title": "Delivery Food App",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Logistics",
-    "project_display": "Product Designer (Concept)",
-    "date": "Oct, 2017",
-    "thumb": "assets/images/app_1.jpg",
-    "content_html": "<p>Browse local restaurants and fast food favorites for inspiration, or search for a specific restaurant, dish, or cuisine. When you are ready to place your order, you will see your delivery address, an estimated delivery time, and the total price including tax and fees. Track your order in real-time as it heads your way.</p><h3>Features</h3><ul><li><strong>Your Favorite Restaurants:</strong> Choose from a huge variety of cuisines, from your favorite sushi spot to the comfort food you crave.</li><li><strong>Easy Ordering:</strong> Food is just a few taps away. Get your favorite meals faster with quick reordering. Plus, group ordering makes entertaining a breeze.</li><li><strong>Schedule Deliveries:</strong> Advance ordering allows you to get your food when it's most convenient for you.</li><li><strong>Real-time Tracking:</strong> See when your order will arrive. We factor in food preparation, traffic, and weather.</li><li><strong>No Minimums:</strong> Order as little or as much as you want.</li><li><strong>Secure Payment:</strong> Conveniently pay via Google Pay or credit card.</li></ul>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/delivery_1.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/Delivery_buyer.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/Delivery_driver.jpg"
-      }
-    ]
-  },
-  {
-    "id": "wego",
-    "title": "Wego Blog Travel",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Travel",
-    "project_display": "Product Designer (Concept)",
-    "date": "Nov, 2018",
-    "thumb": "assets/images/website_2.jpg",
-    "content_html": "<p>If you've ever wanted to learn how to travel cheaper, turn your dream trip into a reality, save money, or travel the world, you are in the right place! This website will give you tested tips, advice, and suggestions so you can see more for less and make your dream trip a reality.</p>",
-    "links": [
-      {
-        "type": "website",
-        "label": "Website",
-        "url": "https://reddang.github.io/wego_blog/"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/wego_2.jpg"
-      }
-    ]
-  },
-  {
-    "id": "webyangahkang",
-    "title": "Yang Ah Kang & Sons",
-    "category": "product",
-    "category_display": "Product Design",
-    "industry": "Furniture",
-    "project_display": "Product Designer (Concept)",
-    "date": "Sep, 2018",
-    "thumb": "assets/images/website_1.jpg",
-    "content_html": "<p>Yang Ah Kang & Sons has fitted some of the world's most prestigious and reputable hotels since 1946. Recognized as an international leader in custom made furniture and interior fittings, the company has stood for uncompromising quality and high levels of professionalism and the testimony is in the list of clients serviced throughout these past six decades.</p>",
-    "links": [
-      {
-        "type": "website",
-        "label": "Website",
-        "url": "https://reddang.github.io/yks/"
-      }
-    ],
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/yks_2.jpg"
-      }
-    ]
-  },
-  {
-    "id": "lunargift",
-    "title": "Lunar New Year Gift",
-    "category": "3d",
-    "category_display": "3D & Visualization",
-    "industry": "Cultural Product",
-    "project_display": "3D Modeler & Texture Artist",
-    "date": "Oct, 2017",
-    "thumb": "assets/images/nygift.jpg",
-    "content_html": "<p>\\\"Banh Tet\\\" is a traditional cake featured in Vietnamese households during Tet holidays. In accordance with old Vietnamese traditions, \\\"Banh Tet\\\" is always present in every home on the first day of the Lunar New Year.</p>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/nygift_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nygift_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nygift_4.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nygift_5.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nygift_6.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nygift_8.jpg"
-      }
-    ]
-  },
-  {
-    "id": "lamp",
-    "title": "Rotating Lamp",
-    "category": "3d",
-    "category_display": "3D & Visualization",
-    "industry": "Cultural Product",
-    "project_display": "3D Concept Artist",
-    "date": "Sep, 2017",
-    "thumb": "assets/images/lattern.jpg",
-    "content_html": "<p>Den Keo Quan (rotating lantern) is a traditional paper toy. In the past, they were popular during Lunar New Year; however, they are now primarily seen during the Mid-Autumn Festival. When the candle inside is lit, the rising hot air causes the inner frame to rotate, casting moving shadow puppets onto the outer paper screen.</p>",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/lattern_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/lattern_4.jpg"
-      },
-      {
-        "type": "iframe",
-        "src": "https://www.youtube.com/embed/zM9vhF4CVI0?autoplay=1"
-      }
-    ]
-  },
-  {
-    "id": "nobita",
-    "title": "Nobita's House",
-    "category": "3d",
-    "category_display": "3D & Visualization",
-    "industry": "Interior",
-    "project_display": "3D Environment Modeler",
-    "date": "Jun, 2017",
-    "thumb": "assets/images/3d_3.jpg",
-    "content_html": "",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/nobita_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nobita_3.jpg"
-      },
-      {
-        "type": "iframe",
-        "src": "https://www.youtube.com/embed/blh_Lrs3LYQ?autoplay=1"
-      }
-    ]
-  },
-  {
-    "id": "housedesign",
-    "title": "House Design",
-    "category": "3d",
-    "category_display": "3D & Visualization",
-    "industry": "Interior",
-    "project_display": "3D Spatial & Interior Designer",
-    "date": "Apr, 2017",
-    "thumb": "assets/images/3d_2.jpg",
-    "content_html": "",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/house_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_4.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_5.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_6.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_7.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_8.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_9.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_10.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_11.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_12.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_13.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_14.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_15.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/house_16.jpg"
-      }
-    ]
-  },
-  {
-    "id": "nokia",
-    "title": "Nokia Lumia Concept",
-    "category": "3d",
-    "category_display": "3D & Visualization",
-    "industry": "Consumer Electronics",
-    "project_display": "3D Hard Surface Modeler",
-    "date": "Mar, 2015",
-    "thumb": "assets/images/3d_1.jpg",
-    "content_html": "",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/nokia_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nokia_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nokia_4.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/nokia_5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "wildwest",
-    "title": "Wildwest Vietnam",
-    "category": "graphic",
-    "category_display": "Graphic Design",
-    "industry": "Tourism",
-    "project_display": "Brand Identity Lead",
-    "date": "Oct, 2015",
-    "thumb": "assets/images/branding_1.jpg",
-    "content_html": "<p>A promotional project highlighting the cultures, arts, and travel opportunities within the Mekong Delta provinces.</p><p>Known as the 'rice bowl' of Vietnam, the Mekong Delta is carpeted in a dizzying variety of greens. It is a water world that moves to the rhythms of the mighty Mekong, where boats, houses, and markets float upon the innumerable rivers, canals, and streams that criss-cross the landscape like arteries.</p><p>The bustling commerce of its towns contrasts sharply with the languid, peaceful pace of life in the countryside. Here, water buffaloes wallow in rice paddies, coconut- and fruit-laden boats float slowly along mud-brown waters, and two-wheeled exploration of narrow lanes is rewarded with a true taste of rural hospitality and delicious local river fish.</p><p>Elsewhere, mangrove forests teem with bird life and hold the remnants of historic bunkers, while ornate Khmer pagodas and Buddhist temples reach for the sky, and off-coast islands offer white-sand beaches, tropical hideaways, and historical pirate lore.</p>",
-    "media": [
-      {
-        "type": "video",
-        "src": "assets/videos/wwvn_2.mp4"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/wwvn_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/wwvn_4.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/wwvn_6.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/wwvn_7.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/wwvn_8.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/wwvn_9.jpg"
-      },
-      {
-        "type": "iframe",
-        "src": "https://www.youtube.com/embed/7O0dNfxZ1yo?autoplay=1"
-      }
-    ]
-  },
-  {
-    "id": "poster",
-    "title": "Posters Collection",
-    "category": "graphic",
-    "category_display": "Graphic Design",
-    "project_display": "Graphic Designer",
-    "date": "Mar, 2015",
-    "thumb": "assets/images/poster.jpg",
-    "content_html": "",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/poster_1.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/poster_2.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/poster_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/poster_4.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/poster_5.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/poster_6.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/poster_7.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/poster_8.jpg"
-      }
-    ]
-  },
-  {
-    "id": "photomanip",
-    "title": "Photo Manipulation",
-    "category": "graphic",
-    "category_display": "Graphic Design",
-    "project_display": "Digital Artist",
-    "date": "Sep, 2015",
-    "thumb": "assets/images/photomanip_1.jpg",
-    "content_html": "",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_3.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_4.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_5.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_6.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_7.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_8.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_9.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_10.jpg"
-      },
-      {
-        "type": "img",
-        "src": "assets/images/photomanip_11.jpg"
-      }
-    ]
-  },
-  {
-    "id": "magazine",
-    "title": "Travelife Magazine",
-    "category": "graphic",
-    "category_display": "Graphic Design",
-    "industry": "Travel",
-    "project_display": "Editorial Layout Designer",
-    "date": "Feb, 2015",
-    "thumb": "assets/images/travellife.jpg",
-    "content_html": "",
-    "media": [
-      {
-        "type": "img",
-        "src": "assets/images/travellife_2.jpg"
-      }
-    ]
-  }
+    {
+        "id": "cabina",
+        "title": "Cabina AI — Native Voice Cabin",
+        "category": "ai",
+        "category_display": "AI & Autonomous Products",
+        "industry": "Artificial Intelligence",
+        "project_display": "Solo Product Builder",
+        "date": "Aug, 2026",
+        "thumb": "assets/images/cabina_thumb.png",
+        "badges": [
+            "PERSONAL",
+            "AI",
+            "WEB EXTENSION",
+            "INTERPRETER"
+        ],
+        "content_html": "<p><strong>The Hook:</strong> Remote knowledge workers collaborating with global teams frequently experience intense anxiety and cognitive fatigue during live meetings (specifically Google Meet). Existing translation tools either rely on intrusive meeting bots (like Otter.ai or Fireflies.ai) that trigger strict corporate security blocks, or create chaotic audio interference by overlapping foreign speech with robotic voices at steep monthly subscription costs ($15–$30/mo).</p><p><strong>Cabina AI</strong> solves this as a stealth, client-side Chrome Extension (Manifest V3) acting as a private, personalized <em>'voice cabin'</em> directly inside the user's headset—providing real-time bidirectional speech interpretation with 100% data privacy via a Bring Your Own Key (BYOK) architecture.</p><h3>5 Core Product Pillars & Engineering Highlights</h3><ul><li><strong>Direct Tab Audio Capture & Low-Latency Streaming:</strong> Intercepts meeting audio digitally using <code>chrome.tabCapture</code> and an Offscreen Document, encoding raw high-definition PCM streams and establishing direct bi-directional WebSocket connections to Google Gemini (<code>gemini-3.5-live-translate-preview</code>) and OpenAI (<code>gpt-realtime-translate</code>) with zero intermediate server hops.</li><li><strong>Intelligent Whisper Mode & Audio Ducking:</strong> Custom audio regulation algorithm that dynamically ducks original Google Meet meeting audio to 20% whenever the AI voice interpreter is speaking, smoothly restoring it to 100% (fade-in 150ms) when quiet. This allows the user to retain natural conversational nuance and vocal inflections while hearing crystal-clear translations without audio clash.</li><li><strong>Stealth Privacy Guard:</strong> Integrated an automated <code>StealthDetector</code> (observing DOM mutations and screen-sharing events) that automatically hides the Cabina sidebar and floating badges the instant screen sharing is initiated, protecting professional confidence and presentation aesthetics.</li><li><strong>Automated AI Meeting Minutes:</strong> Instantly aggregates post-call transcripts to generate structured Markdown summaries—categorizing High-Level Summaries, Action Items with assigned owners, and key strategic decisions ready for 1-click export to Slack and Microsoft Teams.</li><li><strong>Industry-Specific Vocabulary Models:</strong> Tailored context-injection prompts for technical engineering (Kubernetes, microservices), finance/crypto (TVL, APY, liquidity pools), and healthcare to ensure domain terminology is interpreted with zero hallucination.</li></ul><h3>Business & Monetization Model</h3><ul><li><strong>Hybrid BYOK + Software License:</strong> Users retain complete control over their API keys and quotas directly with Google/OpenAI, paired with an ultra-affordable software license ($4.99/year via Polar/Lemon Squeezy) offering a generous 30-day free trial.</li></ul>",
+        "links": [
+            {
+                "type": "chrome",
+                "label": "Chrome Web Store",
+                "url": "https://chromewebstore.google.com/detail/cabina-voice-cabin-meet-i/gamgjjpafhedacjnjmghokdfaojonfgo"
+            },
+            {
+                "type": "website",
+                "label": "License Store",
+                "url": "https://buy.polar.sh/polar_cl_zzemWZcngsZgCyuCUQqlQ4eOuQjlKqLdirdX10XdTd7"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/cabina_thumb.png"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cabina_demo.png"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cabina_pricing.png"
+            }
+        ],
+        "screenshots": [
+            "assets/images/cabina_1.png",
+            "assets/images/cabina_2.png",
+            "assets/images/cabina_3.png",
+            "assets/images/cabina_4.png",
+            "assets/images/cabina_5.png"
+        ]
+    },
+    {
+        "id": "pmnocode",
+        "title": "PM No-Code: AI Product Management & Automation",
+        "category": "ai",
+        "category_display": "AI & Autonomous Products",
+        "industry": "EdTech",
+        "project_display": "Course Creator & Product Architect",
+        "date": "Aug, 2026",
+        "thumb": "assets/images/aiforall_thumb.jpg",
+        "badges": [
+            "PERSONAL",
+            "AI",
+            "PRODUCT MGMT",
+            "ONLINE COURSE",
+            "UDEMY"
+        ],
+        "content_html": "<p><strong>The Hook:</strong> Transitioning from traditional software delivery to modern AI-driven product management requires bridging the gap between strategic Product Ownership and frontier technical implementation. <strong>PM No-Code</strong> is a comprehensive, production-grade masterclass and systems framework designed to empower Product Managers, founders, and operators to architect digital products, deploy autonomous AI Agents, and automate end-to-end operational workflows without writing code.</p><p>Grounded directly in real-world product management experience across large-scale FinTech, B2B2C, and SaaS platforms, this project demonstrates end-to-end curriculum design, full-stack video studio automation, and technical architecture.</p><h3>Core Focus & Practical Competencies</h3><ul><li><strong>Product Management & AI Strategy:</strong> Establishing robust mental models from product discovery and roadmap prioritization to hands-on deployment of modern AI architectures (ML, Deep Learning, Transformer, Multimodal) into operational business systems.</li><li><strong>Advanced Prompt Engineering & No-Code Automation:</strong> Mastering structured prompt frameworks (CRAFT, RACE, Chain-of-Thought, Few-Shot), context window optimization, and integrating low-code workflow automations using Claude Code, n8n, Zapier, and Make to accelerate feature delivery.</li><li><strong>Autonomous AI Agents & System Operations:</strong> Designing agentic architectures (Function Calling, ReAct Framework, Multi-Agent Orchestration), system evaluation metrics (RAG Triad Metric, LLM Benchmarking, AI Observability), and vertical applications across FinTech, Healthcare, and E-Commerce.</li><li><strong>Production Pipeline & Studio Automation:</strong> Engineered a dedicated <strong>Studio Manager</strong> automation engine (<code>app.py</code>) incorporating automated PPTX-to-Keynote slide conversion, FFmpeg delogo watermark removal, and scene-cut detection to produce <strong>92 high-definition video lectures</strong>.</li></ul><h3>Comprehensive 8-Phase Curriculum Architecture (92 Lectures)</h3><ul><li><strong>Phase 1: Foundations & Mathematics for AI:</strong> Machine Learning paradigms, Linear Algebra (vectors, matrix transformations), Probability & Statistics (Bayesian inference, probability distributions), and Differential Calculus (gradients, loss surfaces, optimization).</li><li><strong>Phase 2: Classical Machine Learning & Analytics:</strong> Supervised algorithms (Linear/Logistic Regression, Decision Trees, SVM, KNN), Unsupervised clustering (K-Means, DBSCAN, PCA), and rigorous evaluation metrics (Confusion Matrix, F1-Score, Bias vs. Variance tradeoff).</li><li><strong>Phase 3: Office AI, Low-Code Automation & Governance:</strong> Advanced Prompt Engineering frameworks (CRAFT, RACE, Chain-of-Thought, Few-Shot), automated low-code integrations (n8n, Make, Zapier), and Enterprise AI security policies.</li><li><strong>Phase 4: Deep Learning & Neural Architectures:</strong> Perceptrons, Multi-Layer Perceptrons (MLPs), Backpropagation dynamics, Convolutional Neural Networks (CNNs), and Recurrent Networks (RNN, LSTM, GRU).</li><li><strong>Phase 5: NLP, Transformers, LLMs & Multimodal AI:</strong> Self-Attention mechanisms, Transformer architectures (BERT, GPT, T5), Subword Tokenization (BPE, WordPiece), Fine-Tuning pipelines, and Multimodal Vision-Language Models.</li><li><strong>Phase 6: Alignment, Reasoning & Autonomous Agents:</strong> RLHF, DPO, Constitutional AI, Test-Time Compute, ReAct frameworks, Tool Calling, and multi-agent coordination.</li><li><strong>Phase 7: MLOps, Evaluation & Production Security:</strong> Model deployment pipelines, continuous latency monitoring, concept drift detection, adversarial red teaming, and prompt injection mitigation.</li><li><strong>Phase 8: Practical Industry Implementations:</strong> Specialized end-to-end verticals spanning FinTech algorithmic trading, Computer Vision in precision healthcare, smart agriculture IoT, and enterprise recommendation engines.</li></ul>",
+        "links": [
+            {
+                "type": "udemy",
+                "label": "Udemy Course",
+                "url": "https://www.udemy.com/course/pm-no-code-ai-product-management-no-code-automation/"
+            }
+        ],
+        "media": [
+            {
+                "type": "pptx",
+                "title": "Bài 1.1: Khái niệm cơ sở (Machine Learning & LLMs)",
+                "src": "assets/docs/1.1_Khai_niem_co_so.pdf",
+                "pptx": "assets/docs/1.1_Khai_niem_co_so.pptx"
+            },
+            {
+                "type": "pptx",
+                "title": "Bài 1.2.1: Đại số tuyến tính cho AI (Linear Algebra)",
+                "src": "assets/docs/1.2.1_Dai_so_tuyen_tinh.pdf",
+                "pptx": "assets/docs/1.2.1_Dai_so_tuyen_tinh.pptx"
+            },
+            {
+                "type": "pptx",
+                "title": "Bài 1.2.2: Xác suất & Thống kê cho AI (Probability & Statistics)",
+                "src": "assets/docs/1.2.2_Xac_suat_va_Thong_ke.pdf",
+                "pptx": "assets/docs/1.2.2_Xac_suat_va_Thong_ke.pptx"
+            },
+            {
+                "type": "pptx",
+                "title": "Bài 1.2.3: Giải tích & Gradient cho AI (Calculus & Optimization)",
+                "src": "assets/docs/1.2.3_Giai_tich_va_Gradient.pdf",
+                "pptx": "assets/docs/1.2.3_Giai_tich_va_Gradient.pptx"
+            }
+        ]
+    },
+    {
+        "id": "voicemakerai",
+        "title": "Voicemaker AI - Neural TTS Converter",
+        "category": "ai",
+        "category_display": "AI & Autonomous Products",
+        "industry": "Artificial Intelligence",
+        "project_display": "Solo Product Builder",
+        "date": "Jul, 2026",
+        "thumb": "assets/images/voicemaker_thumb.png",
+        "badges": [
+            "PERSONAL",
+            "AI",
+            "TTS",
+            "WEBSITE"
+        ],
+        "content_html": "<p><strong>Voicemaker AI</strong> is a high-performance, real-time Neural Text-to-Speech (TTS) converter web application designed to synthesize natural-sounding speech from text using state-of-the-art AI voice models.</p><h3>AI Technology & Implementation</h3><ul><li><strong>Neural Synthesis Engines:</strong> Integrates Microsoft Azure Cognitive Services Neural TTS and Google Cloud Text-to-Speech APIs, utilizing advanced WaveNet, Tacotron 2, and FastSpeech deep learning architectures to generate highly expressive, natural human voices.</li><li><strong>Audio Parameter Tuning:</strong> Implemented real-time client-side controls for dynamic adjustment of speech rate (speaking speed), pitch shifting (semitones), and volume gain, mapping directly to API payload configurations.</li><li><strong>Semantic Chunking & Pipeline Streaming:</strong> Developed a smart text-segmentation algorithm that splits inputs at logical semantic and clause boundaries (e.g., punctuation, clause breaks) to stay within API length limits while maintaining semantic integrity. Chunks are generated concurrently and played back-to-back using a custom Web Audio API queuing buffer to ensure seamless, zero-latency playback.</li><li><strong>Local State & Usage Analytics:</strong> Developed client-side local caching and monthly character count tracking (via localStorage) to optimize API quota management and monitor synthesis usage.</li></ul>",
+        "links": [
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://voicemakerai.cc"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/voicemaker_demo_3.png"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/voicemaker_demo.png"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/voicemaker_demo_2.png"
+            }
+        ]
+    },
+    {
+        "id": "ustillalive",
+        "title": "UStillAlive - Safety Circle",
+        "category": "ai",
+        "category_display": "AI & Autonomous Products",
+        "industry": "Mobile Utilities",
+        "project_display": "Solo Product Builder",
+        "date": "Jul, 2026",
+        "thumb": "assets/images/us_thumbnail.png",
+        "badges": [
+            "PERSONAL",
+            "AI",
+            "MOBILE APP",
+            "VIBE-CODE"
+        ],
+        "content_html": "<p><strong>The Hook:</strong> Personal safety applications often compromise user privacy by constantly tracking background locations, leading to severe battery drain and trust issues. <strong>UStillAlive</strong> solves this by introducing an activity-driven connection network—enabling families and trusted circles to monitor reachability seamlessly without continuous GPS surveillance, while maintaining robust, instant emergency dispatch capabilities.</p><p>As an Independent Product Manager, this project demonstrates my ability to handle end-to-end product architecture, translate core safety-critical mechanics into stable system logic, and leverage advanced technical frameworks to launch a functional utility application from scratch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Heartbeat Sync & Activity Signals:</strong> Engineered a background synchronization lifecycle that transmits low-overhead \"heartbeat\" signals from the device to monitor system state. This approach calculates reachability statuses (Active, Warning, or Inactive) based on check-in deltas instead of persistent tracking.</li><li><strong>Conditional Location & Address Reverse-Geocoding:</strong> Integrated GPS location services to trigger on-demand only when an SOS event is activated. Implemented backend reverse-geocoding APIs to instantly translate coordinates into a precise physical address string for emergency recipients.</li><li><strong>Asynchronous Emergency Dispatching:</strong> Designed a robust, queue-based SOS architecture. When a user triggers an alert, the system packs the payload (phone number, coordinates, timestamp, and address) and guarantees delivery across the circle via real-time data streams.</li></ul><h3>Infrastructure & Tech Stack</h3><ul><li><strong>Real-time Infrastructure:</strong> Utilized Firebase Realtime Database and Cloud Firestore to manage safety status matrix distributions and handle instant peer-to-peer circle mapping changes with sub-second latencies.</li><li><strong>Cloud & Compute:</strong> Deployed decoupled Cloud Functions to process intensive tasks, such as validating device timeouts, state mutations, and triggering automated APNs/FCM push notification payloads.</li><li><strong>Security & Privacy Guardrails:</strong> Enforced data isolation using Firestore Security Rules, ensuring emergency payloads and status updates are strictly accessible to authorized, user-defined guardians.</li></ul>",
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Store",
+                "url": "https://play.google.com/store/apps/details?id=com.studio1650.ustillalive"
+            },
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://apps.apple.com/vn/app/ustillalive/id6762523316"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/us_thumbnail.png"
+            },
+            {
+                "type": "video",
+                "src": "assets/images/us_video.mp4"
+            }
+        ],
+        "screenshots": [
+            "assets/images/us_1.webp",
+            "assets/images/us_2.webp",
+            "assets/images/us_3.webp",
+            "assets/images/us_4.webp",
+            "assets/images/us_5.webp",
+            "assets/images/us_6.webp",
+            "assets/images/us_7.webp",
+            "assets/images/us_8.webp",
+            "assets/images/us_9.webp"
+        ]
+    },
+    {
+        "id": "thayboiai",
+        "title": "Cổ Học Phương Đông",
+        "category": "ai",
+        "category_display": "AI & Autonomous Products",
+        "industry": "Artificial Intelligence",
+        "project_display": "Solo Product Builder",
+        "date": "Jun, 2026",
+        "thumb": "assets/images/cohoc.jpg",
+        "badges": [
+            "PERSONAL",
+            "AI",
+            "MOBILE APP",
+            "LLM & RAG"
+        ],
+        "media_display": "horizontal-scroll",
+        "content_html": "<p><strong>The Hook:</strong> Traditional Eastern philosophy and classical texts are rich in wisdom but highly complex, unstructured, and difficult for modern users to interpret accurately. <strong>Eastern Classics (Cổ Học Phương Đông)</strong> solves this by transforming static historical knowledge into an interactive, AI-powered digital platform—making ancient wisdom accessible, contextualized, and engaging for everyone.</p><p>As a non-coder Product Manager, this project showcases my ability to leverage practical <strong>AI-assisted development (Vibe Coding)</strong> to solo-engineer and deploy a fully functional mobile application from scratch, handling the entire product lifecycle from prompt-driven coding to production launch.</p><h3>Core Technical Implementation</h3><ul><li><strong>Retrieval-Augmented Generation (RAG):</strong> Architected the system logic to combine digitized classical reference materials with RAG, ensuring the AI model retrieves and references authoritative knowledge sources instead of generating hallucinated answers.</li><li><strong>Large Language Models (LLMs):</strong> Integrated LLM capabilities via API to power a context-aware analysis engine capable of interpreting complex philosophical concepts based on individual user questions.</li><li><strong>Interactive Learning Workflows:</strong> Designed a multi-turn conversational interface that enables users to progressively deepen their understanding with follow-up queries and track their research history.</li></ul><h3>Vibe Coding & Tech Stack</h3><ul><li><strong>AI-Assisted Engineering:</strong> Handled 100% of the mobile application development, system logic, and cloud integration by utilizing advanced LLMs as programming co-pilots (Vibe Coding) to generate and debug clean code.</li><li><strong>Cloud Infrastructure:</strong> Deployed a scalable architecture utilizing Firebase for database management, user authentication, and Cloud Functions to securely handle real-time API communications and knowledge retrieval.</li></ul>",
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Store",
+                "url": "https://play.google.com/store/apps/details?id=com.studio1650.thayboiai"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/cohoc_1.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cohoc_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cohoc_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cohoc_4.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cohoc_5.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cohoc_6.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/cohoc_7.jpg"
+            }
+        ]
+    },
+    {
+        "id": "m2c",
+        "title": "M2C/B2B2C Ecosystem",
+        "category": "strategy",
+        "category_display": "Business & Strategy",
+        "industry": "FinTech & Supply Chain",
+        "project_display": "Product Owner (PM)",
+        "company": "Finviet Technology",
+        "location": "Ho Chi Minh City, Vietnam",
+        "logo": "assets/images/logo_fv.png",
+        "date": "May, 2026",
+        "thumb": "assets/images/m2c.png",
+        "content_html": "<p><strong>'Tiệm Số Hóa' Super-App</strong> is an end-to-end Manufacturer-to-Consumer (M2C) digital commerce platform designed to digitize traditional 'mom-and-pop' retail shops into high-tech service hubs.</p><p>As the Lead Product Owner (Acting Product Manager), I was responsible for <strong>shaping the product strategy and aligning the multi-stage roadmap</strong>. In this role, I served as the central point of contact, working directly with <strong>C-level executives and key Business Units (BUs)</strong> to translate business goals and commercial targets into functional features, successfully managing the phased rollout across B2B Supply Chain, Omnichannel, FinTech, and Gamification & Loyalty domains.</p><h3>Key Execution & Metrics</h3><ul><li><strong>Roadmap Execution & Growth:</strong> Delivered features on time according to the product roadmap, helping expand the user base past <strong>325K+</strong> and driving a 4x MAU surge to peak at <strong>93K+ active merchants</strong>.</li><li><strong>FinTech System Integration:</strong> Managed the integration roadmap to bring core FinTech modules (E-wallet, QR Payments, Lending, Bill Pay) from backend services into the Super-App interface, enabling the platform to process over <strong>220K+ monthly FinTech transactions</strong>.</li><li><strong>UX/UI Optimization:</strong> Redesigned and optimized the interface layouts and workflows, successfully cutting user task engagement time by <strong>2.5x</strong> while sustaining <strong>73K+ re-engaged</strong> merchants monthly via automated lifecycle campaigns.</li><li><strong>AI Capability Integration:</strong> Evaluated trade-offs and led the integration of 3rd-party Computer Vision and Chatbot capabilities to enhance platform technology and automate user support interactions.</li><li><strong>Stakeholder Alignment:</strong> Coordinated cross-functional teams (Engineering, Design, Operations) and balanced requirements from Tier-1 corporate commercial accounts (Kido, Thọ Phát, Ajinomoto, Vifon, Hương Thủy, etc.) to ensure on-time product delivery.</li></ul>",
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Store",
+                "url": "https://play.google.com/store/apps/details?id=vn.com.finviet.eco&hl=vi"
+            },
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://apps.apple.com/vn/app/eco-ti%E1%BB%87m-s%E1%BB%91-h%C3%B3a/id1171667640"
+            }
+        ],
+        "media": [
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/qvX_4Ccnyh8"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/m2c_detail.png"
+            }
+        ],
+        "screenshots": [
+            "assets/images/fv_1.png",
+            "assets/images/fv_2.png",
+            "assets/images/fv_3.png",
+            "assets/images/fv_4.png",
+            "assets/images/fv_7.png"
+        ],
+        "badges": [
+            "MOBILE APP",
+            "RETAIL",
+            "FINTECH",
+            "B2B2C"
+        ]
+    },
+    {
+        "id": "interactive",
+        "title": "UNA Market - Social Commerce",
+        "category": "strategy",
+        "category_display": "Business & Strategy",
+        "industry": "E-Commerce",
+        "project_display": "Product Owner (PM)",
+        "company": "OnPoint E-commerce",
+        "location": "Ho Chi Minh City, Vietnam",
+        "logo": "assets/images/logo_onpoint.png",
+        "date": "Aug, 2022",
+        "thumb": "assets/images/Interactive_0.jpg",
+        "content_html": "<p><strong>UNA Market</strong> is a social commerce platform modeled after group-buying mechanics (similar to Pinduoduo) aimed at transforming online grocery and daily essentials shopping.</p><p>As a PO/PM, I took charge of the end-to-end development from 0-to-1. My role involved <strong>defining the core business logic, shaping the product roadmap, and prioritizing functional specifications</strong> to successfully bring the MVP from concept to live operational launch.</p><h3>Key Execution & Management</h3><ul><li><strong>Product Roadmap & Vendor Management:</strong> Evaluated, selected, and managed external IT vendors and outsourced development teams. Took ownership of the development timeline, quality assurance frameworks, and final UAT sign-offs to ensure on-time product delivery.</li><li><strong>Group-Buying Mechanics Design:</strong> Designed the operational logic and product rules for the group purchasing features (including dynamic tier-pricing), helping optimize customer acquisition costs and drive community-driven merchant growth.</li></ul>",
+        "media": [
+            {
+                "type": "iframe",
+                "src": "https://drive.google.com/file/d/1nYluLPCbmW65eusKigJYsLKZM8DdNdyH/preview",
+                "width": "100%",
+                "height": "480",
+                "allow": "autoplay"
+            },
+            {
+                "type": "iframe",
+                "src": "https://drive.google.com/file/d/1mhFG2rCXIiI4g5uu-zqQo6ehrIamrJcz/preview",
+                "width": "100%",
+                "height": "560"
+            }
+        ],
+        "badges": [
+            "MOBILE APP",
+            "E-COMMERCE",
+            "MVP 0-TO-1"
+        ]
+    },
+    {
+        "id": "littledizzy",
+        "title": "Little Dizzy - Sliding Puzzle",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "Gaming",
+        "project_display": "Game Designer & Developer",
+        "date": "Mar, 2022",
+        "thumb": "assets/images/littledizzy_0.png",
+        "content_html": "<p>This tile slide puzzle game is a learning game for everyone who wants to train their brain. Its goal is an improvement of one's concentration, cognitive capability, and sense of space. This puzzle game provides an enjoyable and educational time through challenging and beautiful picture sliding tile puzzles. This slide puzzle game is also made for those who are fans of the classic fifteen sliding puzzle games.</p><p>Little Dizzy – Sliding Puzzle FREE Game is very educational, because it has been demonstrated that resolving puzzles helps in the development of skills and abilities, such as motricity, creativity, spatial skills, language and self- esteem.</p><p>Enjoy the most beautiful pictures in Categories like manga, comics, animation etc...</p>",
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Store",
+                "url": "https://play.google.com/store/apps/details?id=com.reddang.littledizzy"
+            },
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://apps.apple.com/us/app/little-dizzy-sliding-puzzle/id1614188036"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/littledizzy_2.png"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/littledizzy_4.png"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/littledizzy_5.png"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "MOBILE APP",
+            "GAME DEV",
+            "INDIE GAME"
+        ]
+    },
+    {
+        "id": "omnichannel",
+        "title": "SaaS Omnichannel Platform",
+        "category": "strategy",
+        "category_display": "Business & Strategy",
+        "industry": "Enterprise SaaS",
+        "project_display": "Product Owner",
+        "company": "Haravan",
+        "location": "Ho Chi Minh City, Vietnam",
+        "logo": "assets/images/logo_haravan.png",
+        "date": "Dec, 2021",
+        "thumb": "assets/images/Omnichannel_1.jpg",
+        "content_html": "<p>Responsible for managing and refining product features on the core SaaS Omnichannel platform by translating merchant feedback and retail workflows into detailed functional specifications, user stories, and acceptance criteria.</p><h3>Key Execution & Sprint Delivery</h3><ul><li><strong>Feature Requirement Delivery:</strong> Collaborated with Key Account teams and analyzed merchant requests to define detailed requirements for enterprise-grade software, supporting the daily retail workflows of over <strong>500+ major store chains</strong> (including Vinamilk, The Coffee House, Juno, etc.).</li><li><strong>Product Backlog Management:</strong> Monitored system usage patterns and merchant transactional data to continuously groom the backlog, helping prioritize features that improved system checkout velocity and inventory data accuracy.</li><li><strong>Cross-Functional Execution:</strong> Partnered closely with Engineering, QC, Sales, and Customer Success teams during sprint cycles to clarify requirements, manage scope risks, and ensure user-centric UI/UX stability for production releases.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/Omnichannel_2.svg"
+            }
+        ],
+        "badges": [
+            "SAAS",
+            "OMNICHANNEL"
+        ]
+    },
+    {
+        "id": "daiichilife",
+        "title": "Daiichi-Life App Platform",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "InsurTech",
+        "project_display": "Senior UX/UI Designer",
+        "company": "Dai-ichi Life Insurance",
+        "location": "Ho Chi Minh City, Vietnam",
+        "logo": "assets/images/logo_daiichi.png",
+        "date": "Jan, 2019",
+        "thumb": "assets/images/app_4.jpg",
+        "content_html": "<p>Collaborated on the strategic user experience design and architecture of Dai-ichi Life\\u0027s customer-facing mobile ecosystem, focusing on automating user insurance data lookup and policy claim interaction workflows.</p><h3>Key UX Contributions</h3><ul><li><strong>Digital Policy Servicing:</strong> Redesigned policy inquiry and claim submission flows to reduce paper dependency and enhance customer self-service accessibility.</li><li><strong>Enterprise User Journeys:</strong> Streamlined information architecture across policy overviews, premium payment scheduling, and real-time claim status tracking.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/daiichi_1.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/daiichi_2.jpg"
+            }
+        ],
+        "badges": [
+            "MOBILE APP",
+            "INSURTECH",
+            "FINANCE"
+        ]
+    },
+    {
+        "id": "wego",
+        "title": "Wego Blog Travel",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "Travel & Tourism",
+        "project_display": "Product Designer",
+        "date": "Nov, 2018",
+        "thumb": "assets/images/website_2.jpg",
+        "content_html": "<p>If you've ever wanted to learn how to travel cheaper, turn your dream trip into a reality, save money, or travel the world, you are in the right place! This website will give you tested tips, advice, and suggestions so you can see more for less and make your dream trip a reality.</p>",
+        "links": [
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://reddang.github.io/wego_blog/"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/wego_2.jpg"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "WEBSITE",
+            "TRAVEL",
+            "EDITORIAL"
+        ]
+    },
+    {
+        "id": "webyangahkang",
+        "title": "Yang Ah Kang & Sons",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "Furniture & Interior",
+        "project_display": "Digital Product Designer",
+        "date": "Sep, 2018",
+        "thumb": "assets/images/website_1.jpg",
+        "content_html": "<p>Yang Ah Kang & Sons has fitted some of the world's most prestigious and reputable hotels since 1946. Recognized as an international leader in custom made furniture and interior fittings, the company has stood for uncompromising quality and high levels of professionalism and the testimony is in the list of clients serviced throughout these past six decades.</p>",
+        "links": [
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://reddang.github.io/yks/"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/yks_2.jpg"
+            }
+        ],
+        "company": "Yang Ah Kang & Sons",
+        "badges": [
+            "WEBSITE",
+            "E-COMMERCE",
+            "FURNITURE"
+        ]
+    },
+    {
+        "id": "foodapp",
+        "title": "FoodSave App",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "FoodTech",
+        "project_display": "Product Designer",
+        "date": "May, 2018",
+        "thumb": "assets/images/app_2.jpg",
+        "content_html": "<p>Singapore wastes about 788,600 tonnes of food yearly. Out of this, only 13% is recycled. Singapore spends around $14.8 billion buying food from other countries, yet is one of the top 10 countries in the world with the highest rate of food wastage.</p><h3>Solutions</h3><p>An app platform utilizing a sharing economy system that connects B2C and C2C users by integrating food sellers and purchasers, featuring real-time alerts and about-to-expiry notifications on good deals.</p><h3>Features</h3><ul><li><strong>Merchant Listings:</strong> Merchants can list their \"before expiry\" products in real-time to alert nearby consumers of discount deals.</li><li><strong>Peer-to-Peer Sharing:</strong> Since households contribute significantly to food wastage, users can list their \"extra\" cooked food or newly purchased items before expiry for nearby users to buy and consume.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/foodsave_1.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/Foodsave_buyer.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/Foodsave_seller.jpg"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "CONCEPT",
+            "MOBILE APP",
+            "FOODTECH"
+        ]
+    },
+    {
+        "id": "poptv",
+        "title": "PopsTV App",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "Media & Entertainment",
+        "project_display": "UI/UX Designer",
+        "company": "POPS Worldwide",
+        "location": "Ho Chi Minh City, Vietnam",
+        "logo": "assets/images/logo_pops.png",
+        "date": "Mar, 2018",
+        "thumb": "assets/images/popstv.jpg",
+        "content_html": "<p>Designed user interface flows for the PopsTV app ecosystem to handle multi-category digital video distributions seamlessly across local digital touchpoints.</p><h3>Design Highlights</h3><ul><li><strong>Content Discovery:</strong> Engineered intuitive browsing categories, personalized watchlists, and optimized video playback controls.</li><li><strong>Engagement Mechanics:</strong> Enhanced channel navigation and interactive live-streaming chat elements for high-density viewer engagement.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/popstv_2.jpg"
+            }
+        ],
+        "badges": [
+            "MOBILE APP",
+            "OTT",
+            "STREAMING"
+        ]
+    },
+    {
+        "id": "popskids",
+        "title": "PopsKids Multi Platform",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "Media & Entertainment",
+        "project_display": "Senior UX/UI Designer",
+        "company": "POPS Worldwide",
+        "location": "Ho Chi Minh City, Vietnam",
+        "logo": "assets/images/logo_pops.png",
+        "date": "Oct, 2017",
+        "thumb": "assets/images/app_3.jpg",
+        "content_html": "<p>Along with gaming, content for children is one of the top trends attracting content makers in Vietnam. However, with the increase of inappropriate online content, this application was created to provide a safe ecosystem that automatically filters out adult or sensitive media, allowing only child-friendly programming.</p>",
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Store",
+                "url": "https://play.google.com/store/apps/details?id=com.popsworldwide.popskids&hl=en"
+            },
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://itunes.apple.com/vn/app/pops-kids-tv/id1141793155?l=vi&mt=8"
+            },
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://web.popskids.tv/"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/popkids_1.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/popkids_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/popkids_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/popkids_4-01.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/popkids_5.jpg"
+            }
+        ],
+        "badges": [
+            "MOBILE APP",
+            "WEBSITE",
+            "EDUTAINMENT"
+        ]
+    },
+    {
+        "id": "deliveryfood",
+        "title": "Delivery Food App",
+        "category": "product",
+        "category_display": "Product Design",
+        "industry": "FoodTech",
+        "project_display": "Product Designer",
+        "date": "Oct, 2017",
+        "thumb": "assets/images/app_1.jpg",
+        "content_html": "<p>Browse local restaurants and fast food favorites for inspiration, or search for a specific restaurant, dish, or cuisine. When you are ready to place your order, you will see your delivery address, an estimated delivery time, and the total price including tax and fees. Track your order in real-time as it heads your way.</p><h3>Features</h3><ul><li><strong>Your Favorite Restaurants:</strong> Choose from a huge variety of cuisines, from your favorite sushi spot to the comfort food you crave.</li><li><strong>Easy Ordering:</strong> Food is just a few taps away. Get your favorite meals faster with quick reordering. Plus, group ordering makes entertaining a breeze.</li><li><strong>Schedule Deliveries:</strong> Advance ordering allows you to get your food when it's most convenient for you.</li><li><strong>Real-time Tracking:</strong> See when your order will arrive. We factor in food preparation, traffic, and weather.</li><li><strong>No Minimums:</strong> Order as little or as much as you want.</li><li><strong>Secure Payment:</strong> Conveniently pay via Google Pay or credit card.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/delivery_1.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/Delivery_buyer.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/Delivery_driver.jpg"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "CONCEPT",
+            "MOBILE APP",
+            "FOOD DELIVERY"
+        ]
+    },
+    {
+        "id": "lunargift",
+        "title": "Lunar New Year Gift",
+        "category": "3d",
+        "category_display": "3D & Visualization",
+        "industry": "Consumer Goods & Packaging",
+        "project_display": "3D Modeler & Texture Artist",
+        "date": "Oct, 2017",
+        "thumb": "assets/images/nygift.jpg",
+        "content_html": "<p>\\\"Banh Tet\\\" is a traditional cake featured in Vietnamese households during Tet holidays. In accordance with old Vietnamese traditions, \\\"Banh Tet\\\" is always present in every home on the first day of the Lunar New Year.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/nygift_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nygift_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nygift_4.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nygift_5.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nygift_6.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nygift_8.jpg"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "CONCEPT",
+            "PACKAGING",
+            "3D MODELING"
+        ]
+    },
+    {
+        "id": "lamp",
+        "title": "Rotating Lamp",
+        "category": "3d",
+        "category_display": "3D & Visualization",
+        "industry": "Consumer Goods & Packaging",
+        "project_display": "3D Concept Artist",
+        "date": "Sep, 2017",
+        "thumb": "assets/images/lattern.jpg",
+        "content_html": "<p>Den Keo Quan (rotating lantern) is a traditional paper toy. In the past, they were popular during Lunar New Year; however, they are now primarily seen during the Mid-Autumn Festival. When the candle inside is lit, the rising hot air causes the inner frame to rotate, casting moving shadow puppets onto the outer paper screen.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/lattern_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/lattern_4.jpg"
+            },
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/zM9vhF4CVI0?autoplay=1"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "CONCEPT",
+            "INDUSTRIAL DESIGN",
+            "3D CGI"
+        ]
+    },
+    {
+        "id": "nobita",
+        "title": "Nobita's House",
+        "category": "3d",
+        "category_display": "3D & Visualization",
+        "industry": "Architecture & Interior",
+        "project_display": "3D Environment Modeler",
+        "date": "Jun, 2017",
+        "thumb": "assets/images/3d_3.jpg",
+        "content_html": "<p>A high-precision 3D architectural and environment modeling project meticulously recreating the iconic two-story home of Nobita from the classic <em>Doraemon</em> series.</p><h3>Artistic & Technical Execution</h3><ul><li><strong>Authentic Japanese Residential Detailing:</strong> Meticulously modeled traditional Tatami straw flooring, wooden sliding Shoji screens, and Nobita\\u0027s signature study room desk featuring the time-machine drawer.</li><li><strong>Atmospheric Lighting & Composition:</strong> Crafted warm natural daylight illumination utilizing global illumination shaders and cinematic camera framing to evoke nostalgic anime memories.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/nobita_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nobita_3.jpg"
+            },
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/blh_Lrs3LYQ?autoplay=1"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "CONCEPT",
+            "ENVIRONMENT 3D",
+            "ARCHITECTURE"
+        ]
+    },
+    {
+        "id": "housedesign",
+        "title": "House Design",
+        "category": "3d",
+        "category_display": "3D & Visualization",
+        "industry": "Architecture & Interior",
+        "project_display": "3D Spatial & Interior Designer",
+        "date": "Apr, 2017",
+        "thumb": "assets/images/3d_2.jpg",
+        "content_html": "<p>A comprehensive architectural visualization (ArchViz) and interior spatial design exploration showcasing a multi-space modern residential home.</p><h3>Design Execution & Visual Depth</h3><ul><li><strong>Open-Concept Living:</strong> Designed continuous living room and island kitchen layouts emphasizing sleek contemporary aesthetics, natural marble surfaces, and ambient pendant lighting.</li><li><strong>Comprehensive Multi-Room Renders:</strong> Produced 15 high-definition render angles spanning master bedrooms, spa bathrooms, and living quarters under dual daylight and warm evening lighting scenarios.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/house_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_4.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_5.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_6.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_7.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_8.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_9.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_10.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_11.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_12.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_13.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_14.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_15.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/house_16.jpg"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "CONCEPT",
+            "ARCHVIZ",
+            "INTERIOR"
+        ]
+    },
+    {
+        "id": "wildwest",
+        "title": "Wildwest Vietnam",
+        "category": "graphic",
+        "category_display": "Graphic Design",
+        "industry": "Travel & Tourism",
+        "project_display": "Brand Identity Lead",
+        "date": "Oct, 2015",
+        "thumb": "assets/images/branding_1.jpg",
+        "content_html": "<p>A promotional project highlighting the cultures, arts, and travel opportunities within the Mekong Delta provinces.</p><p>Known as the 'rice bowl' of Vietnam, the Mekong Delta is carpeted in a dizzying variety of greens. It is a water world that moves to the rhythms of the mighty Mekong, where boats, houses, and markets float upon the innumerable rivers, canals, and streams that criss-cross the landscape like arteries.</p><p>The bustling commerce of its towns contrasts sharply with the languid, peaceful pace of life in the countryside. Here, water buffaloes wallow in rice paddies, coconut- and fruit-laden boats float slowly along mud-brown waters, and two-wheeled exploration of narrow lanes is rewarded with a true taste of rural hospitality and delicious local river fish.</p><p>Elsewhere, mangrove forests teem with bird life and hold the remnants of historic bunkers, while ornate Khmer pagodas and Buddhist temples reach for the sky, and off-coast islands offer white-sand beaches, tropical hideaways, and historical pirate lore.</p>",
+        "media": [
+            {
+                "type": "video",
+                "src": "assets/videos/wwvn_2.mp4"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/wwvn_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/wwvn_4.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/wwvn_6.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/wwvn_7.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/wwvn_8.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/wwvn_9.jpg"
+            },
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/7O0dNfxZ1yo?autoplay=1"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "BRAND IDENTITY",
+            "TOURISM",
+            "EDITORIAL"
+        ]
+    },
+    {
+        "id": "photomanip",
+        "title": "Photo Manipulation",
+        "category": "graphic",
+        "category_display": "Graphic Design",
+        "project_display": "Digital Matte Painter & Artist",
+        "date": "Sep, 2015",
+        "thumb": "assets/images/photomanip_1.jpg",
+        "content_html": "<p>A curated series of digital photo manipulations, matte paintings, and surreal conceptual advertising compositions.</p><h3>Digital Craft & Visual Compositing</h3><ul><li><strong>Seamless Multi-Layer Compositing:</strong> Blended diverse high-resolution photographic plates into unified surreal environments, matching atmospheric perspective and depth of field.</li><li><strong>Dynamic Lighting & Color Grading:</strong> Meticulously painted directional highlights, contact cast shadows, and unified cinematic color palettes to create captivating storytelling visuals.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_4.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_5.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_6.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_7.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_8.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_9.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_10.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/photomanip_11.jpg"
+            }
+        ],
+        "industry": "Advertising & Creative Arts",
+        "badges": [
+            "PERSONAL",
+            "DIGITAL ART",
+            "MATTE PAINTING",
+            "CREATIVE"
+        ]
+    },
+    {
+        "id": "nokia",
+        "title": "Nokia Lumia Concept",
+        "category": "3d",
+        "category_display": "3D & Visualization",
+        "industry": "Consumer Electronics",
+        "project_display": "3D Hard Surface Modeler",
+        "date": "Mar, 2015",
+        "thumb": "assets/images/3d_1.jpg",
+        "content_html": "<p>A concept industrial design study envisioning the next-generation evolution of Nokia\\u0027s iconic Lumia smartphone flagship.</p><h3>Hardware Aesthetics & 3D Hard-Surface Craft</h3><ul><li><strong>Fabula Monolithic Unibody:</strong> Blended Nokia\\u0027s signature matte polycarbonate unibody curvature with edge-to-edge curved glass integration.</li><li><strong>PureView Camera Module:</strong> Detailed 3D mechanical modeling of the rear circular camera housing, precision lens optics, dual-LED flash accents, and chamfered aluminum frame details.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/nokia_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nokia_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nokia_4.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/nokia_5.jpg"
+            }
+        ],
+        "badges": [
+            "PERSONAL",
+            "CONCEPT",
+            "HARD SURFACE",
+            "PRODUCT DESIGN"
+        ]
+    },
+    {
+        "id": "poster",
+        "title": "Posters Collection",
+        "category": "graphic",
+        "category_display": "Graphic Design",
+        "project_display": "Poster & Graphic Designer",
+        "date": "Mar, 2015",
+        "thumb": "assets/images/poster.jpg",
+        "content_html": "<p>An experimental graphic design and expressive poster series exploring visual tension, geometric balance, and conceptual metaphor for cultural and cinematic events.</p><h3>Graphic Principles & Typography</h3><ul><li><strong>Expressive Typographic Treatment:</strong> Explored custom lettering treatments, structural hierarchy, and dynamic letterform scaling to evoke distinct moods.</li><li><strong>Minimalist Grid & High Contrast:</strong> Employed high-contrast color palettes and bold geometric framing to maximize visual impact across digital displays and print media.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/poster_1.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/poster_2.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/poster_3.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/poster_4.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/poster_5.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/poster_6.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/poster_7.jpg"
+            },
+            {
+                "type": "img",
+                "src": "assets/images/poster_8.jpg"
+            }
+        ],
+        "industry": "Advertising & Creative Arts",
+        "badges": [
+            "PERSONAL",
+            "POSTER DESIGN",
+            "TYPOGRAPHY",
+            "PRINT"
+        ]
+    },
+    {
+        "id": "magazine",
+        "title": "Travelife Magazine",
+        "category": "graphic",
+        "category_display": "Graphic Design",
+        "industry": "Publishing & Media",
+        "project_display": "Editorial Layout Designer",
+        "date": "Feb, 2015",
+        "thumb": "assets/images/travellife.jpg",
+        "content_html": "<p>An editorial publication design and typography layout project crafted for <em>Travelife Magazine</em>, an experiential travel journal.</p><h3>Editorial Grid & Publication Craft</h3><ul><li><strong>Dynamic Editorial Grid:</strong> Established multi-column page grids that fluidly support long-form travel journalism, pull quotes, and striking landscape photography spreads.</li><li><strong>Visual Flow & Readability:</strong> Crafted clean font pairings balancing elegant editorial serifs with functional sans-serif body copy for an effortless reading experience.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/images/travellife_2.jpg"
+            }
+        ],
+        "company": "Travelife Publication",
+        "badges": [
+            "EDITORIAL DESIGN",
+            "MAGAZINE",
+            "LAYOUT"
+        ]
+    }
 ]
