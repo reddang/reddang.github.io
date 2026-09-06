@@ -170,11 +170,15 @@ function loadProjectDetail(projects, currentId) {
 
                 } else if (m.type === 'video') {
                     // Hiển thị VIDEO LOCAL (MP4)
+                    const titleHTML = m.title ? `<div style="margin-bottom:10px;"><h4 style="margin:0; font-size:1.05rem; color:#1e293b; display:flex; align-items:center; gap:8px;"><i class="fa-solid fa-circle-play" style="color:#0B77BE;"></i> ${m.title}</h4></div>` : '';
                     elementHTML = `
-                <video controls width="100%" style="margin-bottom:20px; border-radius:8px; background:#000;">
-                    <source src="${m.src}" type="video/mp4">
-                    Trình duyệt của bạn không hỗ trợ thẻ video.
-                </video>`;
+                <div style="margin-bottom:24px;">
+                    ${titleHTML}
+                    <video controls width="100%" style="border-radius:8px; background:#000; display:block;">
+                        <source src="${m.src}" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ thẻ video.
+                    </video>
+                </div>`;
 
                 } else if (m.type === 'pdf' || m.type === 'pptx') {
                     // Hiển thị SLIDE / PDF / PPTX LOCAL

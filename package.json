@@ -4,7 +4,8 @@
   "description": "REDDANG Portfolio website",
   "main": "index.html",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "dev": "live-server"
   },
   "devDependencies": {
     "live-server": "^1.2.1"

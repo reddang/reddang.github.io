@@ -75,28 +75,24 @@
         ],
         "media": [
             {
-                "type": "pptx",
+                "type": "video",
                 "title": "Bài 1.1: Khái niệm cơ sở (Machine Learning & LLMs)",
-                "src": "assets/docs/1.1_Khai_niem_co_so.pdf",
-                "pptx": "assets/docs/1.1_Khai_niem_co_so.pptx"
+                "src": "assets/videos/1.1_Khai_niem_co_so_fixed.mp4"
             },
             {
-                "type": "pptx",
+                "type": "video",
                 "title": "Bài 1.2.1: Đại số tuyến tính cho AI (Linear Algebra)",
-                "src": "assets/docs/1.2.1_Dai_so_tuyen_tinh.pdf",
-                "pptx": "assets/docs/1.2.1_Dai_so_tuyen_tinh.pptx"
+                "src": "assets/videos/1.2.1_Dai_so_tuyen_tinh_fixed.mp4"
             },
             {
-                "type": "pptx",
+                "type": "video",
                 "title": "Bài 1.2.2: Xác suất & Thống kê cho AI (Probability & Statistics)",
-                "src": "assets/docs/1.2.2_Xac_suat_va_Thong_ke.pdf",
-                "pptx": "assets/docs/1.2.2_Xac_suat_va_Thong_ke.pptx"
+                "src": "assets/videos/1.2.2_Xac_suat_va_Thong_ke_fixed.mp4"
             },
             {
-                "type": "pptx",
+                "type": "video",
                 "title": "Bài 1.2.3: Giải tích & Gradient cho AI (Calculus & Optimization)",
-                "src": "assets/docs/1.2.3_Giai_tich_va_Gradient.pdf",
-                "pptx": "assets/docs/1.2.3_Giai_tich_va_Gradient.pptx"
+                "src": "assets/videos/1.2.3_Giai_tich_va_Gradient_fixed.mp4"
             }
         ]
     },
