@@ -1,0 +1,1280 @@
+[
+    {
+        "id": "finviet-eco",
+        "tier": "featured",
+        "title": "ECO Tiệm Số Hóa",
+        "tagline": "Scaling a B2B2C merchant app that digitizes traditional grocery stores across Vietnam.",
+        "company": "FinViet Technology",
+        "logo": "assets/img/eco_icon.webp",
+        "company_logo": "assets/img/logo_fv.webp",
+        "role": "Product Owner (Product Manager)",
+        "period": "Apr 2023 – May 2026",
+        "platform": "iOS · Android · Web portals",
+        "industry": "Retail & FinTech",
+        "thumb": "assets/img/fv_cover.webp",
+        "cover": "assets/img/m2c_detail.webp",
+        "tags": [
+            "B2B2C",
+            "Retail",
+            "FinTech Integration",
+            "Loyalty",
+            "AI"
+        ],
+        "metrics": [
+            {
+                "value": "320K+",
+                "label": "registered users",
+                "from": "from 160K · 2x"
+            },
+            {
+                "value": "90K+",
+                "label": "monthly active users",
+                "from": "from 20K · 4.5x"
+            },
+            {
+                "value": "75K+",
+                "label": "retained merchants",
+                "from": "from 20K · 3.75x"
+            },
+            {
+                "value": "350K+",
+                "label": "monthly transactions",
+                "from": "from 150K · 2.3x"
+            }
+        ],
+        "sections": [
+            {
+                "heading": "Context",
+                "html": "<p>Traditional grocery stores (<em>tạp hóa</em>) are still the largest retail channel in Vietnam, but most of them run on paper and cash. FinViet's ECO Tiệm Số Hóa app connects these stores with FMCG manufacturers and adds payments and financial services on top: a manufacturer → merchant → consumer chain.</p>"
+            },
+            {
+                "heading": "The problem",
+                "html": "<p>The app already had 160K registered stores, but only about 20K used it in a given month. For the ecosystem to work, merchants needed a reason to open the app every day, and FMCG brands needed a reliable channel to reach them.</p>"
+            },
+            {
+                "heading": "My role",
+                "html": "<p>I owned the strategy and roadmap for the flagship merchant app and worked directly with C-level executives and business units to prioritize investments. I led delivery across BA, Engineering, Design, QA and Operations, and balanced requirements from FMCG partners such as KIDO, Tho Phat, Ajinomoto and Vifon.</p>"
+            },
+            {
+                "heading": "Key decisions",
+                "list": [
+                    {
+                        "title": "Fix the daily workflows first",
+                        "text": "I mapped the core merchant workflows with BPMN, use case and sequence diagrams and redesigned them. Core tasks became 2.5x faster."
+                    },
+                    {
+                        "title": "Bring existing financial services into the app",
+                        "text": "Instead of building new FinTech products, I integrated FinViet's existing e-wallet, QR payments, lending and bill pay into the merchant app, so a store could sell, collect payments and pay bills in one place."
+                    },
+                    {
+                        "title": "Standard data flows for FMCG partners",
+                        "text": "I defined the integration data flows and API payload requirements so each brand could exchange orders and program data with the app securely."
+                    },
+                    {
+                        "title": "Integrate AI rather than build it",
+                        "text": "I evaluated the trade-offs and integrated third-party computer vision and chatbot services to automate store operations and merchant support."
+                    },
+                    {
+                        "title": "Give merchants reasons to come back",
+                        "text": "I delivered a Loyalty Portal (points earned on transactions, redeemable for vouchers) and a Gamification Portal that lets brands run in-app game campaigns."
+                    }
+                ]
+            },
+            {
+                "heading": "Outcome",
+                "html": "<ul><li>Registered users grew from <strong>160K to 320K+</strong> (2x).</li><li>Monthly active users grew from <strong>20K to 90K+</strong> (4.5x).</li><li>Retained merchants grew from <strong>20K to 75K+</strong> (3.75x).</li><li>Monthly transactions grew from <strong>150K to 350K+</strong> (2.3x).</li><li>Core merchant tasks became <strong>2.5x faster</strong>.</li></ul>"
+            }
+        ],
+        "gallery": [
+            {
+                "src": "assets/img/fv_1.webp",
+                "caption": "B2B procurement"
+            },
+            {
+                "src": "assets/img/fv_3.webp",
+                "caption": "Omnichannel smart POS"
+            },
+            {
+                "src": "assets/img/fv_4.webp",
+                "caption": "Integrated e-wallet"
+            },
+            {
+                "src": "assets/img/fv_2.webp",
+                "caption": "Value-added services"
+            },
+            {
+                "src": "assets/img/fv_7.webp",
+                "caption": "Gamification"
+            },
+            {
+                "src": "assets/img/fv_5.webp",
+                "caption": "AI chatbot (concept)"
+            },
+            {
+                "src": "assets/img/fv_6.webp",
+                "caption": "AI computer vision (concept)"
+            }
+        ],
+        "media": [
+            {
+                "type": "video",
+                "src": "assets/media/finviet_eco.mp4",
+                "poster": "assets/img/fv_video_poster.webp",
+                "caption": "ECO Tiệm Số Hóa product video (English subtitles)"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/m2c_detail.webp",
+                "caption": "The M2C ecosystem: manufacturers, merchants and consumers on one platform."
+            },
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/qvX_4Ccnyh8",
+                "caption": "ECO Tiệm Số Hóa product video (Vietnamese)"
+            }
+        ],
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Play",
+                "url": "https://play.google.com/store/apps/details?id=vn.com.finviet.eco&hl=vi"
+            },
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://apps.apple.com/vn/app/eco-ti%E1%BB%87m-s%E1%BB%91-h%C3%B3a/id1171667640"
+            }
+        ]
+    },
+    {
+        "id": "una-market",
+        "tier": "featured",
+        "title": "UNA Market",
+        "tagline": "Taking a Pinduoduo-style group-buying platform from concept to MVP.",
+        "company": "OnPoint (startup subsidiary)",
+        "logo": "assets/img/una_logo.webp",
+        "company_logo": "assets/img/logo_onpoint.webp",
+        "role": "Product Owner (Product Manager)",
+        "period": "Dec 2021 – Aug 2022",
+        "platform": "Web app · Admin portal",
+        "industry": "Social Commerce & Group Buying",
+        "thumb": "assets/img/una_cover.webp",
+        "thumb_fit": "contain",
+        "cover": "assets/img/una_cover.webp",
+        "tags": [
+            "Social Commerce",
+            "Group Buying",
+            "0 → 1",
+            "MVP"
+        ],
+        "media_layout": "grid",
+        "metrics": [
+            {
+                "value": "0 → 1",
+                "label": "concept to MVP launch"
+            },
+            {
+                "value": "~200M VND",
+                "label": "monthly revenue",
+                "from": "within 8 months"
+            }
+        ],
+        "sections": [
+            {
+                "heading": "Context",
+                "html": "<p>Fresh food in Vietnam passes through traders, wholesale markets and retail outlets before it reaches the shopper, and every step adds to the price. A tomato that leaves the farm at 7,000đ/kg can reach the shopper at 40,000đ/kg.</p><p>UNA Market tested a different model: shoppers team up to buy together, and the platform aggregates that demand to buy closer to the source.</p>"
+            },
+            {
+                "heading": "The idea: interactive e-commerce",
+                "html": "<p>Classic e-commerce wins on convenience, efficiency and price, but loses the social and emotional side of shopping offline. The concept combined three things:</p><ul><li><strong>Recommendation</strong>: products find people, instead of people searching for products.</li><li><strong>Entertainment</strong>: daily check-ins, price-chop and other game mechanics.</li><li><strong>Community</strong>: shoppers invite friends and family to complete a team purchase.</li></ul>"
+            },
+            {
+                "heading": "My role",
+                "html": "<p>I owned the product strategy and roadmap from 0 to 1: the business logic, product rules and functional specs for the web app and admin portal. I selected and managed the outsourced engineering vendor alongside the internal team, and owned the timeline, QA and final UAT sign-off.</p>"
+            },
+            {
+                "heading": "Key decisions",
+                "list": [
+                    {
+                        "title": "Team purchase as the core loop",
+                        "text": "A shopper starts or joins a team, shares it on social networks, and the team has 24 hours to form. Every share brings in new users at low acquisition cost."
+                    },
+                    {
+                        "title": "Dynamic tier pricing",
+                        "text": "I designed the group-buying rules and price tiers so the price drops as more people join, which gives every buyer a reason to invite others."
+                    },
+                    {
+                        "title": "A lean MVP scope",
+                        "text": "The MVP covered the team-purchase flow, local payments, order processing and fulfillment. Growth mechanics were mapped to AARRR (pirate metrics) for later phases."
+                    },
+                    {
+                        "title": "Outsource engineering, keep quality in-house",
+                        "text": "An external vendor built the product, while I kept control of quality through a QA framework and final UAT sign-off."
+                    }
+                ]
+            },
+            {
+                "heading": "Outcome",
+                "html": "<ul><li>Launched the MVP from concept.</li><li>Reached <strong>~200M VND in monthly revenue</strong> within 8 months.</li></ul><p>The group-buying experience from UNA carries directly into my current role, building a new group-buying platform at PIGROUP.</p>"
+            }
+        ],
+        "gallery": [
+            {
+                "src": "assets/img/una_app_catalog.webp",
+                "caption": "Catalog with group-buy prices"
+            },
+            {
+                "src": "assets/img/una_app_product.webp",
+                "caption": "Product page"
+            },
+            {
+                "src": "assets/img/una_app_order.webp",
+                "caption": "Order placed: invite friends to complete the team"
+            }
+        ],
+        "media": [
+            {
+                "type": "video",
+                "src": "assets/media/una_market.mp4",
+                "poster": "assets/img/una_video_poster.webp",
+                "caption": "UNA Market promo video"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_delivery.webp",
+                "caption": "Delivery in UNA-branded bags (from the promo video)."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_p11.webp",
+                "caption": "Traditional retail: how the price of a tomato grows from farm to shopper."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_p15.webp",
+                "caption": "Team purchase: aggregate demand, buy closer to the source."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_p9.webp",
+                "caption": "Interactive e-commerce: recommendation, entertainment and community."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_p16.webp",
+                "caption": "Team-purchase flow."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_p31.webp",
+                "caption": "MVP workflow."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_p27.webp",
+                "caption": "Growth mechanics mapped to AARRR."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/una_p33.webp",
+                "caption": "Logistics models considered: drop shipping, cross docking and own fulfillment."
+            }
+        ],
+        "links": [
+            {
+                "type": "pdf",
+                "label": "Full concept deck (PDF)",
+                "url": "assets/media/una_market_concept_deck.pdf"
+            }
+        ]
+    },
+    {
+        "id": "haravan",
+        "tier": "featured",
+        "title": "Haravan Omnichannel",
+        "tagline": "POS and transaction modules for an omnichannel commerce platform serving 20K+ merchants.",
+        "company": "Haravan",
+        "logo": "assets/img/logo_haravan.webp",
+        "role": "Product Owner (Team Leader)",
+        "period": "Apr 2019 – Dec 2021",
+        "platform": "POS · Inventory · Orders",
+        "industry": "B2B SaaS · Omnichannel Retail",
+        "thumb": "assets/img/Omnichannel_1.webp",
+        "cover": "assets/img/Omnichannel_1.webp",
+        "tags": [
+            "B2B SaaS",
+            "Omnichannel",
+            "POS",
+            "Enterprise"
+        ],
+        "metrics": [
+            {
+                "value": "20K+",
+                "label": "merchants on the platform"
+            },
+            {
+                "value": "Enterprise",
+                "label": "retail chains as clients"
+            }
+        ],
+        "sections": [
+            {
+                "heading": "Context",
+                "html": "<p>Haravan is a B2B SaaS platform that lets retailers sell through physical stores, their own website, marketplaces and social channels from one system, with orders, inventory and customers in one place.</p>"
+            },
+            {
+                "heading": "The problem",
+                "html": "<p>In traditional retail, a merchant has to build and run separate systems for each sales channel, customer engagement, inventory, logistics and marketing. This takes a lot of resources and is hard to keep in sync. Large retail chains feel this the most at the point of sale, where every store and every channel has to see the same stock and the same orders.</p>"
+            },
+            {
+                "heading": "My role",
+                "html": "<p>I led the core POS and transaction modules for enterprise merchants. I translated store workflows into specs, user stories and acceptance criteria, prioritized the backlog, and worked with Engineering, QA, Sales and Customer Success through each sprint.</p>"
+            },
+            {
+                "heading": "What I worked on",
+                "list": [
+                    {
+                        "title": "POS",
+                        "text": "In-store selling connected to the same product, order and customer data as the online channels."
+                    },
+                    {
+                        "title": "Inventory",
+                        "text": "Stock that stays accurate across stores and channels."
+                    },
+                    {
+                        "title": "Order & transaction management",
+                        "text": "One order flow from checkout to fulfillment, whichever channel the order came from."
+                    },
+                    {
+                        "title": "Enterprise features",
+                        "text": "Features for retail chains including Vinamilk, The Coffee House and Juno."
+                    }
+                ]
+            },
+            {
+                "heading": "How I prioritized",
+                "html": "<p>I used merchant feedback and usage data to decide what to build next, focusing on the two things chains cared about most at the counter: <strong>checkout speed</strong> and <strong>inventory accuracy</strong>.</p>"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/Omnichannel_2.svg",
+                "caption": "From traditional retail to omnichannel: the merchant journey and order fulfillment flow."
+            }
+        ]
+    },
+    {
+        "id": "cabina-ai",
+        "tier": "featured",
+        "title": "Cabina AI",
+        "tagline": "A Chrome extension that translates Google Meet calls live, for remote workers who join meetings in a second language.",
+        "company": "Independent product",
+        "logo": "assets/img/cabina_logo.webp",
+        "role": "Solo builder: product, design and AI-assisted development",
+        "period": "2026",
+        "platform": "Chrome extension",
+        "industry": "AI · Productivity",
+        "thumb": "assets/img/cabina_meet.webp",
+        "cover": "assets/img/cabina_meet.webp",
+        "tags": [
+            "AI",
+            "Chrome Extension",
+            "Live Translation",
+            "Solo build"
+        ],
+        "metrics": [
+            {
+                "value": "No bot",
+                "label": "nothing joins the call"
+            },
+            {
+                "value": "0 audio",
+                "label": "captured or uploaded"
+            },
+            {
+                "value": "Live",
+                "label": "on the Chrome Web Store"
+            }
+        ],
+        "sections": [
+            {
+                "heading": "The problem",
+                "html": "<p>Many engineers, PMs and designers now work remotely for overseas teams. In live meetings the language barrier is a daily source of stress:</p><ul><li>Fear of missing what a manager or client just said.</li><li>Subtitles plus an AI voice on top of the original audio are tiring to follow.</li><li>Many companies block recording bots such as Otter.ai or Fireflies.ai from joining calls.</li><li>Most interpretation tools are monthly subscriptions whose minutes expire.</li></ul>"
+            },
+            {
+                "heading": "Research",
+                "html": "<p>I compared the tools people actually use: Tactiq, JotMe, Wordly, Talo and Google Meet's own translation. Four gaps came up again and again in reviews: <strong>very broad extension permissions</strong>, <strong>high latency</strong>, <strong>bots that make people self-conscious</strong>, and <strong>opaque or expiring pricing</strong>.</p>"
+            },
+            {
+                "heading": "How it works",
+                "html": "<p>Cabina runs inside Google Meet as a sidebar. It reads Meet's own live captions in the page, translates each sentence as soon as the speaker pauses, and can read the translation into the user's headset. While the voice plays, the original audio is muted so the two never overlap. The live transcript is free.</p>"
+            },
+            {
+                "heading": "Key decisions",
+                "list": [
+                    {
+                        "title": "No bot, no audio capture",
+                        "text": "Reading Meet's captions instead of recording audio means nothing joins the call, it works where companies block bots, and meeting audio never leaves the browser."
+                    },
+                    {
+                        "title": "Permissions as a trust signal",
+                        "text": "The extension asks only for what it needs: Google Meet, sign-in and storage. Broad permissions were the top trust complaint about the closest competitor."
+                    },
+                    {
+                        "title": "Change the business model",
+                        "text": "Version 3 asked users to bring their own AI API key and buy a yearly license. The target users did not want to set up cloud keys, so version 4 moved to a free transcript plus prepaid translation hours with no subscription. Prepaid hours also cap the cost of each user at what they paid."
+                    },
+                    {
+                        "title": "Manual language switch over auto-detect",
+                        "text": "A quick language switcher avoids the lag and garbled first sentences that auto-detection causes in other tools."
+                    }
+                ]
+            },
+            {
+                "heading": "Built with",
+                "html": "<p>Chrome Extension (Manifest V3), Cloudflare Workers and D1, Google Cloud Translation and Text-to-Speech, Polar for checkout. Built solo with AI-assisted development (Claude, Codex, Gemini).</p>"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/cabina_meet.webp",
+                "caption": "Live translation sidebar in Google Meet (v3 screens)."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/cabina_history.webp",
+                "caption": "Meeting history and transcripts (v3 screens)."
+            }
+        ],
+        "links": [
+            {
+                "type": "chrome",
+                "label": "Chrome Web Store",
+                "url": "https://chromewebstore.google.com/detail/cabina-voice-cabin-meet-i/gamgjjpafhedacjnjmghokdfaojonfgo"
+            }
+        ]
+    },
+    {
+        "id": "ustillalive",
+        "tier": "shipped",
+        "title": "UStillAlive",
+        "tagline": "A safety app that lets family know you are OK without constant location tracking, and sends SOS alerts to a trusted circle.",
+        "company": "Independent product",
+        "logo": "assets/img/us_icon.webp",
+        "role": "Solo builder: product, design and AI-assisted development",
+        "period": "2026",
+        "platform": "iOS · Android",
+        "industry": "Personal safety",
+        "thumb": "assets/img/us_thumbnail.webp",
+        "cover": "assets/img/us_thumbnail.webp",
+        "tags": [
+            "Mobile app",
+            "Solo build",
+            "App Store",
+            "Google Play"
+        ],
+        "sections": [
+            {
+                "heading": "The problem",
+                "html": "<p>Most family safety apps track location in the background all the time. It drains the battery and feels like surveillance, so many people turn it off, and the app stops being useful when it matters.</p>"
+            },
+            {
+                "heading": "How it works",
+                "list": [
+                    {
+                        "title": "Check-ins instead of tracking",
+                        "text": "The phone sends a light check-in signal. The trusted circle sees a simple status (Active, Warning or Inactive) instead of a live map."
+                    },
+                    {
+                        "title": "Location only on SOS",
+                        "text": "GPS is used only when the user triggers an SOS. The alert includes the address, time and phone number."
+                    },
+                    {
+                        "title": "A trusted circle",
+                        "text": "Alerts go to a small group of guardians the user chooses, and only they can see the data."
+                    }
+                ]
+            },
+            {
+                "heading": "What I did",
+                "html": "<p>I took the app from idea to both stores on my own: product definition, UX, AI-assisted development (Capacitor, Firebase, Cloud Functions, push notifications) and the App Store and Google Play releases.</p>"
+            }
+        ],
+        "gallery": [
+            {
+                "src": "assets/img/us_1.webp"
+            },
+            {
+                "src": "assets/img/us_2.webp"
+            },
+            {
+                "src": "assets/img/us_3.webp"
+            },
+            {
+                "src": "assets/img/us_4.webp"
+            },
+            {
+                "src": "assets/img/us_5.webp"
+            },
+            {
+                "src": "assets/img/us_6.webp"
+            },
+            {
+                "src": "assets/img/us_7.webp"
+            },
+            {
+                "src": "assets/img/us_8.webp"
+            },
+            {
+                "src": "assets/img/us_9.webp"
+            }
+        ],
+        "media": [
+            {
+                "type": "video",
+                "src": "assets/media/us_video.mp4",
+                "poster": "assets/img/us_thumbnail.webp",
+                "caption": "App preview"
+            }
+        ],
+        "links": [
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://apps.apple.com/vn/app/ustillalive/id6762523316"
+            },
+            {
+                "type": "google-play",
+                "label": "Google Play",
+                "url": "https://play.google.com/store/apps/details?id=com.studio1650.ustillalive"
+            }
+        ]
+    },
+    {
+        "id": "pm-no-code",
+        "tier": "shipped",
+        "title": "PM No-Code",
+        "tagline": "An online course on AI and no-code automation for product people who don't code, available on Udemy and Unica.",
+        "company": "Independent product",
+        "logo": "assets/img/pmnocode_logo.webp",
+        "role": "Course creator",
+        "period": "2026",
+        "platform": "Udemy · Unica · 92 lectures",
+        "industry": "EdTech · AI Automation",
+        "thumb": "assets/img/pmnocode_cover.webp",
+        "cover": "assets/img/pmnocode_cover.webp",
+        "tags": [
+            "AI Automation",
+            "No-Code",
+            "Prompt Engineering",
+            "AI Agents"
+        ],
+        "sections": [
+            {
+                "heading": "Who it is for",
+                "html": "<p>Product managers, founders and operators without a coding background who want to automate their own work with AI and no-code tools, and understand how AI works well enough to work effectively with developers.</p>"
+            },
+            {
+                "heading": "What students learn",
+                "list": [
+                    {
+                        "title": "Product thinking for AI projects",
+                        "text": "Apply product management to AI and no-code projects, from the problem to the roadmap."
+                    },
+                    {
+                        "title": "Workflow automation",
+                        "text": "Design and run automated workflows with modern no-code and low-code tools."
+                    },
+                    {
+                        "title": "Prompt engineering and AI agents",
+                        "text": "Write structured prompts and build practical AI agent systems."
+                    },
+                    {
+                        "title": "Real-world projects",
+                        "text": "Take a project from the first idea to a working system in daily use."
+                    }
+                ]
+            },
+            {
+                "heading": "Course structure",
+                "html": "<p>92 lectures in Vietnamese (11 hours 40 minutes) across 8 modules: how AI works (machine learning, deep learning, LLMs), office AI with low-code automation and governance, AI agents and reasoning, MLOps and evaluation, and AI applications by industry.</p>"
+            },
+            {
+                "heading": "How I produced it",
+                "html": "<p>To produce 92 lectures on my own, I built a small automation tool for the studio work: converting slide decks, cleaning up recordings and splitting videos into lectures.</p>"
+            }
+        ],
+        "media": [
+            {
+                "type": "video",
+                "src": "assets/media/pmnocode_lecture_1-1.mp4",
+                "poster": "assets/img/pmnocode_lecture_1-1.webp",
+                "caption": "Lecture 1.1: Core concepts (machine learning and LLMs)"
+            },
+            {
+                "type": "video",
+                "src": "assets/media/pmnocode_lecture_1-2-1.mp4",
+                "poster": "assets/img/pmnocode_lecture_1-2-1.webp",
+                "caption": "Lecture 1.2.1: Linear algebra for AI"
+            },
+            {
+                "type": "video",
+                "src": "assets/media/pmnocode_lecture_1-2-2.mp4",
+                "poster": "assets/img/pmnocode_lecture_1-2-2.webp",
+                "caption": "Lecture 1.2.2: Probability and statistics for AI"
+            },
+            {
+                "type": "video",
+                "src": "assets/media/pmnocode_lecture_1-2-3.mp4",
+                "poster": "assets/img/pmnocode_lecture_1-2-3.webp",
+                "caption": "Lecture 1.2.3: Calculus and gradients for AI"
+            }
+        ],
+        "links": [
+            {
+                "type": "udemy",
+                "label": "View on Udemy",
+                "url": "https://www.udemy.com/course/pm-no-code-ai-product-management-no-code-automation/"
+            },
+            {
+                "type": "unica",
+                "label": "View on Unica",
+                "url": "https://unica.vn/pm-no-code-ai-product-management-no-code-automation"
+            }
+        ],
+        "media_layout": "grid"
+    },
+    {
+        "id": "daiichi-life",
+        "tier": "archive",
+        "group": "product",
+        "title": "Dai-ichi Life App Platform",
+        "role": "Senior UX/UI Designer",
+        "company": "Dai-ichi Life Insurance",
+        "logo": "assets/img/logo_daiichi.webp",
+        "industry": "InsurTech",
+        "period": "Jan 2019",
+        "thumb": "assets/img/app_4.webp",
+        "content_html": "<p>Collaborated on the user experience and architecture of Dai-ichi Life's customer-facing mobile app, focusing on insurance data lookup and policy claim workflows.</p><h3>Key UX contributions</h3><ul><li><strong>Digital policy servicing:</strong> redesigned policy inquiry and claim submission flows to reduce paper and make self-service easier.</li><li><strong>Customer journeys:</strong> streamlined the information architecture across policy overviews, premium payment schedules and claim status tracking.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/daiichi_1.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/daiichi_2.webp"
+            }
+        ]
+    },
+    {
+        "id": "popskids",
+        "tier": "archive",
+        "group": "product",
+        "title": "PopsKids",
+        "role": "Senior UX/UI Designer",
+        "company": "POPS Worldwide",
+        "logo": "assets/img/logo_pops.webp",
+        "industry": "Media & Entertainment",
+        "period": "Oct 2017",
+        "thumb": "assets/img/app_3.webp",
+        "content_html": "<p>Along with gaming, content for children is one of the top trends in Vietnam. With inappropriate content growing online, PopsKids was created as a safe space that filters out adult or sensitive media and shows only child-friendly programmes, across mobile and web.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/popkids_1.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/popkids_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/popkids_3.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/popkids_4-01.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/popkids_5.webp"
+            }
+        ],
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Play",
+                "url": "https://play.google.com/store/apps/details?id=com.popsworldwide.popskids&hl=en"
+            },
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://itunes.apple.com/vn/app/pops-kids-tv/id1141793155?l=vi&mt=8"
+            },
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://web.popskids.tv/"
+            }
+        ]
+    },
+    {
+        "id": "popstv",
+        "tier": "archive",
+        "group": "product",
+        "title": "PopsTV",
+        "role": "UI/UX Designer",
+        "company": "POPS Worldwide",
+        "logo": "assets/img/logo_pops.webp",
+        "industry": "Media & Entertainment",
+        "period": "Mar 2018",
+        "thumb": "assets/img/popstv.webp",
+        "content_html": "<p>Designed the user interface flows for the PopsTV app, a multi-category video streaming service.</p><h3>Design highlights</h3><ul><li><strong>Content discovery:</strong> browsing categories, personalized watchlists and video playback controls.</li><li><strong>Engagement:</strong> channel navigation and live-stream chat.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/popstv_2.webp"
+            }
+        ]
+    },
+    {
+        "id": "foodsave",
+        "tier": "archive",
+        "group": "product",
+        "title": "FoodSave App",
+        "role": "Product Designer",
+        "company": "Personal concept",
+        "industry": "FoodTech",
+        "period": "May 2018",
+        "thumb": "assets/img/app_2.webp",
+        "content_html": "<p>Singapore wastes about 788,600 tonnes of food a year, and only 13% is recycled. FoodSave is a concept app that connects food sellers and buyers (B2C and C2C) with real-time alerts on food that is about to expire.</p><h3>Features</h3><ul><li><strong>Merchant listings:</strong> merchants list products close to expiry and nearby users get discount alerts.</li><li><strong>Peer-to-peer sharing:</strong> households can list extra cooked food or groceries before they expire.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/foodsave_1.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/Foodsave_buyer.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/Foodsave_seller.webp"
+            }
+        ]
+    },
+    {
+        "id": "food-delivery",
+        "tier": "archive",
+        "group": "product",
+        "title": "Delivery Food App",
+        "role": "Product Designer",
+        "company": "Personal concept",
+        "industry": "FoodTech",
+        "period": "Oct 2017",
+        "thumb": "assets/img/app_1.webp",
+        "content_html": "<p>A concept food delivery app: browse local restaurants or search for a dish, see the delivery time and total price before ordering, and track the order in real time.</p><h3>Features</h3><ul><li>Quick reordering and group ordering.</li><li>Scheduled deliveries.</li><li>Real-time tracking that factors in preparation time, traffic and weather.</li><li>No minimum order; pay by Google Pay or card.</li></ul>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/delivery_1.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/Delivery_buyer.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/Delivery_driver.webp"
+            }
+        ]
+    },
+    {
+        "id": "wego-blog",
+        "tier": "archive",
+        "group": "product",
+        "title": "Wego Blog Travel",
+        "role": "Product Designer",
+        "company": "Personal project",
+        "industry": "Travel",
+        "period": "Nov 2018",
+        "thumb": "assets/img/website_2.webp",
+        "content_html": "<p>A travel blog with tested tips and advice on how to travel for less.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/wego_2.webp"
+            }
+        ],
+        "links": [
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://reddang.github.io/wego_blog/"
+            }
+        ]
+    },
+    {
+        "id": "yang-ah-kang",
+        "tier": "archive",
+        "group": "product",
+        "title": "Yang Ah Kang & Sons",
+        "role": "Digital Product Designer",
+        "company": "Yang Ah Kang & Sons",
+        "industry": "Furniture & Interior",
+        "period": "Sep 2018",
+        "thumb": "assets/img/website_1.webp",
+        "content_html": "<p>Website for Yang Ah Kang & Sons, a custom furniture and interior fit-out company that has furnished hotels since 1946.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/yks_2.webp"
+            }
+        ],
+        "links": [
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://reddang.github.io/yks/"
+            }
+        ]
+    },
+    {
+        "id": "little-dizzy",
+        "tier": "archive",
+        "group": "games",
+        "title": "Little Dizzy – Sliding Puzzle",
+        "role": "Game Designer & Developer",
+        "company": "Personal project",
+        "logo": "assets/img/dizzy_icon.webp",
+        "industry": "Casual game",
+        "period": "Mar 2022",
+        "thumb": "assets/img/littledizzy_0.webp",
+        "content_html": "<p>A sliding tile puzzle game for iOS and Android, built to train concentration and spatial thinking, with picture puzzles in categories such as manga, comics and animation.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/littledizzy_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/littledizzy_4.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/littledizzy_5.webp"
+            }
+        ],
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Play",
+                "url": "https://play.google.com/store/apps/details?id=com.reddang.littledizzy"
+            },
+            {
+                "type": "app-store",
+                "label": "App Store",
+                "url": "https://apps.apple.com/us/app/little-dizzy-sliding-puzzle/id1614188036"
+            }
+        ]
+    },
+    {
+        "id": "21-academy",
+        "tier": "archive",
+        "group": "games",
+        "title": "21 Academy – Blackjack Strategy Trainer",
+        "role": "Solo builder: game design and AI-assisted development",
+        "company": "Personal project",
+        "logo": "assets/img/bj_icon.webp",
+        "industry": "Casual game & education",
+        "period": "Jun 2026",
+        "thumb": "assets/img/bj_thumb.webp",
+        "content_html": "<p>A free trainer for blackjack basic strategy. A live coach checks every decision against the dealer's card and explains the math behind the right move: hit, stand, double or split.</p><ul><li>Real-time strategy coach with the reasoning behind each move</li><li>Accuracy tracking, 8 achievements and player titles from Beginner to Legend</li><li>Interactive strategy chart and a hand-builder sandbox for practice</li><li>Virtual chips only: no real money, no ads, works offline</li></ul><p>Built with React and Capacitor using AI-assisted development.</p>",
+        "gallery": [
+            {
+                "src": "assets/img/bj_1.webp",
+                "caption": "Coach guides every move"
+            },
+            {
+                "src": "assets/img/bj_2.webp",
+                "caption": "Game table"
+            },
+            {
+                "src": "assets/img/bj_3.webp",
+                "caption": "Strategy chart"
+            },
+            {
+                "src": "assets/img/bj_4.webp",
+                "caption": "Hand-builder sandbox"
+            },
+            {
+                "src": "assets/img/bj_5.webp",
+                "caption": "Hand history"
+            }
+        ],
+        "links": [
+            {
+                "type": "google-play",
+                "label": "Google Play",
+                "url": "https://play.google.com/store/apps/details?id=com.studio1650.blackjackacademy"
+            }
+        ]
+    },
+    {
+        "id": "house-design",
+        "tier": "archive",
+        "group": "3d",
+        "title": "House Design",
+        "role": "3D Spatial & Interior Designer",
+        "company": "Personal project",
+        "industry": "Architecture & Interior",
+        "period": "Apr 2017",
+        "thumb": "assets/img/3d_2.webp",
+        "content_html": "<p>Architectural visualization of a modern home: open-plan living, an island kitchen, bedrooms and bathrooms, rendered from 15 angles in daylight and evening light.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/house_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_3.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_4.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_5.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_6.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_7.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_8.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_9.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_10.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_11.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_12.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_13.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_14.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_15.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/house_16.webp"
+            }
+        ]
+    },
+    {
+        "id": "nobita-house",
+        "tier": "archive",
+        "group": "3d",
+        "title": "Nobita's House",
+        "role": "3D Environment Modeler",
+        "company": "Personal project",
+        "industry": "Architecture & Interior",
+        "period": "Jun 2017",
+        "thumb": "assets/img/3d_3.webp",
+        "content_html": "<p>A 3D recreation of Nobita's two-storey house from <em>Doraemon</em>: tatami floors, shoji screens and the famous desk drawer, lit with warm daylight for a nostalgic feel.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/nobita_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nobita_3.webp"
+            },
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/blh_Lrs3LYQ"
+            }
+        ]
+    },
+    {
+        "id": "lunar-gift",
+        "tier": "archive",
+        "group": "3d",
+        "title": "Lunar New Year Gift",
+        "role": "3D Modeler & Texture Artist",
+        "company": "Personal project",
+        "industry": "Packaging",
+        "period": "Oct 2017",
+        "thumb": "assets/img/nygift.webp",
+        "content_html": "<p>Packaging concept for <em>bánh tét</em>, the traditional cake found in every Vietnamese home on the first day of Tết.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/nygift_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nygift_3.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nygift_4.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nygift_5.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nygift_6.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nygift_8.webp"
+            }
+        ]
+    },
+    {
+        "id": "rotating-lamp",
+        "tier": "archive",
+        "group": "3d",
+        "title": "Rotating Lamp",
+        "role": "3D Concept Artist",
+        "company": "Personal project",
+        "industry": "Product visualization",
+        "period": "Sep 2017",
+        "thumb": "assets/img/lattern.webp",
+        "content_html": "<p><em>Đèn kéo quân</em> is a traditional rotating paper lantern: the heat of a candle turns an inner frame that casts moving shadow puppets onto the outer screen.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/lattern_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/lattern_4.webp"
+            },
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/zM9vhF4CVI0"
+            }
+        ]
+    },
+    {
+        "id": "nokia-lumia",
+        "tier": "archive",
+        "group": "3d",
+        "title": "Nokia Lumia Concept",
+        "role": "3D Hard Surface Modeler",
+        "company": "Personal project",
+        "industry": "Consumer electronics",
+        "period": "Mar 2015",
+        "thumb": "assets/img/3d_1.webp",
+        "content_html": "<p>A concept study of a next-generation Nokia Lumia: a polycarbonate unibody with curved glass and a detailed PureView camera module.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/nokia_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nokia_3.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nokia_4.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/nokia_5.webp"
+            }
+        ]
+    },
+    {
+        "id": "wildwest-vietnam",
+        "tier": "archive",
+        "group": "graphic",
+        "title": "Wildwest Vietnam",
+        "role": "Brand Identity Designer",
+        "company": "Personal project",
+        "industry": "Travel & Tourism",
+        "period": "Oct 2015",
+        "thumb": "assets/img/branding_1.webp",
+        "content_html": "<p>A promotional identity for the culture, arts and travel of the Mekong Delta, the \"rice bowl\" of Vietnam: floating markets, rice paddies, mangrove forests, Khmer pagodas and island beaches.</p>",
+        "media": [
+            {
+                "type": "video",
+                "src": "assets/media/wwvn_2.mp4"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/wwvn_3.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/wwvn_4.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/wwvn_6.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/wwvn_7.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/wwvn_8.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/wwvn_9.webp"
+            },
+            {
+                "type": "iframe",
+                "src": "https://www.youtube.com/embed/7O0dNfxZ1yo"
+            }
+        ]
+    },
+    {
+        "id": "photo-manipulation",
+        "tier": "archive",
+        "group": "graphic",
+        "title": "Photo Manipulation",
+        "role": "Digital Artist",
+        "company": "Personal project",
+        "industry": "Advertising & Creative",
+        "period": "Sep 2015",
+        "thumb": "assets/img/photomanip_1.webp",
+        "content_html": "<p>A series of photo manipulations and surreal advertising compositions, blending many photos into one scene with matched lighting, perspective and colour grading.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_3.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_4.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_5.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_6.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_7.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_8.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_9.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_10.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/photomanip_11.webp"
+            }
+        ]
+    },
+    {
+        "id": "posters",
+        "tier": "archive",
+        "group": "graphic",
+        "title": "Posters Collection",
+        "role": "Poster & Graphic Designer",
+        "company": "Personal project",
+        "industry": "Advertising & Creative",
+        "period": "Mar 2015",
+        "thumb": "assets/img/poster.webp",
+        "content_html": "<p>An experimental poster series for cultural and film events, exploring typography, geometric balance and high-contrast colour.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/poster_1.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/poster_2.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/poster_3.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/poster_4.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/poster_5.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/poster_6.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/poster_7.webp"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/poster_8.webp"
+            }
+        ]
+    },
+    {
+        "id": "travelife",
+        "tier": "archive",
+        "group": "graphic",
+        "title": "Travelife Magazine",
+        "role": "Editorial Layout Designer",
+        "company": "Travelife Publication",
+        "industry": "Publishing",
+        "period": "Feb 2015",
+        "thumb": "assets/img/travellife.webp",
+        "content_html": "<p>Editorial layout for <em>Travelife Magazine</em>: a multi-column grid for long-form travel stories, pull quotes and large photo spreads.</p>",
+        "media": [
+            {
+                "type": "img",
+                "src": "assets/img/travellife_2.webp"
+            }
+        ]
+    }
+]
