@@ -367,16 +367,18 @@
     {
         "id": "cabina-ai",
         "tier": "featured",
-        "title": "Cabina AI",
-        "tagline": "A Chrome extension that translates Google Meet calls live, for remote workers who join meetings in a second language.",
+        "title": "Cabina Live",
+        "tagline": "A Chrome extension that adds a live transcript and real-time translation to Google Meet, with the translation read aloud in your headset.",
         "company": "Independent product",
         "logo": "assets/img/cabina_logo.webp",
         "role": "Solo builder: product, design and AI-assisted development",
         "period": "2026",
         "platform": "Chrome extension",
         "industry": "AI · Productivity",
-        "thumb": "assets/img/cabina_meet.webp",
-        "cover": "assets/img/cabina_meet.webp",
+        "thumb": "assets/img/cabina_v4_transcript.webp",
+        "thumb_fit": "contain",
+        "thumb_bg": "#1b2048",
+        "cover": "assets/img/cabina_v4_transcript.webp",
         "tags": [
             "AI",
             "Chrome Extension",
@@ -389,12 +391,16 @@
                 "label": "nothing joins the call"
             },
             {
-                "value": "0 audio",
-                "label": "captured or uploaded"
+                "value": "82 → 190+",
+                "label": "meeting languages → translation languages"
             },
             {
-                "value": "Live",
-                "label": "on the Chrome Web Store"
+                "value": "0 audio",
+                "label": "recorded or uploaded"
+            },
+            {
+                "value": "Free",
+                "label": "live transcript; translation is prepaid"
             }
         ],
         "sections": [
@@ -408,44 +414,63 @@
             },
             {
                 "heading": "How it works",
-                "html": "<p>Cabina runs inside Google Meet as a sidebar. It reads Meet's own live captions in the page, translates each sentence as soon as the speaker pauses, and can read the translation into the user's headset. While the voice plays, the original audio is muted so the two never overlap. The live transcript is free.</p>"
+                "html": "<p>Cabina Live adds a sidebar to the Google Meet call. It reads Meet's own live captions in the background, so Meet's CC button stays off and nothing changes for anyone else in the call. Lines are grouped by speaker, and each sentence is translated right under the original as soon as the speaker pauses. When Meet corrects a word, the line and its translation update.</p><p>The translation can also be read aloud in the user's headset, and \"Original: Off\" mutes the meeting audio while it plays, so the two voices never overlap. Every meeting can be reviewed and downloaded from the dashboard. The live transcript is free.</p>"
             },
             {
                 "heading": "Key decisions",
                 "list": [
                     {
-                        "title": "No bot, no audio capture",
-                        "text": "Reading Meet's captions instead of recording audio means nothing joins the call, it works where companies block bots, and meeting audio never leaves the browser."
+                        "title": "No bot, no recording",
+                        "text": "Reading Meet's captions instead of recording audio means nothing joins the call, it works where companies block bots, and no meeting audio is recorded or uploaded."
                     },
                     {
                         "title": "Permissions as a trust signal",
-                        "text": "The extension asks only for what it needs: Google Meet, sign-in and storage. Broad permissions were the top trust complaint about the closest competitor."
+                        "text": "Broad permissions were the top trust complaint about the closest competitor. Cabina asks only for Google Meet, sign-in and storage, and version 4.1 dropped even the activeTab permission."
                     },
                     {
                         "title": "Change the business model",
                         "text": "Version 3 asked users to bring their own AI API key and buy a yearly license. The target users did not want to set up cloud keys, so version 4 moved to a free transcript plus prepaid translation hours with no subscription. Prepaid hours also cap the cost of each user at what they paid."
                     },
                     {
-                        "title": "Manual language switch over auto-detect",
-                        "text": "A quick language switcher avoids the lag and garbled first sentences that auto-detection causes in other tools."
+                        "title": "Manual language choice over auto-detect",
+                        "text": "Users pick the languages in the toolbar popup: Meet's 82 caption languages in, 190+ translation languages out. There is no auto-detect lag, so the first sentence is translated too."
+                    },
+                    {
+                        "title": "Never translate the user's own lines",
+                        "text": "The user's own lines are transcribed but not translated or read back, so they cost nothing and do not clutter the headset."
                     }
                 ]
             },
             {
                 "heading": "Built with",
-                "html": "<p>Chrome Extension (Manifest V3), Cloudflare Workers and D1, Google Cloud Translation and Text-to-Speech, Polar for checkout. Built solo with AI-assisted development (Claude, Codex, Gemini).</p>"
+                "html": "<p>Chrome Extension (Manifest V3), Cloudflare Workers and D1 for accounts, prepaid hours and saved meetings, Google Cloud Translation and Text-to-Speech, and Polar for checkout. Built solo with AI-assisted development (Claude, Codex, Gemini).</p>"
             }
         ],
         "media": [
             {
                 "type": "img",
-                "src": "assets/img/cabina_meet.webp",
-                "caption": "Live translation sidebar in Google Meet (v3 screens)."
+                "src": "assets/img/cabina_v4_transcript.webp",
+                "caption": "Live transcript and translation inside Google Meet, grouped by speaker."
             },
             {
                 "type": "img",
-                "src": "assets/img/cabina_history.webp",
-                "caption": "Meeting history and transcripts (v3 screens)."
+                "src": "assets/img/cabina_v4_voice.webp",
+                "caption": "Translated voice in the headset, with the original audio muted."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/cabina_v4_languages.webp",
+                "caption": "Language choice in the toolbar popup: 82 meeting languages, 192 translation languages."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/cabina_v4_dashboard.webp",
+                "caption": "Every meeting saved to the dashboard, searchable and downloadable."
+            },
+            {
+                "type": "img",
+                "src": "assets/img/cabina_v4_hours.webp",
+                "caption": "Prepaid translation hours, no subscription."
             }
         ],
         "links": [
@@ -453,8 +478,14 @@
                 "type": "chrome",
                 "label": "Chrome Web Store",
                 "url": "https://chromewebstore.google.com/detail/cabina-voice-cabin-meet-i/gamgjjpafhedacjnjmghokdfaojonfgo"
+            },
+            {
+                "type": "website",
+                "label": "Website",
+                "url": "https://cabina-extension.reddang.workers.dev"
             }
-        ]
+        ],
+        "media_layout": "grid"
     },
     {
         "id": "ustillalive",

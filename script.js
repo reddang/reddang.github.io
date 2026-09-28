@@ -80,7 +80,7 @@ function renderFeatured(list) {
             `<li><strong>${esc(m.value)}</strong><span>${esc(m.label)}</span></li>`).join('');
         return `
         <article class="feature">
-            <a class="feature-media${p.thumb_fit === 'contain' ? ' fit-contain' : ''}" href="${detailUrl(p)}" tabindex="-1" aria-hidden="true">
+            <a class="feature-media${p.thumb_fit === 'contain' ? ' fit-contain' : ''}" href="${detailUrl(p)}" tabindex="-1" aria-hidden="true"${p.thumb_bg ? ` style="background:${esc(p.thumb_bg)}"` : ''}>
                 <img src="${esc(cardSrc(p.thumb))}" alt="" loading="lazy">
             </a>
             <div class="feature-body">
