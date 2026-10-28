@@ -1,0 +1,90 @@
+/* CV print stylesheet — A4, one column, ATS-friendly (real text, no images) */
+@page { size: A4; margin: 11mm 14mm 11mm 14mm; }
+
+:root {
+  --accent: #0B77BE;
+  --text: #1a1a1a;
+  --muted: #555;
+  --rule: #cfdbe6;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: #fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.42;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Screen preview: show an A4 sheet */
+@media screen {
+  body { background: #e9eef2; padding: 24px 0; }
+  .page { width: 210mm; margin: 0 auto; background: #fff; padding: 13mm 15mm; box-shadow: 0 2px 12px rgba(0,0,0,.12); }
+}
+
+/* Header */
+header { margin-bottom: 8pt; }
+h1 {
+  margin: 0;
+  font-size: 23pt;
+  font-weight: 700;
+  letter-spacing: -0.3pt;
+  color: var(--accent);
+  line-height: 1.1;
+}
+.headline {
+  margin: 2pt 0 5pt;
+  font-size: 12.5pt;
+  font-weight: 700;
+  color: var(--text);
+}
+.contact { margin: 0; color: var(--muted); font-size: 9.6pt; white-space: nowrap; }
+.contact a { color: var(--muted); text-decoration: none; }
+.contact span + span::before { content: "·"; margin: 0 5pt; color: #999; }
+
+/* Sections */
+section { margin-top: 9pt; }
+h2 {
+  margin: 0 0 4pt;
+  padding-bottom: 2pt;
+  border-bottom: 1.2pt solid var(--accent);
+  font-size: 11pt;
+  font-weight: 700;
+  letter-spacing: 0.8pt;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+p { margin: 0 0 3pt; }
+
+/* Skills */
+.skills { margin: 0; padding: 0; list-style: none; }
+.skills li { display: grid; grid-template-columns: 96pt 1fr; margin-bottom: 2pt; }
+.skills b { color: var(--text); }
+
+/* Jobs */
+.job { margin-bottom: 7pt; }
+.job-head, .job-sub { break-after: avoid-page; }
+ul.bullets li, .skills li { break-inside: avoid-page; }
+.job-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8pt;
+}
+.job-title { margin: 0; font-size: 11pt; font-weight: 700; }
+.job-title .org { color: var(--accent); }
+.dates { white-space: nowrap; font-weight: 700; font-size: 10pt; color: var(--text); }
+.job-sub { margin: 0.5pt 0 2.5pt; font-style: italic; color: var(--muted); font-size: 9.8pt; }
+ul.bullets { margin: 0; padding-left: 12pt; }
+ul.bullets li { margin-bottom: 2pt; padding-left: 1pt; }
+ul.bullets li::marker { color: var(--accent); }
+
+.projects li b { color: var(--text); }
+.certs { margin: 0; }
+.compact p { margin-bottom: 2pt; }

@@ -131,6 +131,11 @@
                 "type": "iframe",
                 "src": "https://www.youtube.com/embed/qvX_4Ccnyh8",
                 "caption": "ECO Tiệm Số Hóa product video (Vietnamese)"
+            },
+            {
+                "type": "iframe",
+                "src": "assets/media/FinViet_Product_Strategy_2026_EN.pdf",
+                "caption": "Product strategy 2026: 19-slide review (English)"
             }
         ],
         "links": [
