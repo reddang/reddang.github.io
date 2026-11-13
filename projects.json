@@ -371,7 +371,7 @@
     },
     {
         "id": "cabina-ai",
-        "tier": "featured",
+        "tier": "shipped",
         "title": "Cabina Live",
         "tagline": "A Chrome extension that adds a live transcript and real-time translation to Google Meet, with the translation read aloud in your headset.",
         "company": "Independent product",
@@ -591,51 +591,51 @@
     {
         "id": "pm-no-code",
         "tier": "shipped",
-        "title": "PM No-Code",
-        "tagline": "An online course on AI and no-code automation for product people who don't code, available on Udemy and Unica.",
+        "title": "AI Cho Mọi Người",
+        "tagline": "A Vietnamese course that explains AI from the foundations to LLMs, RAG and AI agents, through a product person's lens. No coding needed.",
         "company": "Independent product",
-        "logo": "assets/img/pmnocode_logo.webp",
+        "logo": "assets/img/pmnocode_logo_hex.png",
         "role": "Course creator",
         "period": "2026",
         "platform": "Udemy · Unica · 92 lectures",
-        "industry": "EdTech · AI Automation",
-        "thumb": "assets/img/pmnocode_cover.webp",
-        "cover": "assets/img/pmnocode_cover.webp",
+        "industry": "EdTech · AI",
+        "thumb": "assets/img/aicmn_cover.jpg",
+        "cover": "assets/img/aicmn_cover.jpg",
         "tags": [
-            "AI Automation",
-            "No-Code",
-            "Prompt Engineering",
-            "AI Agents"
+            "AI Foundations",
+            "LLM & RAG",
+            "AI Agents",
+            "MLOps"
         ],
         "sections": [
             {
                 "heading": "Who it is for",
-                "html": "<p>Product managers, founders and operators without a coding background who want to automate their own work with AI and no-code tools, and understand how AI works well enough to work effectively with developers.</p>"
+                "html": "<p>Anyone who wants to understand how AI really works without writing code: office staff, product managers, founders and operators who need to judge AI ideas and work well with technical teams.</p>"
             },
             {
                 "heading": "What students learn",
                 "list": [
                     {
-                        "title": "Product thinking for AI projects",
-                        "text": "Apply product management to AI and no-code projects, from the problem to the roadmap."
+                        "title": "How AI works",
+                        "text": "Machine learning, deep learning and the maths behind them, explained visually."
                     },
                     {
-                        "title": "Workflow automation",
-                        "text": "Design and run automated workflows with modern no-code and low-code tools."
+                        "title": "LLMs and RAG",
+                        "text": "NLP, Transformers, large language models and retrieval-augmented generation."
                     },
                     {
-                        "title": "Prompt engineering and AI agents",
-                        "text": "Write structured prompts and build practical AI agent systems."
+                        "title": "Alignment and AI agents",
+                        "text": "How models are aligned, and how agents reason, plan and use tools."
                     },
                     {
-                        "title": "Real-world projects",
-                        "text": "Take a project from the first idea to a working system in daily use."
+                        "title": "AI in practice",
+                        "text": "Using AI at work, evaluating AI and running it in production (MLOps), and AI applications by industry."
                     }
                 ]
             },
             {
                 "heading": "Course structure",
-                "html": "<p>92 lectures in Vietnamese (11 hours 40 minutes) across 8 modules: how AI works (machine learning, deep learning, LLMs), office AI with low-code automation and governance, AI agents and reasoning, MLOps and evaluation, and AI applications by industry.</p>"
+                "html": "<p>92 lectures in Vietnamese (11 hours 40 minutes) across 8 stages: foundations and maths for AI, machine learning, AI in the office, deep learning, NLP, Transformers and LLMs, alignment and AI agents, MLOps and evaluation, and AI by industry. Every lecture comes with its slides.</p>"
             },
             {
                 "heading": "How I produced it",

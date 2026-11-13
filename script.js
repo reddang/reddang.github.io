@@ -2,8 +2,9 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     initNav();
+    initSliders(document.querySelectorAll('.slider-nav[data-for="timeline-track"]'));
 
-    fetch('projects.json?v=2026-09-redesign')
+    fetch('projects.json?v=2026-11-aicmn2')
         .then(res => res.json())
         .then(projects => {
             if (document.getElementById('detail')) {
@@ -11,11 +12,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 renderDetail(projects, id);
             } else {
                 renderFeatured(projects.filter(p => p.tier === 'featured'));
+                initSliders(document.querySelectorAll('.slider-nav[data-for="featured-list"]'));
                 renderShipped(projects.filter(p => p.tier === 'shipped'));
                 renderArchive(projects.filter(p => p.tier === 'archive'));
             }
         })
         .catch(err => console.error('Could not load projects.json', err));
+
+    if (document.getElementById('ai-case-list')) {
+        fetch('ai-cases.json?v=2026-11-thumbs')
+            .then(res => res.json())
+            .then(renderAiCases)
+            .catch(err => console.error('Could not load ai-cases.json', err));
+    }
 });
 
 // ---------- helpers ----------
@@ -67,6 +76,35 @@ function initNav() {
     links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setOpen(false)));
     document.addEventListener('click', e => {
         if (!links.contains(e.target) && !toggle.contains(e.target)) setOpen(false);
+    });
+}
+
+// ---------- horizontal sliders ----------
+
+// Arrow buttons scroll one card at a time; they only show when some cards are off screen
+function initSliders(navs) {
+    navs.forEach(nav => {
+        const track = document.getElementById(nav.dataset.for);
+        if (!track) return;
+        const [prev, next] = nav.querySelectorAll('.slider-btn');
+        const step = () => {
+            const card = track.firstElementChild;
+            return card ? card.getBoundingClientRect().width + parseFloat(getComputedStyle(track).columnGap || 0) : track.clientWidth;
+        };
+        const update = () => {
+            const max = track.scrollWidth - track.clientWidth;
+            nav.hidden = max <= 2;
+            prev.disabled = track.scrollLeft <= 2;
+            next.disabled = track.scrollLeft >= max - 2;
+        };
+        nav.addEventListener('click', e => {
+            const btn = e.target.closest('.slider-btn');
+            if (btn) track.scrollBy({ left: step() * Number(btn.dataset.dir), behavior: 'smooth' });
+        });
+        track.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        if (nav.dataset.start === 'end') track.scrollLeft = track.scrollWidth;   // newest role in view first
+        update();
     });
 }
 
@@ -155,6 +193,96 @@ function renderArchive(list) {
         a.addEventListener('click', () => { if (details) details.open = true; }));
 }
 
+// ---------- AI case studies (home: featured only; ai-cases.html: all + filters) ----------
+
+// Categories follow the case library: the letter of the case code is its group (A1 → A)
+const AI_CATEGORIES = {
+    A: 'Retail & F&B chains',
+    B: 'E-commerce & Marketplace',
+    C: 'Social commerce & Group buying',
+    D: 'B2B SaaS, POS & Omnichannel',
+    E: 'B2B2C: Traditional retail & FMCG',
+    F: 'FinTech: Payments, Lending & Bill pay',
+    G: 'Loyalty, Gamification & Referral',
+    H: 'Supply chain & Logistics',
+    I: 'Back-office & Productivity',
+    J: 'AI for Product work'
+};
+const caseGroup = c => String(c.code || '').charAt(0).toUpperCase();
+const caseCategory = c => AI_CATEGORIES[caseGroup(c)] || c.domain || 'Other';
+
+function aiCaseCard(c) {
+    const metrics = (c.metrics || []).slice(0, 2).map(m =>
+        `<li><strong>${esc(m.value)}</strong><span>${esc(m.label)}</span></li>`).join('');
+    const pdf = c.pdf || {};
+    return `
+        <article class="card ai-case" data-domain="${esc(caseGroup(c))}" data-type="${esc(c.ai_type)}">
+            ${c.thumb ? `<a class="card-media case-media" href="${esc(pdf.en || '#')}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(c.thumb)}" alt="" loading="lazy"></a>` : ''}
+            <div class="card-body">
+                <p class="card-kicker">Case ${esc(c.code)} · ${esc(caseCategory(c))} · ${esc(c.ai_type)}</p>
+                <h3>${pdf.en ? `<a href="${esc(pdf.en)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : esc(c.title)}</h3>
+                <p>${esc(c.summary)}</p>
+                ${metrics ? `<ul class="case-metrics">${metrics}</ul>` : ''}
+                ${c.data_note ? `<p class="case-note">${esc(c.data_note)}</p>` : ''}
+                <div class="card-actions">
+                    ${pdf.en ? `<a class="btn btn-small" href="${esc(pdf.en)}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Read (EN)</a>` : ''}
+                    ${pdf.vi ? `<a class="btn btn-ghost btn-small" href="${esc(pdf.vi)}" target="_blank" rel="noopener">Tiếng Việt</a>` : ''}
+                </div>
+            </div>
+        </article>`;
+}
+
+function renderAiCases(cases) {
+    const el = document.getElementById('ai-case-list');
+    const isPage = el.dataset.mode === 'all';
+    const list = isPage ? cases : cases.filter(c => c.featured).slice(0, 6);
+    el.innerHTML = list.map(aiCaseCard).join('');
+    if (!isPage) initSliders(document.querySelectorAll('.slider-nav[data-for="ai-case-list"]'));
+
+    const count = document.getElementById('ai-case-count');
+    if (count) count.textContent = `${cases.length} case${cases.length === 1 ? '' : 's'}`;
+
+    const filters = document.getElementById('ai-case-filters');
+    if (!isPage || !filters) return;
+
+    // One filter row per field; a row only appears once there are 2+ values to choose from
+    const state = { domain: 'all', type: 'all' };
+    const rows = [
+        ['domain', 'Category', caseGroup, v => AI_CATEGORIES[v] || v],
+        ['type', 'AI type', c => c.ai_type, v => v]
+    ].map(([key, label, get, name]) => {
+        const values = [...new Set(cases.map(get))].sort();
+        if (values.length < 2) return '';
+        return `
+        <div class="filter-row" role="group" aria-label="${label}">
+            <span class="filter-label">${label}</span>
+            ${['all', ...values].map(v => `<button type="button" class="filter-btn${v === 'all' ? ' active' : ''}" data-key="${key}" data-value="${esc(v)}" aria-pressed="${v === 'all'}">${v === 'all' ? 'All' : esc(name(v))}</button>`).join('')}
+        </div>`;
+    }).join('');
+    filters.innerHTML = rows;
+    filters.hidden = !rows.trim();
+
+    const empty = document.getElementById('ai-case-empty');
+    filters.addEventListener('click', e => {
+        const btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        state[btn.dataset.key] = btn.dataset.value;
+        filters.querySelectorAll(`.filter-btn[data-key="${btn.dataset.key}"]`).forEach(b => {
+            const on = b === btn;
+            b.classList.toggle('active', on);
+            b.setAttribute('aria-pressed', String(on));
+        });
+        let shown = 0;
+        el.querySelectorAll('.ai-case').forEach(card => {
+            const ok = (state.domain === 'all' || card.dataset.domain === state.domain)
+                && (state.type === 'all' || card.dataset.type === state.type);
+            card.hidden = !ok;
+            if (ok) shown++;
+        });
+        if (empty) empty.hidden = shown > 0;
+    });
+}
+
 // ---------- case study page ----------
 
 function renderDetail(projects, id) {
@@ -219,7 +347,7 @@ function renderDetail(projects, id) {
     main.innerHTML = `
     <article>
         <header class="detail-hero container">
-            <a class="back-link" href="index.html#${isArchive ? 'design' : 'work'}"><i class="fa-solid fa-arrow-left"></i> ${isArchive ? 'Design work' : 'All work'}</a>
+            <a class="back-link" href="index.html#${isArchive ? 'design' : p.tier === 'shipped' ? 'projects' : 'work'}"><i class="fa-solid fa-arrow-left"></i> ${isArchive ? 'Design work' : p.tier === 'shipped' ? 'All projects' : 'All work'}</a>
             <div class="detail-company">
                 ${logoImgs(p)}
                 <span>${esc(isArchive ? `Design archive · ${p.company}` : p.company)}</span>
