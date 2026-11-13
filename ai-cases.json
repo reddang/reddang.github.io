@@ -1,0 +1,27 @@
+[
+    {
+        "id": "a1-bakery-forecast",
+        "code": "A1",
+        "title": "How many loaves to bake each morning",
+        "ai_type": "Forecasting",
+        "date": "2026-11",
+        "featured": true,
+        "thumb": "assets/case-studies/a1-thumb.jpg",
+        "summary": "A bakery bakes by last year's sales and loses money to both leftovers and shortages. I framed the problem, set pass criteria up front and tested AI against the manual method. Recommendation: a 2–3 shop pilot for a chain, not a single-shop rollout.",
+        "metrics": [
+            {
+                "value": "13.8% → 5.7%",
+                "label": "shortages (test period)"
+            },
+            {
+                "value": "−28%",
+                "label": "total money lost"
+            }
+        ],
+        "data_note": "Hypothetical scenario on public Kaggle data",
+        "pdf": {
+            "en": "assets/case-studies/case-a1-bakery-forecast-en.pdf",
+            "vi": "assets/case-studies/case-a1-bakery-forecast-vi.pdf"
+        }
+    }
+]

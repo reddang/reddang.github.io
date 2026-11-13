@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Case Studies | Red Dang</title>
+    <meta name="description" content="AI case studies by Red Dang: using AI to solve business problems in retail, F&B, e-commerce, B2B and FinTech, from problem framing to pass criteria, testing and ROI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://reddang.github.io/ai-cases.html">
+    <meta property="og:title" content="AI Case Studies | Red Dang">
+    <meta property="og:description" content="Self-initiated case studies on AI-enabled products: problem framing, pass criteria, testing against the current way of working, and ROI.">
+    <meta property="og:image" content="https://reddang.github.io/assets/img/og.png">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=2026-11-cat">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav container">
+            <a href="index.html" class="brand">Red Dang<span>.</span></a>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html#work">Work</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section container ai-cases-page">
+            <a class="back-link" href="index.html#ai-cases"><i class="fa-solid fa-arrow-left"></i> Home</a>
+            <div class="section-head">
+                <p class="eyebrow">AI Case Studies · <span id="ai-case-count"></span></p>
+                <h1>Applying AI to business problems</h1>
+                <p class="section-intro">Self-initiated case studies on AI-enabled products. For each business problem I set the goal and pass criteria up front, test an AI solution against the current way of working, then decide whether it pays off. Each case is a hypothetical scenario built on public data, written in English and Vietnamese.</p>
+            </div>
+            <div class="filters" id="ai-case-filters" hidden></div>
+            <div class="card-grid" id="ai-case-list" data-mode="all"></div>
+            <p class="case-empty" id="ai-case-empty" hidden>No case matches these filters yet.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">© 2026 Red Dang · <a href="mailto:dangvuongquang@gmail.com">dangvuongquang@gmail.com</a></div>
+    </footer>
+
+    <script src="script.js?v=2026-11-cat"></script>
+</body>
+</html>

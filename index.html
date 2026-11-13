@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=2026-09-redesign">
+    <link rel="stylesheet" href="style.css?v=2026-11-cat">
 </head>
 <body>
     <header class="site-header">
@@ -26,9 +26,8 @@
             <ul class="nav-links">
                 <li><a href="#work">Work</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#how-i-work">How I work</a></li>
-                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -69,10 +68,16 @@
 
         <!-- FEATURED WORK -->
         <section id="work" class="section container">
-            <div class="section-head">
-                <p class="eyebrow">Selected work</p>
-                <h2>Case studies</h2>
-                <p class="section-intro">Retail, e-commerce and FinTech products I led, plus the AI product I built on my own.</p>
+            <div class="head-row">
+                <div class="section-head">
+                    <p class="eyebrow">Selected work</p>
+                    <h2>Case studies</h2>
+                    <p class="section-intro">Retail, e-commerce and FinTech products I led.</p>
+                </div>
+                <div class="slider-nav" data-for="featured-list" hidden>
+                    <button type="button" class="slider-btn" data-dir="-1" aria-label="Previous case study"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button type="button" class="slider-btn" data-dir="1" aria-label="Next case study"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
             </div>
             <div class="featured-list" id="featured-list"></div>
         </section>
@@ -80,60 +85,75 @@
         <!-- EXPERIENCE -->
         <section id="experience" class="section section-alt">
             <div class="container">
-                <div class="section-head">
-                    <p class="eyebrow">Experience</p>
-                    <h2>From omnichannel retail to group buying</h2>
-                    <p class="section-intro">Each role added a new commerce model: B2B SaaS, social commerce, B2B2C with FinTech, and group buying.</p>
+                <div class="head-row">
+                    <div class="section-head">
+                        <p class="eyebrow">Experience</p>
+                        <h2>From omnichannel retail to group buying</h2>
+                        <p class="section-intro">Each role added a new commerce model: B2B SaaS, social commerce, B2B2C with FinTech, and group buying.</p>
+                    </div>
+                    <div class="slider-nav" data-for="timeline-track" hidden>
+                        <button type="button" class="slider-btn" data-dir="-1" aria-label="Previous roles"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button type="button" class="slider-btn" data-dir="1" aria-label="Earlier roles"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
                 </div>
-                <ol class="timeline">
-                    <li class="tl-item">
-                        <img class="tl-logo" src="assets/img/logo_pigroup.webp" alt="PIGROUP logo">
-                        <div class="tl-body">
-                            <div class="tl-head"><h3>PIGROUP</h3><span class="tl-date">Mar 2026 – Present</span></div>
-                            <p class="tl-role">Product Manager</p>
+                <ol class="htl" id="timeline-track">
+                    <li class="htl-item htl-now">
+                        <span class="htl-date">Mar 2026 – Present</span>
+                        <div class="htl-card">
+                            <div class="htl-head">
+                                <img class="tl-logo" src="assets/img/logo_pigroup.webp" alt="PIGROUP logo">
+                                <div><h3>PIGROUP</h3><p class="tl-role">Product Manager</p></div>
+                            </div>
                             <p>New group-buying e-commerce platform (0 → 1): customer, sales and admin platforms.</p>
                         </div>
                     </li>
-                    <li class="tl-item">
-                        <img class="tl-logo" src="assets/img/logo_fv.webp" alt="FinViet logo">
-                        <div class="tl-body">
-                            <div class="tl-head"><h3>FinViet Technology</h3><span class="tl-date">Apr 2023 – May 2026</span></div>
-                            <p class="tl-role">Product Owner (Product Manager)</p>
+                    <li class="htl-item">
+                        <span class="htl-date">Apr 2023 – May 2026</span>
+                        <div class="htl-card">
+                            <div class="htl-head">
+                                <img class="tl-logo" src="assets/img/logo_fv.webp" alt="FinViet logo">
+                                <div><h3>FinViet Technology</h3><p class="tl-role">Product Owner (Product Manager)</p></div>
+                            </div>
                             <p>B2B2C retail and FinTech: the ECO Tiệm Số Hóa merchant app, Loyalty and Gamification portals, and in-app financial services. Grew the app to 320K+ registered users (2x), 90K+ MAU (4.5x) and 350K+ monthly transactions (2.3x).</p>
-                            <a class="text-link" href="project.html?id=finviet-eco">Read the case study <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </li>
-                    <li class="tl-item tl-minor">
-                        <img class="tl-logo logo-fill" src="assets/img/logo_lildan.webp" alt="Lildan logo">
-                        <div class="tl-body">
-                            <div class="tl-head"><h3>Lildan Pet Spa Hotel &amp; Clinic</h3><span class="tl-date">Aug 2022 – Apr 2025</span></div>
-                            <p class="tl-role">Founder (side business)</p>
+                    <li class="htl-item htl-minor">
+                        <span class="htl-date">Aug 2022 – Apr 2025</span>
+                        <div class="htl-card">
+                            <div class="htl-head">
+                                <img class="tl-logo logo-fill" src="assets/img/logo_lildan.webp" alt="Lildan logo">
+                                <div><h3>Lildan Pet Spa Hotel &amp; Clinic</h3><p class="tl-role">Founder (side business)</p></div>
+                            </div>
                             <p>Omnichannel pet-care business: spa, hotel, clinic and online sales. Owned P&amp;L, pricing, booking and retention.</p>
                         </div>
                     </li>
-                    <li class="tl-item">
-                        <img class="tl-logo" src="assets/img/logo_onpoint.webp" alt="OnPoint logo">
-                        <div class="tl-body">
-                            <div class="tl-head"><h3>OnPoint – UNA Market</h3><span class="tl-date">Dec 2021 – Aug 2022</span></div>
-                            <p class="tl-role">Product Owner (Product Manager)</p>
+                    <li class="htl-item">
+                        <span class="htl-date">Dec 2021 – Aug 2022</span>
+                        <div class="htl-card">
+                            <div class="htl-head">
+                                <img class="tl-logo" src="assets/img/logo_onpoint.webp" alt="OnPoint logo">
+                                <div><h3>OnPoint – UNA Market</h3><p class="tl-role">Product Owner (Product Manager)</p></div>
+                            </div>
                             <p>Social commerce and group buying, from concept to MVP, reaching ~200M VND in monthly revenue.</p>
-                            <a class="text-link" href="project.html?id=una-market">Read the case study <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </li>
-                    <li class="tl-item">
-                        <img class="tl-logo" src="assets/img/logo_haravan.webp" alt="Haravan logo">
-                        <div class="tl-body">
-                            <div class="tl-head"><h3>Haravan</h3><span class="tl-date">Apr 2019 – Dec 2021</span></div>
-                            <p class="tl-role">Product Owner (Team Leader)</p>
+                    <li class="htl-item">
+                        <span class="htl-date">Apr 2019 – Dec 2021</span>
+                        <div class="htl-card">
+                            <div class="htl-head">
+                                <img class="tl-logo" src="assets/img/logo_haravan.webp" alt="Haravan logo">
+                                <div><h3>Haravan</h3><p class="tl-role">Product Owner (Team Leader)</p></div>
+                            </div>
                             <p>B2B SaaS omnichannel retail: POS, inventory and order management for a platform serving 20K+ merchants.</p>
-                            <a class="text-link" href="project.html?id=haravan">Read the case study <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </li>
-                    <li class="tl-item tl-minor">
-                        <img class="tl-logo" src="assets/img/logo_pops.webp" alt="POPS Worldwide logo">
-                        <div class="tl-body">
-                            <div class="tl-head"><h3>Earlier career</h3></div>
-                            <p class="tl-role">UX/UI &amp; Product Designer</p>
+                    <li class="htl-item htl-minor">
+                        <span class="htl-date">Earlier</span>
+                        <div class="htl-card">
+                            <div class="htl-head">
+                                <span class="tl-logo tl-logo-icon" aria-hidden="true"><i class="fa-solid fa-pen-ruler"></i></span>
+                                <div><h3>Earlier career</h3><p class="tl-role">UX/UI &amp; Product Designer</p></div>
+                            </div>
                             <p>Started in graphic and 3D design, then designed mobile and web products for POPS Worldwide, Dai-ichi Life Vietnam and freelance clients.</p>
                             <a class="text-link" href="#design">See design work <i class="fa-solid fa-arrow-down"></i></a>
                         </div>
@@ -142,55 +162,44 @@
             </div>
         </section>
 
-        <!-- INDEPENDENT PRODUCTS -->
-        <section id="products" class="section container">
+        <!-- PROJECTS: independent products + AI case studies -->
+        <section id="projects" class="section container">
             <div class="section-head">
-                <p class="eyebrow">Independent products</p>
-                <h2>Designed, built and shipped on my own</h2>
-                <p class="section-intro">Side products I take from idea to store with AI-assisted development (Claude, Codex, Gemini). They keep my hands-on skills sharp and show what one PM can ship with AI.</p>
+                <p class="eyebrow">Projects</p>
+                <h2>Built on my own</h2>
+                <p class="section-intro">Products I take from idea to store with AI-assisted development (Claude, Codex, Gemini), and self-initiated case studies on applying AI to business problems.</p>
             </div>
-            <div class="card-grid" id="shipped-list"></div>
-        </section>
 
-        <!-- HOW I WORK -->
-        <section id="how-i-work" class="section section-alt">
-            <div class="container">
-                <div class="section-head">
-                    <p class="eyebrow">How I work</p>
-                    <h2>From business goal to measured outcome</h2>
-                </div>
-                <ol class="steps">
-                    <li><span class="step-no">01</span><h3>Discover</h3><p>Talk to merchants, users and business owners, and map how the work really happens today (BPMN, use cases).</p></li>
-                    <li><span class="step-no">02</span><h3>Define</h3><p>Turn strategy into a BRD and PRD, with user stories and acceptance criteria traced back to business requirements.</p></li>
-                    <li><span class="step-no">03</span><h3>Prototype with AI</h3><p>Build clickable prototypes with AI so stakeholders react to something real before engineering starts.</p></li>
-                    <li><span class="step-no">04</span><h3>Deliver</h3><p>Agile delivery with BA, Engineering, Design, QA and Operations, and UAT before every release.</p></li>
-                    <li><span class="step-no">05</span><h3>Measure</h3><p>Track what matters: active users, retention, transactions and task time.</p></li>
-                </ol>
+            <div class="sub-block" id="products">
+                <h3 class="sub-head">Shipped products</h3>
+                <div class="card-grid card-grid-3" id="shipped-list"></div>
+            </div>
 
-                <div class="skills">
-                    <div class="skill-group">
-                        <h3>Domains</h3>
-                        <ul class="chips"><li>Retail &amp; E-commerce</li><li>FinTech</li><li>Omnichannel</li><li>Social Commerce</li><li>Group Buying</li><li>Marketplace</li><li>Loyalty &amp; Gamification</li><li>Referral / Affiliate</li></ul>
-                    </div>
-                    <div class="skill-group">
-                        <h3>Business models</h3>
-                        <ul class="chips"><li>B2B SaaS</li><li>B2C</li><li>B2B2C</li><li>Multi-sided Marketplace</li></ul>
-                    </div>
-                    <div class="skill-group">
-                        <h3>AI</h3>
-                        <ul class="chips"><li>AI Product Development (LLM, Computer Vision, Chatbot)</li><li>AI-assisted Prototyping</li><li>Prompt Engineering</li><li>Claude</li><li>Codex</li><li>Gemini</li></ul>
+            <div class="sub-block" id="ai-cases">
+                <div class="sub-head-row">
+                    <h3 class="sub-head">AI case studies</h3>
+                    <div class="sub-head-actions">
+                        <a class="text-link" href="ai-cases.html">See all <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="slider-nav" data-for="ai-case-list" hidden>
+                            <button type="button" class="slider-btn" data-dir="-1" aria-label="Previous AI case"><i class="fa-solid fa-arrow-left"></i></button>
+                            <button type="button" class="slider-btn" data-dir="1" aria-label="Next AI case"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
                     </div>
                 </div>
+                <p class="sub-intro">For each business problem I set the goal and pass criteria up front, test an AI solution against the current way of working, then decide whether it pays off. Hypothetical scenarios built on public data.</p>
+                <div class="case-slider" id="ai-case-list" data-mode="slider"></div>
             </div>
         </section>
 
-        <!-- CERTIFICATIONS & TRAINING -->
-        <section id="certifications" class="section">
+        <!-- ABOUT: certifications, design roots -->
+        <section id="about" class="section section-alt">
             <div class="container">
                 <div class="section-head">
-                    <p class="eyebrow">Certifications &amp; Training</p>
+                    <p class="eyebrow">About</p>
                     <h2>Always learning</h2>
                 </div>
+                <div class="sub-block" id="certifications">
+                    <h3 class="sub-head">Certifications &amp; Training</h3>
                 <div class="cert-grid">
                     <div class="cert-group">
                         <h3>Product</h3>
@@ -225,21 +234,16 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+                </div>
 
-        <!-- DESIGN ROOTS -->
-        <section id="design" class="section section-alt">
-            <div class="container">
-            <div class="section-head">
-                <p class="eyebrow">Design roots</p>
-                <h2>Where I started</h2>
-                <p class="section-intro">Before product management I worked as a graphic, 3D and UX/UI designer. It is why I can sketch a flow, review a design properly and prototype quickly.</p>
-            </div>
-            <details class="archive">
-                <summary><span>Show design work</span> <i class="fa-solid fa-chevron-down"></i></summary>
-                <div id="archive-list"></div>
-            </details>
+                <div class="sub-block" id="design">
+                    <h3 class="sub-head">Design roots</h3>
+                    <p class="sub-intro">Before product management I worked as a graphic, 3D and UX/UI designer. It is why I can sketch a flow, review a design properly and prototype quickly.</p>
+                    <details class="archive">
+                        <summary><span>Show design work</span> <i class="fa-solid fa-chevron-down"></i></summary>
+                        <div id="archive-list"></div>
+                    </details>
+                </div>
             </div>
         </section>
 
@@ -264,6 +268,6 @@
         <div class="container">© 2026 Red Dang · Ho Chi Minh City, Vietnam</div>
     </footer>
 
-    <script src="script.js?v=2026-09-redesign"></script>
+    <script src="script.js?v=2026-11-cat"></script>
 </body>
 </html>
