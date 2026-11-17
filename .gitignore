@@ -4,3 +4,14 @@ node_modules/
 temp_chrome_profile/
 temp_chrome_profile_2/
 .DS_Store
+
+# AI case studies: only PDFs in ai_case_studies/Upload/ are published
+ai_case_studies/*
+!ai_case_studies/Upload/
+ai_case_studies/Upload/*
+!ai_case_studies/Upload/*.pdf
+
+# Private: BA version of the CV, generated images
+CV/CV_dangvuongquang@gmail.com_BA_PO.pdf
+CV/source/cv-ba-po.html
+CV/Gemini_Generated_Image_*
