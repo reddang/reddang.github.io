@@ -1,5 +1,31 @@
 [
     {
+        "id": "sc3-distributor-stockouts",
+        "code": "SC3",
+        "category": "H",
+        "title": "Early warning for distributor stock-outs",
+        "ai_type": "ML",
+        "date": "2026-11",
+        "featured": true,
+        "thumb": "assets/case-studies/sc3-thumb.jpg",
+        "summary": "An FMCG manufacturer finds out too late which distributor is about to run out, and why. Alerts did not yet beat the existing forecast, but the suggested order cut stock-out days by 13–30%. Next step: an 8-week pilot at 2–3 distributors.",
+        "metrics": [
+            {
+                "value": "−13% to −30%",
+                "label": "stock-out days (suggested order)"
+            },
+            {
+                "value": "69–82%",
+                "label": "causes diagnosed correctly"
+            }
+        ],
+        "data_note": "Hypothetical scenario on demo data, checked on 3 public datasets",
+        "pdf": {
+            "en": "assets/case-studies/case-sc3-distributor-stockouts-en.pdf",
+            "vi": "assets/case-studies/case-sc3-distributor-stockouts-vi.pdf"
+        }
+    },
+    {
         "id": "a1-bakery-forecast",
         "code": "A1",
         "title": "How many loaves to bake each morning",

@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(err => console.error('Could not load projects.json', err));
 
     if (document.getElementById('ai-case-list')) {
-        fetch('ai-cases.json?v=2026-11-thumbs')
+        fetch('ai-cases.json?v=2026-11-sc3')
             .then(res => res.json())
             .then(renderAiCases)
             .catch(err => console.error('Could not load ai-cases.json', err));
@@ -208,7 +208,8 @@ const AI_CATEGORIES = {
     I: 'Back-office & Productivity',
     J: 'AI for Product work'
 };
-const caseGroup = c => String(c.code || '').charAt(0).toUpperCase();
+// A case can name its group with "category" (e.g. SC3 → H); otherwise the first letter of its code is used
+const caseGroup = c => String(c.category || c.code || '').charAt(0).toUpperCase();
 const caseCategory = c => AI_CATEGORIES[caseGroup(c)] || c.domain || 'Other';
 
 function aiCaseCard(c) {
