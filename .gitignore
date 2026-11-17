@@ -15,3 +15,6 @@ ai_case_studies/Upload/*
 CV/CV_dangvuongquang@gmail.com_BA_PO.pdf
 CV/source/cv-ba-po.html
 CV/Gemini_Generated_Image_*
+
+# CV sources and versions stay on this machine; the site uses assets/CV_*.pdf
+CV/
