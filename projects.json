@@ -683,6 +683,97 @@
         "media_layout": "grid"
     },
     {
+        "id": "system-design-for-pm",
+        "tier": "shipped",
+        "title": "System Design cho PM",
+        "tagline": "A Vietnamese course for product people: 90 short lessons that build a super app from zero, so you follow what engineers say, see the trade-offs and ask better questions. No coding needed.",
+        "company": "Independent product",
+        "logo": "assets/img/pmnocode_logo_hex.png",
+        "role": "Course creator",
+        "period": "2026",
+        "platform": "Udemy · Unica · 90 lectures",
+        "industry": "EdTech · System Design",
+        "thumb": "assets/img/sdpm_cover.jpg",
+        "cover": "assets/img/sdpm_cover.jpg",
+        "tags": [
+            "System Design",
+            "APIs & Databases",
+            "Scaling",
+            "Payments"
+        ],
+        "links": [
+            {
+                "type": "udemy",
+                "label": "View on Udemy",
+                "url": "https://www.udemy.com/course/system-design-for-pm-vi"
+            },
+            {
+                "type": "unica",
+                "label": "View on Unica",
+                "url": "https://unica.vn/system-design-cho-pm-hieu-he-thong-khong-can-code"
+            }
+        ],
+        "sections": [
+            {
+                "heading": "Who it is for",
+                "html": "<p>Product Owners, Product Managers and Business Analysts who work with engineering teams every day, people moving into product from a non-technical background, and founders, project managers and designers who want to understand what sits under the product.</p>"
+            },
+            {
+                "heading": "What students learn",
+                "list": [
+                    {
+                        "title": "How a product is built",
+                        "text": "How apps, servers and databases fit together; APIs, choosing a database, transactions, login and permissions."
+                    },
+                    {
+                        "title": "Launch and speed",
+                        "text": "Cloud, Docker, CI/CD and app releases; why an app is slow, and how caches, CDNs and indexes help."
+                    },
+                    {
+                        "title": "Peak hours and failures",
+                        "text": "Load balancers, scaling, replicas and sharding; retries, idempotency and high availability."
+                    },
+                    {
+                        "title": "Real product features",
+                        "text": "Queues and Kafka, payments and wallets, maps, search, chat, video, flash sales, A/B tests, microservices, data and AI."
+                    }
+                ]
+            },
+            {
+                "heading": "How it is taught",
+                "html": "<p>The whole course follows one product, PM Ship: a super app with food ordering, rides, a wallet, chat, shop videos and promotions. Each part opens with a problem PM Ship runs into and teaches only what is needed to understand it. Every lesson (5 to 8 minutes) uses animated diagrams, a trade-off table, an “Engineer says / It means” table that translates meeting phrases into plain language, and a list of sources.</p>"
+            },
+            {
+                "heading": "Course structure",
+                "html": "<p>90 lessons in Vietnamese (about 8 hours 20 minutes) across 18 parts, from going online (DNS, HTTP) to the first version, accounts, launch, speed, peak hours, failures, background work, payments, maps and search, chat, video, promotions, many teams and services, operations and security, and data and AI.</p>"
+            }
+        ],
+        "media": [
+            {
+                "type": "video",
+                "src": "assets/media/sdpm_lesson_0-1.mp4",
+                "poster": "assets/img/sdpm_lesson_0-1.jpg",
+                "caption": "Lesson 0.1 (Vietnamese narration): what PM Ship is made of, and who builds each part"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/sdpm_lesson_2_5.jpg",
+                "caption": "Lesson 2.5: two customers order the last portion at the same time"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/sdpm_lesson_5_2.jpg",
+                "caption": "Lesson 5.2: caches"
+            },
+            {
+                "type": "img",
+                "src": "assets/img/sdpm_lesson_8_3.jpg",
+                "caption": "Lesson 8.3: Kafka, the event stream of the whole system"
+            }
+        ],
+        "media_layout": "grid"
+    },
+    {
         "id": "daiichi-life",
         "tier": "archive",
         "group": "product",

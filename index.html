@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=2026-11-cat">
+    <link rel="stylesheet" href="style.css?v=2026-11-sd">
 </head>
 <body>
     <header class="site-header">
@@ -171,8 +171,14 @@
             </div>
 
             <div class="sub-block" id="products">
-                <h3 class="sub-head">Shipped products</h3>
-                <div class="card-grid card-grid-3" id="shipped-list"></div>
+                <div class="sub-head-row">
+                    <h3 class="sub-head">Shipped products</h3>
+                    <div class="slider-nav" data-for="shipped-list" hidden>
+                        <button type="button" class="slider-btn" data-dir="-1" aria-label="Previous product"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button type="button" class="slider-btn" data-dir="1" aria-label="Next product"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="case-slider card-grid-3" id="shipped-list"></div>
             </div>
 
             <div class="sub-block" id="ai-cases">
@@ -268,6 +274,6 @@
         <div class="container">© 2026 Red Dang · Ho Chi Minh City, Vietnam</div>
     </footer>
 
-    <script src="script.js?v=2026-11-cat"></script>
+    <script src="script.js?v=2026-11-sd"></script>
 </body>
 </html>

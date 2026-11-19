@@ -609,3 +609,8 @@ p { margin: 0 0 1em; }
 .ai-case .case-metrics li { min-width: 0; padding: 10px 12px; }
 .ai-case .case-metrics span { line-height: 1.35; margin-top: 2px; }
 .ai-case .case-metrics strong { font-size: 1rem; white-space: nowrap; }
+/* Shipped products slider: card-grid-3 sizing must not override the slider columns */
+.case-slider.card-grid-3 { grid-template-columns: none; }
+#products .sub-head-row { margin-bottom: 16px; }
+#products .sub-head-row .sub-head { margin-bottom: 0; }
+#products .slider-nav { margin: 0; }

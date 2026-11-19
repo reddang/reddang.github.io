@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initNav();
     initSliders(document.querySelectorAll('.slider-nav[data-for="timeline-track"]'));
 
-    fetch('projects.json?v=2026-11-aicmn2')
+    fetch('projects.json?v=2026-11-sd2')
         .then(res => res.json())
         .then(projects => {
             if (document.getElementById('detail')) {
@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 renderFeatured(projects.filter(p => p.tier === 'featured'));
                 initSliders(document.querySelectorAll('.slider-nav[data-for="featured-list"]'));
                 renderShipped(projects.filter(p => p.tier === 'shipped'));
+                initSliders(document.querySelectorAll('.slider-nav[data-for="shipped-list"]'));
                 renderArchive(projects.filter(p => p.tier === 'archive'));
             }
         })
